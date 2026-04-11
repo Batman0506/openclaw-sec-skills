@@ -76,6 +76,23 @@
 
 | Skill | 描述 | 仓库 |
 |-------|------|------|
+| **skills** | Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows | [GitHub](https://github.com/trailofbits/skills) |
+| **SlowMist-Learning-Roadmap-for-Becoming-a-Smart-Contract-Auditor** | Smart contract audit skills roadmap for beginners, auditors, engineers, etc. | [GitHub](https://github.com/slowmist/SlowMist-Learning-Roadmap-for-Becoming-a-Smart-Contract-Auditor) |
+| **solsec** | A collection of resources to study Solana smart contract security, auditing, and exploits. | [GitHub](https://github.com/sannykim/solsec) |
+| **Smart-Contract-Security-Audits** | Certified Smart Contract Audits for Ethereum, Solana, Near, Cardano, Aptos, Sui, Binance Smart Chain, Fantom, EOS, Tezos | [GitHub](https://github.com/softstack/Smart-Contract-Security-Audits) |
+| **Smart-Contract-Auditor-Tools-and-Techniques** | This repo contains a comprehensive list of smart contract auditor tools and techniques that can be utilized by both smar | [GitHub](https://github.com/shanzson/Smart-Contract-Auditor-Tools-and-Techniques) |
+| **SmartContracts-audit-checklist** | A checklist of things to look for when auditing Solidity smart contracts.  | [GitHub](https://github.com/tamjid0x01/SmartContracts-audit-checklist) |
+| **smart-contract-audits** | ContractWolf audited smart contracts | [GitHub](https://github.com/ContractWolf/smart-contract-audits) |
+| **QuillAudit_Smart_contract_Auditor_Roadmap** | Smart Contract Auditor Roadmap | Learn Blockchain Security & Smart Contract Auditing | [GitHub](https://github.com/Quillhash/QuillAudit_Smart_contract_Auditor_Roadmap) |
+| **smart-contract-auditing-heuristics** | Heuristics for smart contract auditors | [GitHub](https://github.com/OpenCoreCH/smart-contract-auditing-heuristics) |
+| **Smart-Contract-Audits** | Smart Contract security audit reports | [GitHub](https://github.com/TechRate/Smart-Contract-Audits) |
+| **QuillAudit_smart_contract_audit_Reports** | QuillAudits — Smart Contract Audits for DeFi, RWA, DEXs, Tokens, DeAI & DApps | [GitHub](https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports) |
+| **marketplace** | Security-audited skills for Claude, Codex & Claude Code. One-click install, quality verified. | [GitHub](https://github.com/aiskillstore/marketplace) |
+| **supabase-pentest-skills** | 24 AI Agent Skills for professional security auditing of Supabase applications. Detection, key extraction, RLS testing,  | [GitHub](https://github.com/yoanbernabeu/supabase-pentest-skills) |
+| **solidity-auditor-skills** |  | [GitHub](https://github.com/sanbir/solidity-auditor-skills) |
+| **ai-best-practices-skills** | AI Best Practices Audit Skills | [GitHub](https://github.com/mduongvandinh/ai-best-practices-skills) |
+| **java-audit-skillss** | java-audit-skillss | [GitHub](https://github.com/p2zhhh/java-audit-skillss) |
+| **security-audit-skill** | Agent Skill for PHP security audits - OWASP patterns, vulnerability detection | Claude Code compatible | [GitHub](https://github.com/netresearch/security-audit-skill) |
 | **java-audit-skills** | 专注于 Java 代码审计，提供自动化源码分析、路由提取、参数映射 | [GitHub](https://github.com/RuoJi6/java-audit-skills) |
 | **PHP-Code-Audit-Skill** | PHP Web 白盒审计全流程：路由枚举 → 鉴权建模 → 数据流追踪 → 漏洞审计 | [GitHub](https://github.com/0xShe/PHP-Code-Audit-Skill) |
 | **PHP_AUDIT_SKILLS** | 多智能体协作框架，支持 21 种漏洞类型专家级审计 | [GitHub](https://github.com/yunmengya/PHP_AUDIT_SKILLS) |
@@ -91,6 +108,17 @@
 
 | Skill | 描述 | 仓库 |
 |-------|------|------|
+| **iothackbot** | IoT HackBot: A collection of Claude Skills and custom tooling for hybrid IoT pentesting | [GitHub](https://github.com/BrownFineSecurity/iothackbot) |
+| **labs-pentest** | Free Labs to Train Your Pentest / CTF Skills | [GitHub](https://github.com/michelbernardods/labs-pentest) |
+| **communitytools** | Open-source Claude Code skills, agents, and slash commands for AI-powered penetration testing, bug bounty hunting, and s | [GitHub](https://github.com/transilienceai/communitytools) |
+| **public-skills-builder** | Generate Claude Code bug bounty skills from public HackerOne reports and GitHub writeups — 18 vuln classes, no private r | [GitHub](https://github.com/shuvonsec/public-skills-builder) |
+| **BugHunterMethodology** | A comprehensive bug bounty methodology compiled from extensive research, covering web application reconnaissance, checkl | [GitHub](https://github.com/alihussainzada/BugHunterMethodology) |
+| **OneLinerBounty** | OneLinerBounty is a collection of quick, actionable bug bounty tips in one-liner format. Perfect for bug hunters looking | [GitHub](https://github.com/yogsec/OneLinerBounty) |
+| **SecToolkit** | Welcome SecToolkit repository! This is a comprehensive collection of cybersecurity and bug bounty hunting topics. Here,  | [GitHub](https://github.com/n4itr0-07/SecToolkit) |
+| **picocom-claude-skill** | A Claude Code skill for using picocom to give access to a live UART shell for enumeration, pentesting, etc. | [GitHub](https://github.com/BrownFineSecurity/picocom-claude-skill) |
+| **pentester-skills** | 坤式网络安全学习法，不只是学习路线还是笔记。 | [GitHub](https://github.com/xsecself/pentester-skills) |
+| **KaliPAKU** | KaliPAKU is a training tool for penetration testing using Kali Linux. It is designed to help security professionals and  | [GitHub](https://github.com/01rabbit/KaliPAKU) |
+| **Active-Directory-Workbook** | A comprehensive and hands-on workbook designed to sharpen your Active Directory penetration testing skills. Whether you' | [GitHub](https://github.com/ShubhamDubeyy/Active-Directory-Workbook) |
 | **Android-Pentesting-Checklist** | Delve into a comprehensive checklist, your ultimate companion for Android app penetration testing. Identify vulnerabilit | [GitHub](https://github.com/Hrishikesh7665/Android-Pentesting-Checklist) |
 | **Library-of-Cybersecurity-Books** | A free, no-paywall cybersecurity self-study library covering foundations, pentesting, web security, exploit development, | [GitHub](https://github.com/SagarBiswas-MultiHAT/Library-of-Cybersecurity-Books) |
 | **pentest-skills** | 自然语言驱动，自动选择工具、执行命令、分析结果 | [GitHub](https://github.com/crazyMarky/pentest-skills) |
@@ -137,6 +165,7 @@
 
 | Skill | 描述 | 仓库 |
 |-------|------|------|
+| **threat-modeling** | AI-native automated software risk analysis skill. LLM-driven, Code-First approach for comprehensive security risk assess | [GitHub](https://github.com/fr33d3m0n/threat-modeling) |
 | **SOC-Analyst-Notes** | Comprehensive SOC Analyst notes covering incident response, threat hunting, SOC workflows, and cybersecurity concepts—pe | [GitHub](https://github.com/MaheshShukla1/SOC-Analyst-Notes) |
 | **SkillWard** | Security scanner for Agent Skills — uncover hidden threats before deployment. | [GitHub](https://github.com/Fangcun-AI/SkillWard) |
 | **threat-modeling** | LLM 驱动、代码优先的全面安全风险评估 | [GitHub](https://github.com/fr33d0m0n/threat-modeling) |
@@ -166,6 +195,7 @@
 
 | Skill | 描述 | 仓库 |
 |-------|------|------|
+| **Offensive-Security-Forensics-Portfolio** | A portfolio demonstrating advanced blue and red team skills, including: SSH MFA implementation, Volatility-based memory  | [GitHub](https://github.com/thieveshkar/Offensive-Security-Forensics-Portfolio) |
 | **aguara** | Security scanner for AI agent skills and MCP servers. Static analysis, incident response, no LLM. One binary.   Detectio | [GitHub](https://github.com/garagon/aguara) |
 | **repo-forensics** | Security scanner for GitHub repos, Agent Skills, Plugins, and MCP servers. 18 scanners. Zero dependencies. | [GitHub](https://github.com/alexgreensh/repo-forensics) |
 | **Digital-Crime-Scene-Challenge** | The object of the Digital Crime Scene Challenge is for participants to use their forensic and investigative skills to fo | [GitHub](https://github.com/dod-cyber-crime-center/Digital-Crime-Scene-Challenge) |
@@ -185,14 +215,22 @@
 
 | Skill | 描述 | 仓库 |
 |-------|------|------|
+| **claude-code-skills** | Plugin suite + bundled MCP servers for Claude Code. Full delivery lifecycle: Agile pipeline with multi-model AI review,  | [GitHub](https://github.com/levnikolaevich/claude-code-skills) |
+| **faillapop** | Vulnerable-by-design solidity protocol to help Web3 security enthusiasts practice their skills in an environment closer  | [GitHub](https://github.com/Faillapop/faillapop) |
+| **skillarch** | SkillArch | [GitHub](https://github.com/laluka/skillarch) |
+| **web3-bug-bounty-hunting-ai-skills** | 18 Claude Code skill files for smart contract security — built from 2,749 Immunefi reports, 681 DeFiHack reproductions,  | [GitHub](https://github.com/shuvonsec/web3-bug-bounty-hunting-ai-skills) |
+| **CEH-Assessments** | A structured portfolio of weekly CEH v13 assessments, vulnerability labs, and ethical hacking documentation to demonstra | [GitHub](https://github.com/SkillDevloper/CEH-Assessments) |
+| **Phase-1-Cybersecurity-Ethical-Hacking-Internship-Labs** | Phase 1 of the Cybersecurity Ethical Hacking Internship Labs offers hands-on training in essential skills. Participants  | [GitHub](https://github.com/icdfa/Phase-1-Cybersecurity-Ethical-Hacking-Internship-Labs) |
+| **claude-security-research-skill** | AI-powered security research assistant for Claude Code — structured assessment workflows, tool orchestration, and profes | [GitHub](https://github.com/rhysha/claude-security-research-skill) |
+| **VulnBox** | VulnBox is a container that is intentionally designed with vulnerabilities to allow security professionals to practice a | [GitHub](https://github.com/truocphan/VulnBox) |
 | **open-source-handbook** | ⭐️ Open source projects for all skill levels | [GitHub](https://github.com/shainakrumme/open-source-handbook) |
 | **cybersecurity-roadmap** | Skills and career roadmap for various security roles like application security, cloud security, DevSecOps, security engi | [GitHub](https://github.com/jassics/cybersecurity-roadmap) |
 | **Titanic-Machine-Learning-from-Disaster** | Start here if... You're new to data science and machine learning, or looking for a simple intro to the Kaggle prediction | [GitHub](https://github.com/ashishpatel26/Titanic-Machine-Learning-from-Disaster) |
 | **SOC-Ressources** | Repository for SOC analysts, queries to investigate, advanced hunting, sites for analysis, malware samples, courses to i | [GitHub](https://github.com/DXC-0/SOC-Ressources) |
 | **Python-Basic-programs** | What is Python? Executive Summary Python is an interpreted, object-oriented, high-level programming language with dynami | [GitHub](https://github.com/sanusanth/Python-Basic-programs) |
 | **EthicalHackingFromScratch** | Welcome to my comprehensive course on python programming and ethical hacking. The course assumes you have NO prior knowl | [GitHub](https://github.com/bookworm52/EthicalHackingFromScratch) |
-| **javascript-basic-program** | What is JavaScript and what does it do?   Before you start learning something new, it’s important to understand exactly  | [GitHub](https://github.com/sanusanth/javascript-basic-program) |
-| **low-level-dev-skills** | A curated suite of AI agent skills for systems and low-level programming with C/C++, Rust, and Zig toolchains, covering  | [GitHub](https://github.com/mohitmishra786/low-level-dev-skills) |
+| **javascript-basic-program** | What is JavaScript and what does it do?   Before you start learning something new, it’s important to understand exactly | [GitHub](https://github.com/sanusanth/javascript-basic-program) |
+| **low-level-dev-skills** | A curated suite of AI agent skills for systems and low-level programming with C/C++, Rust, and Zig toolchains, covering | [GitHub](https://github.com/mohitmishra786/low-level-dev-skills) |
 | **solana-claude** | Claude Code configs for the expert Solana builder. CLAUDE.md, agents, commands, hooks, rules, skills and settings across | [GitHub](https://github.com/solanabr/solana-claude) |
 | **ClarityFinance** | Clarity is a financial analysis agent framework built on native Claude-skill architecture. Adopting a Planning-with-File | [GitHub](https://github.com/cooragent/ClarityFinance) |
 | **30-Day-SOC-Analyst-Challenge** | A 30-day hands-on SOC Analyst project simulating real-world cyber attacks using ELK Stack, Mythic C2, osTicket & Elastic | [GitHub](https://github.com/ssultany/30-Day-SOC-Analyst-Challenge) |
@@ -201,13 +239,15 @@
 | **MalwareAnalysis** | This central repository is crafted for cybersecurity enthusiasts, researchers, and professionals aiming to advance their | [GitHub](https://github.com/Offensive-Panda/MalwareAnalysis) |
 | **Machine-Learning-Interview-Preparation** | Prepare to Technical Skills Here are the essential skills that a Machine Learning Engineer needs, as mentioned Read me f | [GitHub](https://github.com/reddyprasade/Machine-Learning-Interview-Preparation) |
 | **DevOps-Security-Agent-Skills** | Agent-ready DevOps, security, infrastructure, and compliance knowledge base with 80+ skills across Kubernetes, Terraform | [GitHub](https://github.com/BagelHole/DevOps-Security-Agent-Skills) |
-| **A-Online-Quiz-Site** | # Skill's Breaker An online quiz system built on PHP, JS and HTML. It has inbuilt Timer support along with Admin Panel   | [GitHub](https://github.com/mu-ki/A-Online-Quiz-Site) |
+| **A-Online-Quiz-Site** | # Skill's Breaker An online quiz system built on PHP, JS and HTML. It has inbuilt Timer support along with Admin Panel | [GitHub](https://github.com/mu-ki/A-Online-Quiz-Site) |
 | **Fuzzy-Logic-Based-Recommendation-System-for-Research-Topic-in-the-Final-year** | Most University students are uncertain which research topic to choose for their final year research projects.The student | [GitHub](https://github.com/Karikaranvetti/Fuzzy-Logic-Based-Recommendation-System-for-Research-Topic-in-the-Final-year) |
 
 #### 漏洞利用
 
 | Skill | 描述 | 仓库 |
 |-------|------|------|
+| **awesome-claude-skills-security** | Security testing toolkit for Claude Code: curated SecLists wordlists, injection payloads, and expert agents for authoriz | [GitHub](https://github.com/Eyadkelleh/awesome-claude-skills-security) |
+| **ANYDESK-BACKDOOR** | You should never use malware to infiltrate a target system. With the skill of writing and exploiting technical codes, yo | [GitHub](https://github.com/AiGptCode/ANYDESK-BACKDOOR) |
 | **PayloadsAllTheThings** | Web 安全 payload 和绕过列表 | [GitHub](https://github.com/swisskyrepo/PayloadsAllTheThings) |
 | **BugBountyGuide** | 漏洞赏金绕过技巧和 payload | [GitHub](https://github.com/bugbountyguide/bugbountyguide) |
 
@@ -215,6 +255,9 @@
 
 | Skill | 描述 | 仓库 |
 |-------|------|------|
+| **Red-Team-Roadmap** | Red Team Roadmap [defination, job positions, skills, tools] | [GitHub](https://github.com/soheilsec/Red-Team-Roadmap) |
+| **agile_v_skills** | Official Agent Skills for the Agile V™ framework. Verifiable AI-augmented engineering with traceability, Red Team verifi | [GitHub](https://github.com/Agile-V/agile_v_skills) |
+| **eJPT** | eJPT is a hands-on, entry-level Red Team certification that simulates skills utilized during real-world engagements. | [GitHub](https://github.com/e-hakson/eJPT) |
 | **Red-Team** | 红队/渗透测试工具集合 | [GitHub](https://github.com/yeyintminthuhtut/Awesome-Red-Teaming) |
 | **Windows-Exploits** | Windows 提权漏洞集合 | [GitHub](https://github.com/SecWiki/windows-kernel-exploits) |
 | **AD-Attack** | Active Directory 攻击路径 | [GitHub](https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet) |
@@ -224,6 +267,7 @@
 
 | Skill | 描述 | 仓库 |
 |-------|------|------|
+| **ramibot** | RamiBot v3.8.0 is a local-first AI security operations platform integrating multi-LLM support, a dynamic red/blue team s | [GitHub](https://github.com/RamiBotAI/ramibot) |
 | **Default-Creds** | 默认密码集合 | [GitHub](https://github.com/ihebski/DefaultCreds-cheat-sheet) |
 | **Blue-Team** | 蓝队防御资源 | [GitHub](https://github.com/ffffffff0x/1earn) |
 
