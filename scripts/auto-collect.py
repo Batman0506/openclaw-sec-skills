@@ -117,18 +117,45 @@ def parse_readme(readme_path):
     return header, tail
 
 
-def github_search(query, per_page=10):
+def github_search(query, per_page=10, max_retries=5):
     url = f"https://api.github.com/search/repositories?q={quote(query)}&sort=stars&order=desc&per_page={per_page}"
     headers = {'Accept': 'application/vnd.github.v3+json'}
     if GITHUB_TOKEN:
-        headers['Authorization'] = f'token {GITHUB_TOKEN}'
-    try:
-        req = Request(url, headers=headers)
-        response = urlopen(req, timeout=10)
-        return json.loads(response.read().decode('utf-8')).get('items', [])
-    except Exception as e:
-        print(f"    ✗ {e}")
-        return []
+        if GITHUB_TOKEN.startswith('github_pat_'):
+            headers['Authorization'] = f'Bearer {GITHUB_TOKEN}'
+        else:
+            headers['Authorization'] = f'token {GITHUB_TOKEN}'
+    for attempt in range(1, max_retries + 1):
+        try:
+            req = Request(url, headers=headers)
+            response = urlopen(req, timeout=15)
+            # 检查速率限制剩余
+            remaining = response.headers.get('X-RateLimit-Remaining', 'unknown')
+            reset_ts = response.headers.get('X-RateLimit-Reset', '0')
+            if remaining == '0':
+                import datetime
+                reset_time = int(reset_ts)
+                now = int(time.time())
+                wait = max(reset_time - now + 5, 10)
+                print(f"    ⏳ 速率限制耗尽，等待 {wait} 秒...")
+                time.sleep(wait)
+                continue
+            return json.loads(response.read().decode('utf-8')).get('items', [])
+        except Exception as e:
+            err_str = str(e)
+            if '403' in err_str or '429' in err_str:
+                wait = 15 * attempt
+                print(f"    ⏳ HTTP {err_str[:50]}，等待 {wait} 秒后重试 ({attempt}/{max_retries})...")
+                time.sleep(wait)
+                continue
+            elif '401' in err_str:
+                print(f"    ✗ Token 无效: {err_str[:80]}")
+                return []
+            else:
+                print(f"    ✗ {err_str[:100]}")
+                return []
+    print(f"    ⚠️ 搜索 '{query}' 达到最大重试次数")
+    return []
 
 
 def classify(desc, name):
@@ -212,7 +239,8 @@ def search_all():
             }
             new.append(entry)
             EXISTING_REPOS.add(full_name)
-        time.sleep(0.3)
+        # GitHub Search API 认证用户 30次/分钟，间隔2.2秒 ≈ 27次/分钟
+        time.sleep(2.2)
     print(f"发现 {len(new)} 个新 Skills")
     return new
 
