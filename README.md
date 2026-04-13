@@ -140,9 +140,10 @@
 
 | Skill | 描述 | 仓库 |
 |-------|------|------|
+| **DeepExtractRuntime** | AI-driven agent runtime for Windows PE binary analysis. Turns IDA Pro decompiled code and SQLite databases produced by D | [GitHub](https://github.com/marcosd4h/DeepExtractRuntime) |
 | **iOSAppReverseEngineering** | The world’s 1st book of very detailed iOS App reverse engineering skills :) | [GitHub](https://github.com/iosre/iOSAppReverseEngineering) |
 | **android-reverse-engineering-skill** | Claude Code skill to support Android app's reverse engineering | [GitHub](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) |
-| **jshook-skill** |   AI-powered JS reverse engineering: deobfuscation, crypto detection, CDP debugging, hook injection, anti-detection |    | [GitHub](https://github.com/wuji66dde/jshook-skill) |
+| **jshook-skill** | AI-powered JS reverse engineering: deobfuscation, crypto detection, CDP debugging, hook injection, anti-detection | | [GitHub](https://github.com/wuji66dde/jshook-skill) |
 | **re-skill** | Claude Code skill for reverse engineering retro games — disassemble, annotate, extract assets, web port | [GitHub](https://github.com/vgrichina/re-skill) |
 | **CrackMaster** | CCrackMaster is an educational CrackMe project written in C, designed to enhance skills in reverse engineering, code ana | [GitHub](https://github.com/katya201165/CrackMaster) |
 | **TimeCod** | KotlinCrackMaster is an educational CrackMe project written in Kotlin, designed to enhance skills in reverse engineering | [GitHub](https://github.com/ALyt10x/TimeCod) |
@@ -164,6 +165,7 @@
 
 | Skill | 描述 | 仓库 |
 |-------|------|------|
+| **SecSkills** | 收集整理渗透测试、代码审计、CTF 等网络安全相关的 Skills | [GitHub](https://github.com/DaoYiSec/SecSkills) |
 | **ctf-practice** | Practice your hacking skills with these CTFs | [GitHub](https://github.com/Sharishth/ctf-practice) |
 | **linux-ctfs** | A collection of Linux CTFs to practice your CLI skills | [GitHub](https://github.com/learntocloud/linux-ctfs) |
 | **Common-CTF-Challenges** | Common CTF Challenges is a collection of tools and resources to help individuals improve their Capture the Flag (CTF) sk | [GitHub](https://github.com/ByamB4/Common-CTF-Challenges) |
@@ -181,7 +183,7 @@
 | Skill | 描述 | 仓库 |
 |-------|------|------|
 | **ThreatHunt** | ThreatHunt is a PowerShell repository that allows you to train your threat hunting skills. | [GitHub](https://github.com/miladaslaner/ThreatHunt) |
-| **cti-expert** | CTI Expert — Cyber Threat Intelligence & OSINT analysis skill for Claude Code. 67+ commands, 35 techniques, no API keys  | [GitHub](https://github.com/7onez/cti-expert) |
+| **cti-expert** | CTI Expert — Cyber Threat Intelligence & OSINT analysis skill for Claude Code. 67+ commands, 35 techniques, no API keys | [GitHub](https://github.com/7onez/cti-expert) |
 | **threat-modeling** | AI-native automated software risk analysis skill. LLM-driven, Code-First approach for comprehensive security risk assess | [GitHub](https://github.com/fr33d3m0n/threat-modeling) |
 | **SOC-Analyst-Notes** | Comprehensive SOC Analyst notes covering incident response, threat hunting, SOC workflows, and cybersecurity concepts—pe | [GitHub](https://github.com/MaheshShukla1/SOC-Analyst-Notes) |
 | **SkillWard** | Security scanner for Agent Skills — uncover hidden threats before deployment. | [GitHub](https://github.com/Fangcun-AI/SkillWard) |
@@ -233,6 +235,8 @@
 
 | Skill | 描述 | 仓库 |
 |-------|------|------|
+| **material-3-skill** | Material Design 3 skill for Claude Code — 30+ components, design tokens, theming, responsive layout, and MD3 compliance  | [GitHub](https://github.com/hamen/material-3-skill) |
+| **htb-writeups** | The most comprehensive Hack The Box writeup collection - 500+ machines, 400+ challenges, interactive knowledge graph, sk | [GitHub](https://github.com/momenbasel/htb-writeups) |
 | **DeepCamera** | Open-Source AI Camera Skills Platform, AI NVR & CCTV Surveillance. Local VLM video analysis with Qwen, DeepSeek, SmolVLM | [GitHub](https://github.com/SharpAI/DeepCamera) |
 | **tirith** | Terminal security for developers and AI agents. Intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated pay | [GitHub](https://github.com/sheeki03/tirith) |
 | **raptor** | Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating r | [GitHub](https://github.com/gadievron/raptor) |
@@ -246,12 +250,12 @@
 | **agentseal** | Security toolkit for AI agents. Scan your machine for dangerous skills and MCP configs, monitor for supply chain attacks | [GitHub](https://github.com/AgentSeal/agentseal) |
 | **orchestkit** | The Complete AI Development Toolkit for Claude Code — 103 skills, 36 agents, 169 hooks. Production-ready patterns for fu | [GitHub](https://github.com/yonatangross/orchestkit) |
 | **claude-code-owasp** | Claude Code skill for OWASP security best practices (2025-2026). Includes Top 10:2025, ASVS 5.0, Agentic AI security, an | [GitHub](https://github.com/agamm/claude-code-owasp) |
-| **References** |  Poole, Mackworth & Goebel 1998, p. 1.  Russell & Norvig 2003, p. 55.  Definition of AI as the study of intelligent agen | [GitHub](https://github.com/Aryia-Behroziuan/References) |
+| **References** | Poole, Mackworth & Goebel 1998, p. 1.  Russell & Norvig 2003, p. 55.  Definition of AI as the study of intelligent agen | [GitHub](https://github.com/Aryia-Behroziuan/References) |
 | **Athena** | Test your Security Skills, and Clean Code Development as a Pythonist, Hacker & Warrior 🥷🏻 | [GitHub](https://github.com/yezz123/Athena) |
 | **www-project-agentic-skills-top-10** | OWASP Foundation web repository | [GitHub](https://github.com/OWASP/www-project-agentic-skills-top-10) |
 | **don-cheli-sdd** | Don Cheli — SDD Framework. The most comprehensive Specification-Driven Development framework for AI agents. 88+ commands | [GitHub](https://github.com/doncheli/don-cheli-sdd) |
 | **Other-sources** | Asada, M.; Hosoda, K.; Kuniyoshi, Y.; Ishiguro, H.; Inui, T.; Yoshikawa, Y.; Ogino, M.; Yoshida, C. (2009). "Cognitive d | [GitHub](https://github.com/Aryia-Behroziuan/Other-sources) |
-| **zeph** | Rust AI agent where every context token earns its place. Self-learning skills, temporal graph memory, cascade quality    | [GitHub](https://github.com/bug-ops/zeph) |
+| **zeph** | Rust AI agent where every context token earns its place. Self-learning skills, temporal graph memory, cascade quality | [GitHub](https://github.com/bug-ops/zeph) |
 | **claude-code-skills** | Plugin suite + bundled MCP servers for Claude Code. Full delivery lifecycle: Agile pipeline with multi-model AI review, | [GitHub](https://github.com/levnikolaevich/claude-code-skills) |
 | **faillapop** | Vulnerable-by-design solidity protocol to help Web3 security enthusiasts practice their skills in an environment closer | [GitHub](https://github.com/Faillapop/faillapop) |
 | **skillarch** | SkillArch | [GitHub](https://github.com/laluka/skillarch) |
