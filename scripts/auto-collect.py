@@ -48,14 +48,36 @@ GITHUB_KEYWORDS = [
 
 # ====== Bing 中文关键词 ======
 BING_KEYWORDS = [
+    # 逆向/脱壳
     "逆向工程 脱壳 安全工具", "自动脱壳 skill 工具",
-    "安卓逆向 frida unidbg", "JS逆向 爬虫 工具",
-    "渗透测试 工具合集 安全", "代码审计 工具 合集",
-    "CTF 工具 合集 逆向", "漏洞利用 poc exp 工具",
-    "内网渗透 红队工具", "应急响应 取证分析",
-    "AI安全 大模型安全 工具", "网络安全 技能合集 awesome",
+    "安卓逆向 frida unidbg", "ollvm 脱壳 逆向工具",
+    "小程序逆向 安全工具", "x64dbg 脱壳 逆向",
+    "VMP 脱壳 工具", "unidbg hook 逆向",
+    # 爬虫/JS
+    "JS逆向 爬虫 工具", "爬虫逆向 数据采集",
+    "webdriver 检测 绕过", "appium 爬虫 逆向",
+    # 渗透/漏洞
+    "渗透测试 工具合集 安全", "漏洞利用 poc exp 工具",
+    "内网渗透 红队工具", "Web安全 漏洞挖掘",
+    "SQL注入 工具 合集", "XSS 漏洞 工具",
+    # 审计/代码
+    "代码审计 工具 合集", "Java 代码审计 工具",
+    "PHP 代码审计 工具集", "Python 安全审计",
+    # CTF/竞赛
+    "CTF 工具 合集 逆向", "pwn 工具 二进制",
+    "reverse CTF 工具集", "crypto CTF 工具",
+    # 移动安全
+    "Android 安全 工具 逆向", "iOS 安全 越狱 工具",
+    "APK 反编译 工具", "frida 脚本 合集",
+    # AI安全
+    "AI安全 大模型安全 工具", "LLM 攻击 防御 工具",
+    "prompt injection 工具", "AI 对抗样本 工具",
+    # 社区/平台
     "吾爱破解 脱壳 逆向", "看雪论坛 逆向 安全",
-    "ollvm 脱壳 逆向工具", "小程序逆向 安全工具",
+    "FreeBuf 安全工具 合集", "安全客 工具 渗透",
+    # 综合
+    "网络安全 技能合集 awesome",
+    "应急响应 取证分析",
 ]
 
 # ====== 排除列表 ======
@@ -88,6 +110,35 @@ EXCLUDE_CN = [
     '点击上方', '关注我', '点赞', '在看', '转发',
     '拼多多', '淘宝', '京东', '天猫',
     '盐选', '会员', '付费',
+]
+
+# 排除非安全相关的内容（关键词歧义、游戏剧情、电视剧等）
+EXCLUDE_NON_SECURITY = [
+    # 游戏/影视/小说类「渗透」
+    '各人物结局', '电视剧', '电影', '小说', '剧情',
+    # 百度知道/知乎问答（非工具/Skill）
+    '有前途吗', '怎么学习', '应该准备', '以后打算', '作为过来人',
+    '有什么方法', '怎么给', '怎么转换', '如何给',
+    # 非技术内容
+    'cadence', 'allegro', 'pcb设计',
+    ' allegro skill', 'cadence skill',  # PCB 设计脚本，不是安全 skill
+    # 教育/招生
+    '招生简章', '报名时间', '学费',
+    # 招聘
+    '招聘 ', ' 岗位', '薪资', '月薪',
+    # 法律法规
+    '律师', '法律咨询', '判决书',
+]
+
+# Skill 类型标识（中文文章至少要命中一个，才能被收录）
+SKILL_SIGNALS = [
+    'skill', '工具', '合集', 'awesome', 'collection', '框架',
+    '自动化', '脚本', '插件', '模块', '平台',
+    '教程', '指南', 'roadmap', '路线图', '清单',
+    'exploit', 'poc', 'payload', 'scanner',
+    '逆向', '脱壳', 'hook', 'frida', 'unidbg',
+    '渗透测试', '漏洞利用', '代码审计', '应急响应',
+    'pentest', 'audit', 'scanner', 'bypass',
 ]
 
 EXISTING_REPOS = set()
@@ -262,18 +313,72 @@ def bing_search(query, max_results=10):
 
 
 def is_cn_security(title, snippet):
+    """判断是否是网络安全/安全工具相关（严格模式）"""
     text = (title + ' ' + snippet).lower()
-    keywords = [
-        '逆向', '脱壳', '渗透', '漏洞', '安全', '审计', 'exploit',
+
+    # 第一关：排除非安全内容
+    for kw in EXCLUDE_NON_SECURITY:
+        if kw.lower() in text:
+            return False
+
+    # 第二关：必须命中安全关键词
+    security_keywords = [
+        '逆向', '脱壳', '漏洞', '安全', '审计', 'exploit',
         'poc', 'cve', 'ctf', 'revers', 'malware', 'binary',
         'frida', 'unidbg', 'ollvm', 'hook', 'patch', 'crack',
         'burp', 'metasploit', 'cobalt strike', 'nuclei', 'xray',
         '爬虫', 'js逆向', '小程序', '安卓', 'android', 'ios',
         '内网', '红队', '蓝队', '应急响应', '取证',
-        'skill', '工具', 'collection', '合集', 'awesome',
-        '破解', 'exploit', 'payload', 'shellcode',
+        '渗透测试', '漏洞利用', '代码审计', 'web安全',
+        'sql注入', 'xss', 'csrf', 'ssrf',
+        '逆向工程', '二进制', 'shellcode', '0day',
     ]
-    return any(kw in text for kw in keywords)
+    has_security = any(kw in text for kw in security_keywords)
+    if not has_security:
+        return False
+
+    # 第三关：「渗透」关键词需要额外检查，排除游戏/影视剧情
+    if '渗透' in text and '渗透测试' not in text and '内网渗透' not in text:
+        # 只有「渗透」二字太模糊，需要上下文确认是安全领域
+        context_check = any(kw in text for kw in [
+            '工具', '教程', '测试', '安全', '漏洞', '技术', '方法',
+            'skill', '工具集', '合集', '框架',
+        ])
+        if not context_check:
+            return False
+
+    return True
+
+
+def is_skill_article(title, snippet, url):
+    """判断是否是真正的 Skill/工具/Skill-collection（不是普通问答）"""
+    text = (title + ' ' + snippet).lower()
+    url_lower = url.lower()
+
+    # GitHub repo 直接认为是 skill
+    if 'github.com' in url_lower:
+        return True
+
+    # 至少命中一个 Skill 信号词
+    has_signal = any(kw in text for kw in SKILL_SIGNALS)
+    if not has_signal:
+        return False
+
+    # 排除纯问答类（知乎问答、百度知道）
+    # 如果是知乎/百度知道，标题要是问题形式 → 排除
+    qa_patterns = [
+        '有前途吗', '怎么学习', '应该准备', '以后打算',
+        '作为过来人', '有什么方法', '怎么办', '好不好',
+        '是什么', '为什么', '谁', '哪个',
+    ]
+    is_qa = any(p in text for p in qa_patterns)
+    is_qa_platform = any(p in url_lower for p in ['zhihu.com/question', 'zhidao.baidu.com'])
+    if is_qa and is_qa_platform:
+        return False
+
+    # 知乎文章（非问答）可以收录
+    # 吾爱破解/看雪论坛的工具贴可以收录
+    return True
 
 
 def is_garbage(title, snippet):
@@ -369,6 +474,7 @@ def search_bing():
             if url in EXISTING_URLS: continue
             if is_garbage(title, snippet): continue
             if not is_cn_security(title, snippet): continue
+            if not is_skill_article(title, snippet, url): continue
 
             source = extract_source(url)
             cat, sub = cn_classify(title, snippet)

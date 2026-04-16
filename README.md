@@ -76,6 +76,33 @@
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
+| **skills** | Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows | [github](https://github.com/trailofbits/skills) |
+| **SlowMist-Learning-Roadmap-for-Becoming-a-Smart-Contract-Auditor** | Smart contract audit skills roadmap for beginners, auditors, engineers, etc. | [github](https://github.com/slowmist/SlowMist-Learning-Roadmap-for-Becoming-a-Smart-Contract-Auditor) |
+| **solsec** | A collection of resources to study Solana smart contract security, auditing, and exploits. | [github](https://github.com/sannykim/solsec) |
+| **Smart-Contract-Security-Audits** | Certified Smart Contract Audits for Ethereum, Solana, Near, Cardano, Aptos, Sui, Binance Smart Chain, Fantom, EOS, Tezos | [github](https://github.com/softstack/Smart-Contract-Security-Audits) |
+| **Smart-Contract-Auditor-Tools-and-Techniques** | This repo contains a comprehensive list of smart contract auditor tools and techniques that can be utilized by both smar | [github](https://github.com/shanzson/Smart-Contract-Auditor-Tools-and-Techniques) |
+| **SmartContracts-audit-checklist** | A checklist of things to look for when auditing Solidity smart contracts.  | [github](https://github.com/tamjid0x01/SmartContracts-audit-checklist) |
+| **smart-contract-audits** | ContractWolf audited smart contracts | [github](https://github.com/ContractWolf/smart-contract-audits) |
+| **material-3-skill** | Material Design 3 skill for Claude Code — 30+ components, design tokens, theming, responsive layout, and MD3 compliance  | [github](https://github.com/hamen/material-3-skill) |
+| **QuillAudit_Smart_contract_Auditor_Roadmap** | Smart Contract Auditor Roadmap | Learn Blockchain Security & Smart Contract Auditing | [github](https://github.com/Quillhash/QuillAudit_Smart_contract_Auditor_Roadmap) |
+| **smart-contract-auditing-heuristics** | Heuristics for smart contract auditors | [github](https://github.com/OpenCoreCH/smart-contract-auditing-heuristics) |
+| **Smart-Contract-Audits** | Smart Contract security audit reports | [github](https://github.com/TechRate/Smart-Contract-Audits) |
+| **java-audit-skills** | 专注于java代码审计skills | [github](https://github.com/RuoJi6/java-audit-skills) |
+| **QuillAudit_smart_contract_audit_Reports** | QuillAudits — Smart Contract Audits for DeFi, RWA, DEXs, Tokens, DeAI & DApps | [github](https://github.com/Quillhash/QuillAudit_smart_contract_audit_Reports) |
+| **claude-code-skills** | Plugin suite + bundled MCP servers for Claude Code. Full delivery lifecycle: Agile pipeline with multi-model AI review,  | [github](https://github.com/levnikolaevich/claude-code-skills) |
+| **PHP-Code-Audit-Skill** | PHP-Code-Audit-Skill是一个专注于PHP代码审计的Skill | [github](https://github.com/0xShe/PHP-Code-Audit-Skill) |
+| **agentseal** | Security toolkit for AI agents. Scan your machine for dangerous skills and MCP configs, monitor for supply chain attacks | [github](https://github.com/AgentSeal/agentseal) |
+| **wxmini-security-audit** | 微信小程序全自动安全审计 Skill，基于 Claude Code Agent Teams。7 Agent 协作，覆盖敏感信息、API接口、加密分析、漏洞分析四大维度。采用脚本+LLM双层架构，脚本保证覆盖率，LLM保证准确率。 | [github](https://github.com/sssmmmwww/wxmini-security-audit) |
+| **claude-security-audit** | Skill Claude Code pour audit de sécurité complet (OWASP Top 10, CWE/CVE, headers, auth, paywall, infra) | [github](https://github.com/VicKayro/claude-security-audit) |
+| **don-cheli-sdd** | Don Cheli — SDD Framework. The most comprehensive Specification-Driven Development framework for AI agents. 88+ commands | [github](https://github.com/doncheli/don-cheli-sdd) |
+| **claude-cybersecurity** | AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 1 | [github](https://github.com/AgriciDaniel/claude-cybersecurity) |
+| **panguard-ai** | Open-source security platform for AI agents -- audits skills before install, monitors 24/7, shares threat intelligence a | [github](https://github.com/panguard-ai/panguard-ai) |
+| **PHP_AUDIT_SKILLS** | PHP静态+动态+AI代码审计skills | [github](https://github.com/yunmengya/PHP_AUDIT_SKILLS) |
+| **solidity-auditor-skills** |  | [github](https://github.com/sanbir/solidity-auditor-skills) |
+| **claude-security-research-skill** | AI-powered security research assistant for Claude Code — structured assessment workflows, tool orchestration, and profes | [github](https://github.com/rhysha/claude-security-research-skill) |
+| **ai-best-practices-skills** | AI Best Practices Audit Skills | [github](https://github.com/mduongvandinh/ai-best-practices-skills) |
+| **security-audit-skill** | Agent Skill for PHP security audits - OWASP patterns, vulnerability detection | Claude Code compatible | [github](https://github.com/netresearch/security-audit-skill) |
+| **java-audit-skillss** | java-audit-skillss | [github](https://github.com/p2zhhh/java-audit-skillss) |
 | **claude-cybersecurity** | AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 1 | [github](https://github.com/AgriciDaniel/claude-cybersecurity) |
 | **wxmini-security-audit** | 微信小程序全自动安全审计 Skill，基于 Claude Code Agent Teams。7 Agent 协作，覆盖敏感信息、API接口、加密分析、漏洞分析四大维度。采用脚本+LLM双层架构，脚本保证覆盖率，LLM保证准确率。 | [github](https://github.com/sssmmmwww/wxmini-security-audit) |
 | **claude-security-audit** | Skill Claude Code pour audit de sécurité complet (OWASP Top 10, CWE/CVE, headers, auth, paywall, infra) | [github](https://github.com/VicKayro/claude-security-audit) |
@@ -104,6 +131,10 @@
 | **skill-dfyx_code_security_review** | 五阶段标准化审计协议，系统性发现安全漏洞 | [github](https://github.com/EastSword/skill-dfyx_code_security_review) |
 | **Code Audit** | 覆盖 55+ 漏洞类型，双轨审计模型，多 Agent 深度分析 | [github](https://github.com/3stoneBrother/code-audit) |
 | **zh-audit-skills-hub** | 中文用户代码审计 Agent Skills 仓库 | [github](https://github.com/youki992/zh-audit-skills-hub) |
+| **有哪些开源的源代码审计工具？ - 知乎** | 2025年2月13日&ensp;&#0183;&ensp;它是一款基于字典的检测工具，功能简洁，易于使用。 Fortify SCA（Static Code Analyzer）是由Fortify软件公司（已被惠普收购）开发的一款商业版源代码审 | [知乎](https://www.zhihu.com/question/368208964) |
+| **java代码审计开源工具有啥？ - 知乎** | 2026年1月14日&ensp;&#0183;&ensp;可以尝试一下我们公司用的 sourcefare，针对代码安全漏洞、编码缺陷和合规性问题扫描，支持免费私有化部署的，开源免费。 多语言支持： 支持Java、JavaScript、Go、 | [知乎](https://www.zhihu.com/question/348393937) |
+| **有哪些学习代码审计的方法？ - 知乎** | 三、Java Web基础 审计Java开发的web系统需要对Java Web有一定的了解，能看到代码的逻辑，对获取前端传到后端参数的方法、操作cookie、session、解析HTTP等的方法有所了解之后，可以审计一些 … | [知乎](https://www.zhihu.com/question/565971573) |
+| **fortify支持哪些语言? - 知乎** | 2022年9月20日&ensp;&#0183;&ensp;代码测试工具是安全测试、代码审计中经常会用到的一款软件测试工具，支持超过27种语言，超过911,000个组件级API，覆盖810多个SAST漏洞分类。 通过Fortify的安全编码规 | [知乎](https://www.zhihu.com/question/554552196) |
 
 ### ⚔️ 渗透测试
 
@@ -113,6 +144,24 @@
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
+| **iothackbot** | IoT HackBot: A collection of Claude Skills and custom tooling for hybrid IoT pentesting | [github](https://github.com/BrownFineSecurity/iothackbot) |
+| **Android-Pentesting-Checklist** | Delve into a comprehensive checklist, your ultimate companion for Android app penetration testing. Identify vulnerabilit | [github](https://github.com/Hrishikesh7665/Android-Pentesting-Checklist) |
+| **cybersecurity-roadmap** | Skills and career roadmap for various security roles like application security, cloud security, DevSecOps, security engi | [github](https://github.com/jassics/cybersecurity-roadmap) |
+| **labs-pentest** | Free Labs to Train Your Pentest / CTF Skills | [github](https://github.com/michelbernardods/labs-pentest) |
+| **threat-modeling** | AI-native automated software risk analysis skill. LLM-driven, Code-First approach for comprehensive security risk assess | [github](https://github.com/fr33d3m0n/threat-modeling) |
+| **communitytools** | Open-source Claude Code skills, agents, and slash commands for AI-powered penetration testing, bug bounty hunting, and s | [github](https://github.com/transilienceai/communitytools) |
+| **awesome-claude-skills-security** | Security testing toolkit for Claude Code: curated SecLists wordlists, injection payloads, and expert agents for authoriz | [github](https://github.com/Eyadkelleh/awesome-claude-skills-security) |
+| **public-skills-builder** | Generate Claude Code bug bounty skills from public HackerOne reports and GitHub writeups — 18 vuln classes, no private r | [github](https://github.com/shuvonsec/public-skills-builder) |
+| **BugHunterMethodology** | A comprehensive bug bounty methodology compiled from extensive research, covering web application reconnaissance, checkl | [github](https://github.com/alihussainzada/BugHunterMethodology) |
+| **EthicalHackingFromScratch** | Welcome to my comprehensive course on python programming and ethical hacking. The course assumes you have NO prior knowl | [github](https://github.com/bookworm52/EthicalHackingFromScratch) |
+| **pentest-skills** | 💬 🚀 告别繁琐命令行，用自然语言驱动专业级渗透测试。 ⚡ 让安全测试从未如此简单、高效。Forget complex command lines. 🛡️ Professional penetration testing, powered  | [github](https://github.com/crazyMarky/pentest-skills) |
+| **OneLinerBounty** | OneLinerBounty is a collection of quick, actionable bug bounty tips in one-liner format. Perfect for bug hunters looking | [github](https://github.com/yogsec/OneLinerBounty) |
+| **SecToolkit** | Welcome SecToolkit repository! This is a comprehensive collection of cybersecurity and bug bounty hunting topics. Here,  | [github](https://github.com/n4itr0-07/SecToolkit) |
+| **picocom-claude-skill** | A Claude Code skill for using picocom to give access to a live UART shell for enumeration, pentesting, etc. | [github](https://github.com/BrownFineSecurity/picocom-claude-skill) |
+| **Library-of-Cybersecurity-Books** | A free, no-paywall cybersecurity self-study library covering foundations, pentesting, web security, exploit development, | [github](https://github.com/SagarBiswas-MultiHAT/Library-of-Cybersecurity-Books) |
+| **Phase-1-Cybersecurity-Ethical-Hacking-Internship-Labs** | Phase 1 of the Cybersecurity Ethical Hacking Internship Labs offers hands-on training in essential skills. Participants  | [github](https://github.com/icdfa/Phase-1-Cybersecurity-Ethical-Hacking-Internship-Labs) |
+| **VulnBox** | VulnBox is a container that is intentionally designed with vulnerabilities to allow security professionals to practice a | [github](https://github.com/truocphan/VulnBox) |
+| **Active-Directory-Workbook** | A comprehensive and hands-on workbook designed to sharpen your Active Directory penetration testing skills. Whether you' | [github](https://github.com/ShubhamDubeyy/Active-Directory-Workbook) |
 | **iothackbot** | IoT HackBot: A collection of Claude Skills and custom tooling for hybrid IoT pentesting | [github](https://github.com/BrownFineSecurity/iothackbot) |
 | **labs-pentest** | Free Labs to Train Your Pentest / CTF Skills | [github](https://github.com/michelbernardods/labs-pentest) |
 | **communitytools** | Open-source Claude Code skills, agents, and slash commands for AI-powered penetration testing, bug bounty hunting, and s | [github](https://github.com/transilienceai/communitytools) |
@@ -133,6 +182,7 @@
 | **Pentest Api Attacker** | OWASP API 安全前十名测试 | [github](https://github.com/clause-labs/pentest-api-attacker) |
 | **Pentest Auth Bypass** | 身份验证绕过和账户接管测试 | [github](https://github.com/clause-labs/pentest-auth-bypass) |
 | **渗透测试从0基础到精通，20-35岁看完这一篇就够了（非常 ...** | 2025年6月13日&ensp;&#0183;&ensp;二、渗透测试常用工具使用 对于入门级的渗透测试，会使用 nmap、Burpsuite、Kali Linux 、sqlmap 就基本足够了。 三、Web渗透常见漏洞测试 对于入门级的渗 | [知乎](https://www.zhihu.com/tardis/zm/art/1916069515546034683) |
+| **白捡的111端口 RPCBind 开放漏洞 - 火线 Zone-安全攻防社区** | 一顿翻翻找找发现 RPCBind 真的存在漏洞 漏洞发现： 使用metasploit (msf)验证验证 use auxiliary/scanner/misc/sunrpc_portmapper show options set RHOST | [其他](https://zone.huoxian.cn/d/645-111-rpcbind) |
 
 ### 🔍 逆向工程
 
@@ -142,6 +192,22 @@
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
+| **iOSAppReverseEngineering** | The world’s 1st book of very detailed iOS App reverse engineering skills :) | [github](https://github.com/iosre/iOSAppReverseEngineering) |
+| **android-reverse-engineering-skill** | Claude Code skill to support Android app's reverse engineering | [github](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) |
+| **ctf-skills** | Agent skills for solving CTF challenges - web exploitation, binary pwn, crypto, reverse engineering, forensics, OSINT, a | [github](https://github.com/ljagiello/ctf-skills) |
+| **reverse-skills** | Reverse engineering skills for Claude Code | 逆向工程 Claude Code Skills 插件 | [github](https://github.com/P4nda0s/reverse-skills) |
+| **Incident-Response-Projects-for-Beginners** | Hands-on cybersecurity projects to enhance skills in phishing investigation, malware analysis, network intrusion detecti | [github](https://github.com/0xrajneesh/Incident-Response-Projects-for-Beginners) |
+| **Common-CTF-Challenges** | Common CTF Challenges is a collection of tools and resources to help individuals improve their Capture the Flag (CTF) sk | [github](https://github.com/ByamB4/Common-CTF-Challenges) |
+| **jshook-skill** |   AI-powered JS reverse engineering: deobfuscation, crypto detection, CDP debugging, hook injection, anti-detection |    | [github](https://github.com/wuji66dde/jshook-skill) |
+| **IDA-Skill** | 使用skill让 AI Agent 像安全分析师一样分析恶意样本 | AI Agent skill for automated malware analysis using IDA Pro | [github](https://github.com/miunasu/IDA-Skill) |
+| **re-skill** | Claude Code skill for reverse engineering retro games — disassemble, annotate, extract assets, web port | [github](https://github.com/vgrichina/re-skill) |
+| **low-level-dev-skills** | A curated suite of AI agent skills for systems and low-level programming with C/C++, Rust, and Zig toolchains, covering  | [github](https://github.com/mohitmishra786/low-level-dev-skills) |
+| **spider-king-skill** | Protocol-first reverse engineering skill for turning hostile web clients into pure-protocol Python collectors. | [github](https://github.com/aoyunyang/spider-king-skill) |
+| **ghidra-re-skill** | Codex Ghidra reverse engineering skill with headless workflows, bug-hunting bundles, and a live bridge for Apple Mach-O  | [github](https://github.com/OwenPawl/ghidra-re-skill) |
+| **CrackMaster** | CCrackMaster is an educational CrackMe project written in C, designed to enhance skills in reverse engineering, code ana | [github](https://github.com/katya201165/CrackMaster) |
+| **malware-analysis-claude-skills** | Complete Claude skills toolkit for professional malware analysis. 5 specialized skills covering triage, dynamic analysis | [github](https://github.com/gl0bal01/malware-analysis-claude-skills) |
+| **my-claude-skills** | Binary analysis plugins for Claude Code: angr (static analysis, symbolic execution) and Frida (dynamic instrumentation) | [github](https://github.com/sandbornm/my-claude-skills) |
+| **DeepExtractRuntime** | AI-driven agent runtime for Windows PE binary analysis. Turns IDA Pro decompiled code and SQLite databases produced by D | [github](https://github.com/marcosd4h/DeepExtractRuntime) |
 | **ghidra-re-skill** | Codex Ghidra reverse engineering skill with headless workflows, bug-hunting bundles, and a live bridge for Apple Mach-O | [github](https://github.com/OwenPawl/ghidra-re-skill) |
 | **DeepExtractRuntime** | AI-driven agent runtime for Windows PE binary analysis. Turns IDA Pro decompiled code and SQLite databases produced by D | [github](https://github.com/marcosd4h/DeepExtractRuntime) |
 | **iOSAppReverseEngineering** | The world’s 1st book of very detailed iOS App reverse engineering skills :) | [github](https://github.com/iosre/iOSAppReverseEngineering) |
@@ -171,21 +237,48 @@
 | **跟着小菜鸡一起做CTF (一) - 吾爱破解 - 52pojie.cn** | 2021年2月19日&ensp;&#0183;&ensp;[md]## 前言 过年被论坛上的破解题难住了，突然意识到自己的逆向功底还有待提高，一气之下刷了几道CTF水题用来找感觉。其中发现一道特别有意思的逆向题 ... | [吾爱破解](https://www.52pojie.cn/thread-1373493-1-1.html) |
 | **2024CTF长城杯misc题“压一压”解题思路 - 吾爱破解 - 52pojie.cn** | 2024年3月31日&ensp;&#0183;&ensp;国内近期有一个CTF长城杯比赛，出的题还是蛮抽象的，团队里的小伙伴参与了这个比赛并提供了相关的附件（相关附件放在最下面了）由于时间的原因，只做出了这一道题我们 ... | [吾爱破解](https://www.52pojie.cn/thread-1908134-1-1.html) |
 | **CTF - 『脱壳破解区』 - 吾爱破解 - 52pojie.cn** | 3 天之前&ensp;&#0183;&ensp;讨论Windows软件脱壳分析、软件破解分析、软件绿化分析、代码逆向改造、虚拟机加密分析，也包括Mac OS等其他平台程序破解逆向分析一切尽在此！ | [吾爱破解](https://www.52pojie.cn/forum.php?mod=forumdisplay&fid=5&typeid=344) |
-| **IDA+VSCode+Trae+MCP——免费且省事的半自动化逆向 ...** | 2025年9月21日&ensp;&#0183;&ensp;[md]# 2026.3更新# 优雅地配置IDA MCP&gt;MCP真好用😋😋😋 &gt;真&#183;自动化本文主要介绍如何简单地配置IDA的MCP，以便在打CTF时可以在VS  | [吾爱破解](https://www.52pojie.cn/thread-2061709-1-1.html) |
+| **IDA+VSCode+Trae+MCP——免费且省事的半自动化逆向 ...** | 2025年9月21日&ensp;&#0183;&ensp;[md]# 2026.3更新# 优雅地配置IDA MCP&gt;MCP真好用😋😋😋 &gt;真&#183;自动化本文主要介绍如何简单地配置IDA的MCP，以便在打CTF时可以在VS | [吾爱破解](https://www.52pojie.cn/thread-2061709-1-1.html) |
 | **CTF游戏逆向入门 - 吾爱破解 - 52pojie.cn** | 2026年3月20日&ensp;&#0183;&ensp;CTF游戏逆向入门 Unity游戏逆向 Unity3D 最大的一个特点是一次制作，多平台部署，而这一核心功能是靠 Mono 实现的。 可以说一直以来 Mono 是 Unity3D 核 | [吾爱破解](https://www.52pojie.cn/thread-2098123-1-1.html) |
 | **尽量新的SRC、CTF学习资料及配套工具 - 吾爱破解 - 52pojie.cn** | 2025年7月5日&ensp;&#0183;&ensp;尽量新的SRC、CTF学习资料及配套工具 本版积分规则 发表回复 回帖并转播 回帖后跳转到最后一页 | [吾爱破解](https://www.52pojie.cn/thread-2043725-1-1.html) |
-| **ollvm-clang21.0/README.md at clang+ollvm-21.0.0 - GitHub** | 将ollvm移植到llvm+clang21.0. Contribute to AYssu/ollvm-clang21.0 development by creating an account on GitHub. | [GitHub](https://github.com/AYssu/ollvm-clang21.0/blob/clang%2Bollvm-21.0.0/README.md) |
+| **ollvm-clang21.0/README.md at clang+ollvm-21.0.0 - GitHub** | 将ollvm移植到llvm+clang21.0. Contribute to AYssu/ollvm-clang21.0 development by creating an account on GitHub. | [github](https://github.com/AYssu/ollvm-clang21.0/blob/clang%2Bollvm-21.0.0/README.md) |
 | **OLLVM混淆环境搭建与去平坦化 - 吾爱破解 - 52pojie.cn** | 2024年1月15日&ensp;&#0183;&ensp;[md]之前遇到了很多次ollvm平坦化的题目，所以想学习一下，参照了很多前人的方法，特此记录一下。## 环境vmware虚拟机，ubuntu20.04## ollvm定义 ... | [吾爱破解](https://www.52pojie.cn/thread-1880845-1-1.html) |
-| **GitHub - wwh1004/ollvm-16: Obfuscator-LLVM for LLVM 16.x …** | 2023年8月16日&ensp;&#0183;&ensp;Obfuscator-LLVM for LLVM 16.x branch. Contribute to wwh1004/ollvm-16 development by creatin | [GitHub](https://github.com/wwh1004/ollvm-16) |
+| **GitHub - wwh1004/ollvm-16: Obfuscator-LLVM for LLVM 16.x …** | 2023年8月16日&ensp;&#0183;&ensp;Obfuscator-LLVM for LLVM 16.x branch. Contribute to wwh1004/ollvm-16 development by creatin | [github](https://github.com/wwh1004/ollvm-16) |
 | **OLLVM CFF 去平坦化原理 - 吾爱破解 - 52pojie.cn** | 2025年8月27日&ensp;&#0183;&ensp;致谢 本文的思路 绝大多数都 来自 ARM64 OLLVM反混淆 中 无名侠 大佬的指导，为个人学习总结 当然也参考了很多其它优秀文章： 利用符号执行去除控制流平坦化 ollvm三种 | [吾爱破解](https://www.52pojie.cn/thread-2056288-1-1.html) |
-| **GitHub - ollvm-adaplite/ollvm-clang: ollvm adaption to llvm** | ollvm adaption to llvm. Contribute to ollvm-adaplite/ollvm-clang development by creating an account on GitHub. | [GitHub](https://github.com/ollvm-adaplite/ollvm-clang) |
-| **Releases: ollvm-adaplite/ollvm-clang - GitHub** | 2025年5月15日&ensp;&#0183;&ensp;ollvm-adaplite / ollvm-clang Public forked from llvm/llvm-project Notifications You must be | [GitHub](https://github.com/ollvm-adaplite/ollvm-clang/releases) |
-| **GitHub - o2e/OLLVM-9.0.1: OLLVM-9.0.1-NDK-21.3.6528147(ndk …** | OLLVM-9.0.1-NDK-21.3.6528147 (ndk-r21d). Contribute to o2e/OLLVM-9.0.1 development by creating an account on GitHub. | [GitHub](https://github.com/o2e/OLLVM-9.0.1) |
+| **GitHub - ollvm-adaplite/ollvm-clang: ollvm adaption to llvm** | ollvm adaption to llvm. Contribute to ollvm-adaplite/ollvm-clang development by creating an account on GitHub. | [github](https://github.com/ollvm-adaplite/ollvm-clang) |
+| **Releases: ollvm-adaplite/ollvm-clang - GitHub** | 2025年5月15日&ensp;&#0183;&ensp;ollvm-adaplite / ollvm-clang Public forked from llvm/llvm-project Notifications You must be | [github](https://github.com/ollvm-adaplite/ollvm-clang/releases) |
+| **GitHub - o2e/OLLVM-9.0.1: OLLVM-9.0.1-NDK-21.3.6528147(ndk …** | OLLVM-9.0.1-NDK-21.3.6528147 (ndk-r21d). Contribute to o2e/OLLVM-9.0.1 development by creating an account on GitHub. | [github](https://github.com/o2e/OLLVM-9.0.1) |
+| **有哪些专门做逆向工程的ai？ - 知乎** | 该工具以Binary Ninja插件的形式存在，并计划扩展到IDA和Ghidra等其他逆向工程平台。 ReverserAI的设计目标是在不牺牲数据安全的前提下，利用消费者级硬件上的LLMs提升逆向工程效率。 … | [知乎](https://www.zhihu.com/question/3300305748) |
+| **请问如何把一个exe文件进行反编译？ - 知乎** | 2024年5月22日&ensp;&#0183;&ensp;OllyDbg：OllyDbg是一款流行的调试器和逆向工程工具，它主要用于Windows平台上的32位可执行文件。 OllyDbg可以对可执行文件进行动态调试，并提供了反编译功能，帮 | [知乎](https://www.zhihu.com/question/656824182) |
+| **自动精灵v1.9.2智能自动点击器 无任何限制 - 吾爱破解 ...** | 2025年3月10日&ensp;&#0183;&ensp;【应用名称】自动精灵【应用版本】1.9.2【软件大小】66m【适用平台】安卓【应用简介】这是一款智能的自动点击器免费应用，可以自动模拟点击，轻松实现自动按键精 ... | [吾爱破解](https://www.52pojie.cn/thread-2013253-1-1.html) |
+| **x64dbg使用技巧与实用插件合集 - 吾爱破解 - 52pojie.cn** | 2021年3月17日&ensp;&#0183;&ensp;[md]本文是针对刚开始接触X64dbg的新人写的实用技巧和插件合集## 前言 萌新一个，接触逆向时间不长，但因为很喜欢x64dbg这款调试器，所以花了一些时间去了解，x64 ... | [吾爱破解](https://www.52pojie.cn/thread-1393075-1-1.html) |
+| **x64dbg Plugin - 『逆向资源区』 - 吾爱破解 - 52pojie.cn** | 4 天之前&ensp;&#0183;&ensp;【x64dbg Plugin】 动态调试工具x64dbg的插件程序 【IDA Plugin】 反编译工具IDA的插件程序 【Mac OSX】 Mac OSX系统程序逆向相关工具 【Networ | [吾爱破解](https://www.52pojie.cn/forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=339) |
+| **x64dbg零基础使用教程 2018/07/08 - 吾爱破解 - 52pojie.cn** | 2018年7月8日&ensp;&#0183;&ensp;这篇文章主要是为.NET逆向但不会x64dbg的同学准备的，文章基本上零基础，会一点c#/vb.net就能看懂文章。文章以visual studio 2017为 ... | [吾爱破解](https://www.52pojie.cn/thread-762711-1-1.html) |
+| **unidbg 学习笔记 - 吾爱破解 - 52pojie.cn** | 2024年3月17日&ensp;&#0183;&ensp;unidbg教程前置知识之NDK静态、动态注册 声明 本文章中所有内容仅供学习交流使用，不用于其他任何目的，不提供完整代码，抓包内容、敏感网址、数据接口等均已做脱敏处理，严禁 … | [吾爱破解](https://www.52pojie.cn/thread-1902129-1-1.html) |
+| **《安卓逆向这档事》第二十三课、黑盒魔法之Unidbg - 吾爱 ...** | 2024年12月27日&ensp;&#0183;&ensp;二.初试unidbg 1.配置资源文件 1.下载idea 社区版下载链接 2.下载源代码，并用idea打开，并配置好sdk 3.文件结构解析： ├── README.md # 项目 | [吾爱破解](https://www.52pojie.cn/thread-1995107-1-1.html) |
+| **小白如何通过大模型跑通unidbg调用sgmain生成某ckey参数 ...** | 2026年2月23日&ensp;&#0183;&ensp;本篇文章仅适用于学习交流使用，如有不当，请联系删除。 对于逆向来说，非常的没有档次，算是提供给小白一种学习进步的方法。 一、前置工作 本人在安卓逆向方面属于小白，是跟着 … | [吾爱破解](https://www.52pojie.cn/thread-2092757-1-1.html) |
+| **使用Unidbg模拟执行去除OLLVM-BR混淆 - 吾爱破解 - 52pojie.cn** | 2025年8月11日&ensp;&#0183;&ensp;[md]## unidbg模拟执行的去除ollvm混淆### 1.函数简单分析***项目地址：https://github.com/Aar0n3906/Anti-BR-Obf***对 | [吾爱破解](https://www.52pojie.cn/thread-2052520-1-1.html) |
+| **【零基础可复现】2026 春节 Android 中级题（Java→so→ ...** | 2026年3月4日&ensp;&#0183;&ensp;纯 Python 无法绕过这些检测。 4.2 unidbg 的优势 unidbg 是一个基于 Unicorn 引擎的 Android 模拟器，它可以： 直接执行 native 代码：不 | [吾爱破解](https://www.52pojie.cn/thread-2094408-1-1.html) |
+| **菜鸡诈尸水贴之unidbg学习笔记 - 吾爱破解 - 52pojie.cn** | 2021年2月7日&ensp;&#0183;&ensp;unidbg学习（一） unidbg 是什么？ unidbg 是 unicorn 的一个实现，它可以让你在电脑上跑 arm 的可执行文件或共享库文件。 以上是我的理解。 unidbg  | [吾爱破解](https://www.52pojie.cn/thread-1367840-1-1.html) |
+| **《安卓逆向这档事》第二十六课、Unidbg之补完环境我就睡 ...** | 2025年10月9日&ensp;&#0183;&ensp;一、课程目标 掌握 Unidbg 中处理不同场景的系统调用（Syscall）Hook 策略 学习通过高层与底层 Hook 联动，模拟复杂的库函数（如 popen） 应用 Dobby  | [吾爱破解](https://www.52pojie.cn/thread-2064640-1-1.html) |
+| **某团系 mtgsig 2.4 unidbg 初始化512是什么原因引起的 - 吾 ...** | 2024年1月31日&ensp;&#0183;&ensp;package com.bytedance.frameworks.core.encrypt;import com.alibaba.fastjson.util.IOUtils;impo | [吾爱破解](https://www.52pojie.cn/thread-1886682-1-1.html) |
+| **APK Easy Tool_v1.59.2-Windows下使用的安卓逆向工具 - 吾 ...** | 2021年4月7日&ensp;&#0183;&ensp;统一回复：如果反编译出错，请检查如下三条：1、删除 C:%users\Teacher\AppData\Local\apktool\framework\1.apk，再试。2、反编译路径不 | [吾爱破解](https://www.52pojie.cn/thread-1411747-1-1.html) |
+| **dalvikus：逆向工程师的APK与smali编辑一站式工具箱 - 吾 ...** | 2025年9月4日&ensp;&#0183;&ensp;前言：在安卓逆向场景里，我们总被这些问题折腾：改个APK要先拆包（APKtool）、编辑 smali 没提示（记事本/Notepad++）、改完 ... | [吾爱破解](https://www.52pojie.cn/thread-2057902-1-1.html) |
+| **安卓反汇编：Apktool m v2.4.0250411 - 吾爱破解 - 52pojie.cn** | 2025年4月27日&ensp;&#0183;&ensp;APK反编译软件，免费使用这款工具专门用于逆向反编译和编译安卓应用以及系统应用，能够高效地编辑代码。用户操作起来十分简便，其功能更是强大无比，支持apk的反编 ... | [吾爱破解](https://www.52pojie.cn/thread-2027651-1-1.html) |
+| **frida入门总结 - 吾爱破解 - 52pojie.cn** | 2020年3月11日&ensp;&#0183;&ensp;[md]## 一、Frida概述** Frida是一款轻量级HOOK框架，可用于多平台上，例如android、windows、ios等。** ** frida ... | [吾爱破解](https://www.52pojie.cn/thread-1128884-1-1.html) |
+| **绕过所有frida检测模块 - 吾爱破解 - 52pojie.cn** | 2025年7月28日&ensp;&#0183;&ensp;当你看到这篇文章时，你可以永久告别安卓手机上的frida-server，因为你不会再需要它。模块注入gadge将完全可以替代所有frida-server功能，且能绕过所有frida检 | [吾爱破解](https://www.52pojie.cn/thread-2049345-1-1.html) |
+| **[原创] 从零开始绕过 DexProtector 加固的 Frida 检测（二 ...** | 2026年1月12日&ensp;&#0183;&ensp;从零开始绕过 DexProtector 加固的 Frida 检测（二） app版本更新了，如何快速进行处理？如何使用frida-server实现过检测？ （本文由 id：小佳、fyr | [吾爱破解](https://www.52pojie.cn/thread-2086038-1-1.html) |
+| **安卓逆向入门笔记（八）—— frida Hook - 吾爱破解 - 52pojie.cn** | 2026年3月10日&ensp;&#0183;&ensp;[md]frida是一款基于JS代码编写的Hook框架，它是一款易用的、可跨平台的Hook框架，介绍我就不多做介绍了，我们直接讲这玩意该怎么用。至于frida的环境配置之类的我就不多 | [吾爱破解](https://www.52pojie.cn/thread-2095679-1-1.html) |
+| **Frida 安装 - 吾爱破解 - 52pojie.cn** | 2024年7月19日&ensp;&#0183;&ensp;[md]逆向过程中，借助Frida 可以更快的实现软件的逆向破解，Frida不仅可以实现Android应用的逆向，对于IOS应用，Windows应用同样可以实现不错的效果本文可能由于 | [吾爱破解](https://www.52pojie.cn/thread-1945680-1-1.html) |
+| **《安卓逆向这档事》十三、是时候学习一下Frida一把梭了 (上 ...** | 2023年8月19日&ensp;&#0183;&ensp;[Android 原创] 《安卓逆向这档事》十三、是时候学习一下Frida一把梭了 (上) [复制链接] ... 下一页 &#187; 1 2 3 4 5 6 7 8 9 10... | [吾爱破解](https://www.52pojie.cn/thread-1823118-1-1.html) |
+| **《安卓逆向这档事》十八、表哥，你也不想你的Frida被检测 ...** | 2024年5月6日&ensp;&#0183;&ensp;[Android 原创] 《安卓逆向这档事》十八、表哥，你也不想你的Frida被检测吧! (上) [复制链接] ... 下一页 &#187; 1 2 3 4 5 6 7 8 9 10. | [吾爱破解](https://www.52pojie.cn/thread-1921073-1-1.html) |
+| **Frida 脚本一键持久化方案：将 Frida 脚本打包至 Xposed ...** | 2025年11月12日&ensp;&#0183;&ensp;[Android 原创] Frida 脚本一键持久化方案：将 Frida 脚本打包至 Xposed 模块、直接注入APP、so、dll [复制链接] | [吾爱破解](https://www.52pojie.cn/thread-2071836-1-1.html) |
 
 #### 爬虫/数据采集
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
+| **目前最好用的爬虫软件是那个？ - 知乎** | 作为一名数据工程师，三天两头要采集数据，用过十几种爬虫软件，也用过Python爬虫库，还是建议新手使用现成的软件比较方便。 这里推荐3款不错的自动化爬虫工具，八爪鱼、亮数据、Web Scraper | [知乎](https://www.zhihu.com/question/456648873) |
+| **如何最简单、通俗地理解爬虫？ - 知乎** | 一、笔记 ① 网络爬虫又称网络蜘蛛、网络机器人等，可以自动化浏览网络中的信息，当然浏览信息的时候需要按照所制定的相应规则进行，即网络爬虫算法。 ② 我们可以利用爬虫技术，自动地从互联网 … | [知乎](https://www.zhihu.com/question/438416362) |
 
 ### 🏆 CTF 竞赛
 
@@ -195,6 +288,11 @@
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
+| **ctf-practice** | Practice your hacking skills with these CTFs | [github](https://github.com/Sharishth/ctf-practice) |
+| **TryHackMe-Learning-Path-From-Beginner-to-Expert** | A comprehensive TryHackMe learning path with organized sections on Introductory Rooms, Linux Fundamentals, Networking, F | [github](https://github.com/0xneobyte/TryHackMe-Learning-Path-From-Beginner-to-Expert) |
+| **linux-ctfs** | A collection of Linux CTFs to practice your CLI skills | [github](https://github.com/learntocloud/linux-ctfs) |
+| **SecSkills** | 收集整理渗透测试、漏洞扫描、代码审计、CTF、逆向、安全研究 等网络安全相关的 Skills和MCP | [github](https://github.com/DaoYiSec/SecSkills) |
+| **Walkthrough-and-Writeup** | Welcome to my Capture The Flag (CTF) Walkthroughs & Writeups Repository. This repository contains educational, step-by-s | [github](https://github.com/ALMADADALI/Walkthrough-and-Writeup) |
 | **SecSkills** | 收集整理渗透测试、代码审计、CTF 等网络安全相关的 Skills | [github](https://github.com/DaoYiSec/SecSkills) |
 | **ctf-practice** | Practice your hacking skills with these CTFs | [github](https://github.com/Sharishth/ctf-practice) |
 | **linux-ctfs** | A collection of Linux CTFs to practice your CLI skills | [github](https://github.com/learntocloud/linux-ctfs) |
@@ -203,6 +301,9 @@
 | **ctf-skills** | Web 漏洞利用、二进制破解、加密、逆向、取证、OSINT | [github](https://github.com/ljagiello/ctf-skills) |
 | **android-h1** | 基于 HackerOne 真实报告的移动安全漏洞挖掘 | [github](https://github.com/s7safe/android-h1) |
 | **BugBounty-Hunting** | 漏洞赏金猎人资源集合 | [github](https://github.com/disclose/bug-bounty-platforms) |
+| **针对CTF，大家都是怎么训练的？ - 知乎** | 刷知乎刚好刷到这个问题，退役选手勉强答一波，顺便拓展一下吧（不定期更新）。 一、CTF入门 最近很多朋友在知乎小红书等平台私信我，问应该怎么入门CTF。个人认为入门CTF之前大家应该先了解 … | [知乎](https://www.zhihu.com/question/30505597) |
+| **CTF比赛的必读书籍** | 2024年3月21日&ensp;&#0183;&ensp;3.《CTF那些事儿》 目前能最新出版的CTF书籍， 北航Lancet战队成员倾力打造，推出CTF实战技能全新学习框架 适读人群 ：高校网络空间安全专业学生、安全企业的技术人员、互联 | [知乎](https://www.zhihu.com/tardis/bd/art/688246837) |
+| **ctf中的pwn和re怎么入门?** | 2021年1月16日&ensp;&#0183;&ensp;CTF赛题涉及的非常领域广，市面上相关书籍还停留在知识广度上的覆盖，但CTF模块间的发展程度参差不齐，始终缺少能够深入介绍单一领域的内容，尤其是 Pwn 方向！ 而Pwn恰恰 … | [知乎](https://www.zhihu.com/tardis/bd/ans/1681156982) |
 
 ### 🎯 威胁建模
 
@@ -212,6 +313,13 @@
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
+| **ThreatHunt** | ThreatHunt is a PowerShell repository that allows you to train your threat hunting skills. | [github](https://github.com/miladaslaner/ThreatHunt) |
+| **SOC-Analyst-Notes** | Comprehensive SOC Analyst notes covering incident response, threat hunting, SOC workflows, and cybersecurity concepts—pe | [github](https://github.com/MaheshShukla1/SOC-Analyst-Notes) |
+| **SkillWard** | Security scanner for Agent Skills — uncover hidden threats before deployment. | [github](https://github.com/Fangcun-AI/SkillWard) |
+| **cti-expert** | CTI Expert — Cyber Threat Intelligence & OSINT analysis skill for Claude Code. 67+ commands, 35 techniques, no API keys  | [github](https://github.com/7onez/cti-expert) |
+| **References** |  Poole, Mackworth & Goebel 1998, p. 1.  Russell & Norvig 2003, p. 55.  Definition of AI as the study of intelligent agen | [github](https://github.com/Aryia-Behroziuan/References) |
+| **30-Day-SOC-Analyst-Challenge** | A 30-day hands-on SOC Analyst project simulating real-world cyber attacks using ELK Stack, Mythic C2, osTicket & Elastic | [github](https://github.com/ssultany/30-Day-SOC-Analyst-Challenge) |
+| **Offensive-Security-Forensics-Portfolio** | A portfolio demonstrating advanced blue and red team skills, including: SSH MFA implementation, Volatility-based memory  | [github](https://github.com/thieveshkar/Offensive-Security-Forensics-Portfolio) |
 | **ThreatHunt** | ThreatHunt is a PowerShell repository that allows you to train your threat hunting skills. | [github](https://github.com/miladaslaner/ThreatHunt) |
 | **cti-expert** | CTI Expert — Cyber Threat Intelligence & OSINT analysis skill for Claude Code. 67+ commands, 35 techniques, no API keys | [github](https://github.com/7onez/cti-expert) |
 | **threat-modeling** | AI-native automated software risk analysis skill. LLM-driven, Code-First approach for comprehensive security risk assess | [github](https://github.com/fr33d3m0n/threat-modeling) |
@@ -228,6 +336,11 @@
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
+| **Damn-Vulnerable-Bank** | Damn Vulnerable Bank is designed to be an intentionally vulnerable android application. This provides an interface to as | [github](https://github.com/rewanthtammana/Damn-Vulnerable-Bank) |
+| **Other-sources** | Asada, M.; Hosoda, K.; Kuniyoshi, Y.; Ishiguro, H.; Inui, T.; Yoshikawa, Y.; Ogino, M.; Yoshida, C. (2009). "Cognitive d | [github](https://github.com/Aryia-Behroziuan/Other-sources) |
+| **Skill-Android-Security-Agent** | 构建基于 Skill 的 Android 智能审计 Agent | [github](https://github.com/DSFLY100/Skill-Android-Security-Agent) |
+| **mobile-security-learning-resources** | This repository contains list of mobile security related resources that you can use to learn new skills and test existin | [github](https://github.com/IgorSasovets/mobile-security-learning-resources) |
+| **mobile-challenges** | This repository houses diverse files and challenges centered around Just Mobile Security. With practical exercises and r | [github](https://github.com/justmobilesec/mobile-challenges) |
 | **android-reversing-challenges** | there are some CTF challenges or some other things helping improving android reversing skills. | [github](https://github.com/kiyadesu/android-reversing-challenges) |
 | **Damn-Vulnerable-Bank** | Damn Vulnerable Bank is designed to be an intentionally vulnerable android application. This provides an interface to as | [github](https://github.com/rewanthtammana/Damn-Vulnerable-Bank) |
 | **Skill-Android-Security-Agent** | 构建基于 Skill 的 Android 智能审计 Agent | [github](https://github.com/DSFLY100/Skill-Android-Security-Agent) |
@@ -245,6 +358,15 @@
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
+| **aguara** | Security scanner for AI agent skills and MCP servers. Static analysis, incident response, no LLM. One binary.   Detectio | [github](https://github.com/garagon/aguara) |
+| **repo-forensics** | Security scanner for GitHub repos, Agent Skills, Plugins, and MCP servers. 18 scanners. Zero dependencies. | [github](https://github.com/alexgreensh/repo-forensics) |
+| **Digital-Crime-Scene-Challenge** | The object of the Digital Crime Scene Challenge is for participants to use their forensic and investigative skills to fo | [github](https://github.com/dod-cyber-crime-center/Digital-Crime-Scene-Challenge) |
+| **mini-hids** | 轻量级主机入侵检测与日志分析系统，支持封装为AI Agent Skill。/ A lightweight HIDS for Linux, featuring AI-powered log analysis and automated def | [github](https://github.com/netkr/mini-hids) |
+| **backdoorsandbreaches-socinvader** | 🎮 AI-powered solo mode for Backdoors & Breaches. Train incident response skills anytime with an LLM Incident Master. Arc | [github](https://github.com/0xJaeg3r/backdoorsandbreaches-socinvader) |
+| **Digital-Forensic-Training** | The Chupacabra case study was created by the ADEO dfir team due to the lack of resources and applications in the digital | [github](https://github.com/ADEOSec/Digital-Forensic-Training) |
+| **DevOps-Security-Agent-Skills** | Agent-ready DevOps, security, infrastructure, and compliance knowledge base with 80+ skills across Kubernetes, Terraform | [github](https://github.com/BagelHole/DevOps-Security-Agent-Skills) |
+| **spellbook** | Portable skill library for AI coding agents: debugging, PR workflows, design systems, incident response, and domain play | [github](https://github.com/phrazzld/spellbook) |
+| **agent-infra-security** | Security skills for AI coding agents — incident response for supply chain attacks, credential rotation, IOC detection. W | [github](https://github.com/makash/agent-infra-security) |
 | **mini-hids** | 轻量级主机入侵检测与日志分析系统，支持封装为AI Agent Skill。/ A lightweight HIDS for Linux, featuring AI-powered log analysis and automated def | [github](https://github.com/netkr/mini-hids) |
 | **Offensive-Security-Forensics-Portfolio** | A portfolio demonstrating advanced blue and red team skills, including: SSH MFA implementation, Volatility-based memory | [github](https://github.com/thieveshkar/Offensive-Security-Forensics-Portfolio) |
 | **aguara** | Security scanner for AI agent skills and MCP servers. Static analysis, incident response, no LLM. One binary.   Detectio | [github](https://github.com/garagon/aguara) |
@@ -266,6 +388,36 @@
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
+| **DeepCamera** | Open-Source AI Camera Skills Platform, AI NVR & CCTV Surveillance. Local VLM video analysis with Qwen, DeepSeek, SmolVLM | [github](https://github.com/SharpAI/DeepCamera) |
+| **raptor** | Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating r | [github](https://github.com/gadievron/raptor) |
+| **claude-forge** | Supercharge Claude Code with 11 AI agents, 36 commands & 15 skills — the claude-code plugin framework inspired by oh-my- | [github](https://github.com/sangrokjung/claude-forge) |
+| **open-source-handbook** | ⭐️ Open source projects for all skill levels | [github](https://github.com/shainakrumme/open-source-handbook) |
+| **TryHackMeRoadmap** | A list of 350+ free TryHackMe rooms💻 to kick off your cybersecurity learning, organized by topics for easy exploration a | [github](https://github.com/uttambodara/TryHackMeRoadmap) |
+| **slowmist-agent-security** | SlowMist Agent Security Skill: A comprehensive security review framework for AI agents operating in adversarial environm | [github](https://github.com/slowmist/slowmist-agent-security) |
+| **TryHackMe** | Master cybersecurity skills with this TryHackMe free path, includes a collection of my write-ups, solutions and progress | [github](https://github.com/migueltc13/TryHackMe) |
+| **secureclaw** | SecureClaw - Security Plugin and Skill for OpenClaw OWASP-Aligned | [github](https://github.com/adversa-ai/secureclaw) |
+| **SecurityClaw** | A modular, skill-based autonomous Security Operations Center (SOC) agent that monitors OpenSearch/Elasticsearch data, bu | [github](https://github.com/SecurityClaw/SecurityClaw) |
+| **faillapop** | Vulnerable-by-design solidity protocol to help Web3 security enthusiasts practice their skills in an environment closer  | [github](https://github.com/Faillapop/faillapop) |
+| **orchestkit** | The Complete AI Development Toolkit for Claude Code — 103 skills, 36 agents, 172 hooks. Production-ready patterns for fu | [github](https://github.com/yonatangross/orchestkit) |
+| **claude-code-owasp** | Claude Code skill for OWASP security best practices (2025-2026). Includes Top 10:2025, ASVS 5.0, Agentic AI security, an | [github](https://github.com/agamm/claude-code-owasp) |
+| **Titanic-Machine-Learning-from-Disaster** | Start here if... You're new to data science and machine learning, or looking for a simple intro to the Kaggle prediction | [github](https://github.com/ashishpatel26/Titanic-Machine-Learning-from-Disaster) |
+| **Python-Basic-programs** | What is Python? Executive Summary Python is an interpreted, object-oriented, high-level programming language with dynami | [github](https://github.com/sanusanth/Python-Basic-programs) |
+| **javascript-basic-program** | What is JavaScript and what does it do?   Before you start learning something new, it’s important to understand exactly  | [github](https://github.com/sanusanth/javascript-basic-program) |
+| **solana-claude** | Claude Code configs for the expert Solana builder. CLAUDE.md, agents, commands, hooks, rules, skills and settings across | [github](https://github.com/solanabr/solana-claude) |
+| **skillarch** | SkillArch | [github](https://github.com/laluka/skillarch) |
+| **web3-bug-bounty-hunting-ai-skills** | 18 Claude Code skill files for smart contract security — built from 2,749 Immunefi reports, 681 DeFiHack reproductions,  | [github](https://github.com/shuvonsec/web3-bug-bounty-hunting-ai-skills) |
+| **www-project-agentic-skills-top-10** | OWASP Foundation web repository | [github](https://github.com/OWASP/www-project-agentic-skills-top-10) |
+| **ClarityFinance** | Clarity is a financial analysis agent framework built on native Claude-skill architecture. Adopting a Planning-with-File | [github](https://github.com/cooragent/ClarityFinance) |
+| **Athena** | Test your Security Skills, and Clean Code Development as a Pythonist, Hacker & Warrior 🥷🏻 | [github](https://github.com/yezz123/Athena) |
+| **kernel-vuln-analyzer** | Claude Code skill for Linux kernel vulnerability analysis — from crash log triage to patch verification | [github](https://github.com/winmin/kernel-vuln-analyzer) |
+| **zeph** | Rust AI agent where every context token earns its place. Self-learning skills, temporal graph memory, cascade quality    | [github](https://github.com/bug-ops/zeph) |
+| **CEH-Assessments** | A structured portfolio of weekly CEH v13 assessments, vulnerability labs, and ethical hacking documentation to demonstra | [github](https://github.com/SkillDevloper/CEH-Assessments) |
+| **aws_deepracer_worksheet** | Worksheet and Utilities for AWS DeepRacer – one of the most exciting ways of building strong skills in reinforcement lea | [github](https://github.com/dp770/aws_deepracer_worksheet) |
+| **MalwareAnalysis** | This central repository is crafted for cybersecurity enthusiasts, researchers, and professionals aiming to advance their | [github](https://github.com/Offensive-Panda/MalwareAnalysis) |
+| **Machine-Learning-Interview-Preparation** | Prepare to Technical Skills Here are the essential skills that a Machine Learning Engineer needs, as mentioned Read me f | [github](https://github.com/reddyprasade/Machine-Learning-Interview-Preparation) |
+| **A-Online-Quiz-Site** | # Skill's Breaker An online quiz system built on PHP, JS and HTML. It has inbuilt Timer support along with Admin Panel   | [github](https://github.com/mu-ki/A-Online-Quiz-Site) |
+| **mobile-security-skills** | A collection of Claude Code and OpenAI Codex Agent Skills for mobile application security testing | [github](https://github.com/dweinstein/mobile-security-skills) |
+| **Fuzzy-Logic-Based-Recommendation-System-for-Research-Topic-in-the-Final-year** | Most University students are uncertain which research topic to choose for their final year research projects.The student | [github](https://github.com/Karikaranvetti/Fuzzy-Logic-Based-Recommendation-System-for-Research-Topic-in-the-Final-year) |
 | **material-3-skill** | Material Design 3 skill for Claude Code — 30+ components, design tokens, theming, responsive layout, and MD3 compliance | [github](https://github.com/hamen/material-3-skill) |
 | **htb-writeups** | The most comprehensive Hack The Box writeup collection - 500+ machines, 400+ challenges, interactive knowledge graph, sk | [github](https://github.com/momenbasel/htb-writeups) |
 | **DeepCamera** | Open-Source AI Camera Skills Platform, AI NVR & CCTV Surveillance. Local VLM video analysis with Qwen, DeepSeek, SmolVLM | [github](https://github.com/SharpAI/DeepCamera) |
@@ -307,6 +459,8 @@
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
+| **tirith** | Terminal security for developers and AI agents. Intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated pay | [github](https://github.com/sheeki03/tirith) |
+| **ANYDESK-BACKDOOR** | You should never use malware to infiltrate a target system. With the skill of writing and exploiting technical codes, yo | [github](https://github.com/AiGptCode/ANYDESK-BACKDOOR) |
 | **awesome-claude-skills-security** | Security testing toolkit for Claude Code: curated SecLists wordlists, injection payloads, and expert agents for authoriz | [github](https://github.com/Eyadkelleh/awesome-claude-skills-security) |
 | **ANYDESK-BACKDOOR** | You should never use malware to infiltrate a target system. With the skill of writing and exploiting technical codes, yo | [github](https://github.com/AiGptCode/ANYDESK-BACKDOOR) |
 | **PayloadsAllTheThings** | Web 安全 payload 和绕过列表 | [github](https://github.com/swisskyrepo/PayloadsAllTheThings) |
@@ -318,6 +472,9 @@
 |-------|------|------|
 | **Red-Team-Roadmap** | Red Team Roadmap [defination, job positions, skills, tools] | [github](https://github.com/soheilsec/Red-Team-Roadmap) |
 | **eJPT** | eJPT is a hands-on, entry-level Red Team certification that simulates skills utilized during real-world engagements. | [github](https://github.com/e-hakson/eJPT) |
+| **agile_v_skills** | Official Agent Skills for the Agile V™ framework. Verifiable AI-augmented engineering with traceability, Red Team verifi | [github](https://github.com/Agile-V/agile_v_skills) |
+| **Red-Team-Roadmap** | Red Team Roadmap [defination, job positions, skills, tools] | [github](https://github.com/soheilsec/Red-Team-Roadmap) |
+| **eJPT** | eJPT is a hands-on, entry-level Red Team certification that simulates skills utilized during real-world engagements. | [github](https://github.com/e-hakson/eJPT) |
 | **Red-Team** | 红队/渗透测试工具集合 | [github](https://github.com/yeyintminthuhtut/Awesome-Red-Teaming) |
 | **Windows-Exploits** | Windows 提权漏洞集合 | [github](https://github.com/SecWiki/windows-kernel-exploits) |
 | **AD-Attack** | Active Directory 攻击路径 | [github](https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet) |
@@ -327,6 +484,8 @@
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
+| **soc-ressources** | Repository for SOC analysts, queries to investigate, advanced hunting, sites for analysis, malware samples, courses to i | [github](https://github.com/DXC-0/soc-ressources) |
+| **ramibot** | RamiBot v3.8.0 is a local-first AI security operations platform integrating multi-LLM support, a dynamic red/blue team s | [github](https://github.com/RamiBotAI/ramibot) |
 | **ramibot** | RamiBot v3.8.0 is a local-first AI security operations platform integrating multi-LLM support, a dynamic red/blue team s | [github](https://github.com/RamiBotAI/ramibot) |
 | **Default-Creds** | 默认密码集合 | [github](https://github.com/ihebski/DefaultCreds-cheat-sheet) |
 | **Blue-Team** | 蓝队防御资源 | [github](https://github.com/ffffffff0x/1earn) |
@@ -343,6 +502,13 @@
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
+| **agent-scan** | Security scanner for AI agents, MCP servers and agent skills. | [github](https://github.com/snyk/agent-scan) |
+| **skill-scanner** | Security Scanner for Agent Skills | [github](https://github.com/cisco-ai-defense/skill-scanner) |
+| **nova-proximity** | Nova-Proximity is a MCP and Agent Skills security scanner powered with NOVA | [github](https://github.com/Nova-Hunting/nova-proximity) |
+| **llm-sast-scanner** | A SAST skill that gives AI coding agents structured vulnerability detection across 34 vulnerability classes. | [github](https://github.com/SunWeb3Sec/llm-sast-scanner) |
+| **claude-skill-antivirus** | Security scanner for Claude Code Skills — 9 engines detect malicious patterns, data exfiltration, dangerous ops across 7 | [github](https://github.com/claude-world/claude-skill-antivirus) |
+| **skillsentry** | AI Skill Security Scanner | [github](https://github.com/vythanhtra/skillsentry) |
+| **skillcheck** | Security scanner for Claude SKILL.md files. Detects vulnerabilities before they reach production. | [github](https://github.com/agentigy/skillcheck) |
 | **skillcheck** | Security scanner for Claude SKILL.md files. Detects vulnerabilities before they reach production. | [github](https://github.com/agentigy/skillcheck) |
 | **llm-sast-scanner** | A SAST skill that gives AI coding agents structured vulnerability detection across 34 vulnerability classes. | [github](https://github.com/SunWeb3Sec/llm-sast-scanner) |
 | **agent-scan** | Security scanner for AI agents, MCP servers and agent skills. | [github](https://github.com/snyk/agent-scan) |
@@ -362,14 +528,28 @@
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
+| **htb-writeups** | The most comprehensive Hack The Box writeup collection - 500+ machines, 400+ challenges, interactive knowledge graph, sk | [github](https://github.com/momenbasel/htb-writeups) |
 | **Sherlock** | 跨平台人员资料查找 (1000+ 网站) | [github](https://github.com/sherlock-project/sherlock) |
 | **reconFTW** | 自动化侦察工具 | [github](https://github.com/six2dez/reconFTW) |
 | **BugBounty-Hunting** | 漏洞赏金资源 | [github](https://github.com/disclose/bug-bounty-platforms) |
+
+#### AI安全
+
+| Skill | 描述 | 来源 |
+|-------|------|------|
+| **360安全龙虾官方下载_360安全龙虾免费下载_360安全龙虾 ...** | 3 天之前&ensp;&#0183;&ensp;360安全龙虾是一款集成了16家顶级大模型、13000+技能场景的智能桌面客户端工具，支持一键安装、自动部署，用户无需复杂配置即可开箱即用。 它不仅能聊天，更能通过“找技能、用技能、 … | [其他](https://baoku.360.cn/qbfl/600003137.html) |
 
 #### 其他
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
+| **将AI结合进越权扫描，助力SRC挖掘。 - 火线 Zone-安全攻防社区** | 2025年3月4日&ensp;&#0183;&ensp;所以，它漏掉了很多隐性的越权漏洞。 动态内容干扰了相似度计算 初版工具用的是 Levenshtein 编辑距离算法来计算响应包的相似度。 这个算法在静态内容中表现不错，但一旦遇到动态  | [其他](https://zone.huoxian.cn/d/2978-aisrc) |
+| **2025年入手XSX,XSS指南！微软xbox series S|X怎么买最 ...** | 2025年6月26日&ensp;&#0183;&ensp;2024年入手XSX,XSS指南！微软xbox series S|X怎么买最划算！国行值得买吗？ 自从《卧龙》登录XGP后，不少人这才发现Xbox平台的游戏阵容也非常不错了。对于想花 | [知乎](https://www.zhihu.com/tardis/zm/art/580523836) |
+| **xss漏洞有几种类型，一般如何判断存在该漏洞? - 知乎** | 2024年12月10日&ensp;&#0183;&ensp;XSS漏洞，即跨站脚本攻击漏洞，主要分为三种类型：存储型XSS、反射型XSS和DOM型XSS。 下面将详细解释这三种类型，并提供一般判断XSS漏洞存在的方法。 ### XSS漏洞的 | [知乎](https://www.zhihu.com/question/4643274593) |
+| **如何使用 SonarQube 实现代码审查？ - 知乎** | 一、SonarQube使用介绍 SonarQube&#174; 是一种自动代码审查工具，用于检测代码中的错误、漏洞和代码异味。它可以与您现有的工作流程集成，以实现跨项目分支和拉取请求的持续代码检查。 … | [知乎](https://www.zhihu.com/question/483933848) |
+| **FreeBuf - 知乎** | 「FreeBuf 企业安全」服务号来了 | 企业安全深度内容分享平台 知识存储和流转方式的进化造就了这个双面的时代：不用走过名山大川，轻点几下即可汇聚海量信息；数据洪流将我们裹挟而去，真正想要的 … | [知乎](https://www.zhihu.com/column/freebuf) |
+| **有没有什么web安全网络安全的高质量交流平台？ - 知乎** | 学肯定少不了去技术网站“偷师学艺”，今天也整理了一些我常看的技术网站，给想自学网络安全的朋友一点参考建议。 话不多说，直接开整（仅供参考，有不当之处欢迎指出改正） 一、FreeBuf FreeBuf是 … | [知乎](https://www.zhihu.com/question/589218732) |
+| **360官网 -360安全中心 - 360安全软件 - 360智能硬件 - 360 ...** | 2023年9月4日&ensp;&#0183;&ensp;360免费安全软件平台和智能硬件家居平台，免费安全软件平台为用户提供360安全卫士,360免费杀毒软件,360企业杀毒软件,360安全浏览器等安全软件,智能硬件家居平台包含360手机, | [其他](https://www.360.cn/) |
 
 </details>
 
