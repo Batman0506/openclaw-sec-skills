@@ -228,6 +228,8 @@
 | **Pentest Auth Bypass** | 身份验证绕过和账户接管测试 | [github](https://github.com/clause-labs/pentest-auth-bypass) |
 | **渗透测试从0基础到精通，20-35岁看完这一篇就够了（非常 ...** | 2025年6月13日&ensp;&#0183;&ensp;二、渗透测试常用工具使用 对于入门级的渗透测试，会使用 nmap、Burpsuite、Kali Linux 、sqlmap 就基本足够了。 三、Web渗透常见漏洞测试 对于入门级的渗 | [知乎](https://www.zhihu.com/tardis/zm/art/1916069515546034683) |
 | **白捡的111端口 RPCBind 开放漏洞 - 火线 Zone-安全攻防社区** | 一顿翻翻找找发现 RPCBind 真的存在漏洞 漏洞发现： 使用metasploit (msf)验证验证 use auxiliary/scanner/misc/sunrpc_portmapper show options set RHOST | [其他](https://zone.huoxian.cn/d/645-111-rpcbind) |
+| **渗透测试入门教程（非常详细），从零基础入门到精通，看完 ...** | 2023年12月13日&ensp;&#0183;&ensp;下面说一些渗透测试需要的基本前置知识： • HTTP协议基础知识。HTTP协议属于计算机网络的知识，因为渗透测试基本是对网站的请求数据进行修改，查找漏洞，所以了解HTTP协议 … | [知乎](https://www.zhihu.com/tardis/bd/art/672181386) |
+| **什么是跨站脚本攻击（XSS）？如何防止跨站脚本攻击？ - 华为** | 2025年7月7日&ensp;&#0183;&ensp;跨站脚本攻击（Cross-site Scripting，通常称为XSS），是一种典型的Web程序漏洞利用攻击。攻击者利用Web程序对用户输入检查不足的漏洞将可执行恶意脚本注入网站或We | [其他](https://info.support.huawei.com/info-finder/encyclopedia/zh/%E8%B7%A8%E7%AB%99%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB.html) |
 
 ### 🔍 逆向工程
 
@@ -333,12 +335,12 @@
 | **《安卓逆向这档事》十三、是时候学习一下Frida一把梭了 (上 ...** | 2023年8月19日&ensp;&#0183;&ensp;[Android 原创] 《安卓逆向这档事》十三、是时候学习一下Frida一把梭了 (上) [复制链接] ... 下一页 &#187; 1 2 3 4 5 6 7 8 9 10... | [吾爱破解](https://www.52pojie.cn/thread-1823118-1-1.html) |
 | **《安卓逆向这档事》十八、表哥，你也不想你的Frida被检测 ...** | 2024年5月6日&ensp;&#0183;&ensp;[Android 原创] 《安卓逆向这档事》十八、表哥，你也不想你的Frida被检测吧! (上) [复制链接] ... 下一页 &#187; 1 2 3 4 5 6 7 8 9 10. | [吾爱破解](https://www.52pojie.cn/thread-1921073-1-1.html) |
 | **Frida 脚本一键持久化方案：将 Frida 脚本打包至 Xposed ...** | 2025年11月12日&ensp;&#0183;&ensp;[Android 原创] Frida 脚本一键持久化方案：将 Frida 脚本打包至 Xposed 模块、直接注入APP、so、dll [复制链接] | [吾爱破解](https://www.52pojie.cn/thread-2071836-1-1.html) |
-| **如何学习软件逆向工程？ - 知乎** | 等x86入了门，可以扩展学习x64，到后期再扩展学习ARM。 学习汇编语言，不仅仅是学习汇编指令，更是在学习了解CPU，CPU有哪些寄存器，分别有什么用，它是如何访问内存，如何进行寻址，如何进 … | [知乎](https://www.zhihu.com/question/276677186) |
 | **应对OLLVM的HOOK方案-通过分析Frida日志复原so逻辑 - 吾 ...** | 2025年9月9日&ensp;&#0183;&ensp;一种还原VMP+OLLVM的方案，脚本已开源： https://github.com/goldenfish689/android-reverse/tree/main/hooks And | [吾爱破解](https://www.52pojie.cn/thread-2059084-1-1.html) |
 | **GitHub - DreamSoule/ollvm17: Obfuscation LLVM 17** | Obfuscation LLVM 17. Contribute to DreamSoule/ollvm17 development by creating an account on GitHub. | [GitHub](https://github.com/DreamSoule/ollvm17) |
 | **VMPUnpacker-VMP 3.x 静态脱壳器 - 吾爱破解 - 52pojie.cn** | 2025年5月22日&ensp;&#0183;&ensp;VMPUnpacker-VMP 3.x 静态脱壳器https://github.com/oureveryday/VMPUnpacker最近发现有个网页版VMP静态脱壳器（https: | [吾爱破解](https://www.52pojie.cn/thread-2033191-1-1.html) |
 | **VMProtect PE Unpacker基于VMPUnpacker-VMP 3.x 静态 ...** | 2025年11月11日&ensp;&#0183;&ensp;由于自己手懒 不想敲CMD，故而利用DeepSeek的AI搞一个GUI，并打包单一文件，基于原始链接：VMPUnpacker-VMP 3.x 静态脱壳器我测试的是手头的net的DL | [吾爱破解](https://www.52pojie.cn/thread-2071664-1-1.html) |
 | **Web逆向之VMP还原全流程 - 吾爱破解 - 52pojie.cn** | 2025年6月22日&ensp;&#0183;&ensp;某歌邮箱注册参数f.req 还原过程。trace不说了，试试自实现反编译器还原VMP吧！注册参数如下：返回位置如下：虚拟机解释器如下：开始分析VMP结构 ... | [吾爱破解](https://www.52pojie.cn/thread-2040789-1-1.html) |
+| **vmp3.X脱壳-工具向 - 吾爱破解 - 52pojie.cn** | 2023年3月24日&ensp;&#0183;&ensp;vmp壳一直是作为加密壳中的一个难啃的骨头，这次从工具使用角度学习一下这个脱壳的过程，本次尝试vmp3.4。3.x的系列都差不多源码 [mw_shl_code=cpp,true] # | [吾爱破解](https://www.52pojie.cn/thread-1764028-1-1.html) |
 | **unidbg初探 - 吾爱破解 - 52pojie.cn** | 2020年12月6日&ensp;&#0183;&ensp;[md]# 由来前天有个吧友发了个使用unidbg模拟某app协议，觉得有点意思，于是乎今天来试试，论坛里unidbg的教程也比较少，那我就来抛砖引玉，献献丑了。还望大神勿喷。 .. | [吾爱破解](https://www.52pojie.cn/thread-1322512-1-1.html) |
 | **Android Tools - 『逆向资源区』 - 吾爱破解 - 52pojie.cn** | 1 天前&ensp;&#0183;&ensp;【Debuggers】 动态调试工具 【Disassemblers】 反编译工具（静态分析为主） 【PEtools】 PE文件分析、查壳相关工具 【Packers】 给程序加壳相关工具 【Pat | [吾爱破解](https://www.52pojie.cn/forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=230) |
 
@@ -378,6 +380,9 @@
 | **针对CTF，大家都是怎么训练的？ - 知乎** | 刷知乎刚好刷到这个问题，退役选手勉强答一波，顺便拓展一下吧（不定期更新）。 一、CTF入门 最近很多朋友在知乎小红书等平台私信我，问应该怎么入门CTF。个人认为入门CTF之前大家应该先了解 … | [知乎](https://www.zhihu.com/question/30505597) |
 | **CTF比赛的必读书籍** | 2024年3月21日&ensp;&#0183;&ensp;3.《CTF那些事儿》 目前能最新出版的CTF书籍， 北航Lancet战队成员倾力打造，推出CTF实战技能全新学习框架 适读人群 ：高校网络空间安全专业学生、安全企业的技术人员、互联 | [知乎](https://www.zhihu.com/tardis/bd/art/688246837) |
 | **ctf中的pwn和re怎么入门?** | 2021年1月16日&ensp;&#0183;&ensp;CTF赛题涉及的非常领域广，市面上相关书籍还停留在知识广度上的覆盖，但CTF模块间的发展程度参差不齐，始终缺少能够深入介绍单一领域的内容，尤其是 Pwn 方向！ 而Pwn恰恰 … | [知乎](https://www.zhihu.com/tardis/bd/ans/1681156982) |
+| **XSS 完全指南 - CTF-Web修炼手册** | 2025年6月11日&ensp;&#0183;&ensp;XSS (跨站脚本攻击) 完全指南 目录 基础概念 XSS 类型 Payload 集合 漏洞挖掘 防御措施 实战案例 绕过技巧 基础概念 XSS (Cross-Site Script | [其他](https://wilesangh.github.io/ctf-web/xss_guide/) |
+| **入门CTF - CTF论坛** | 2025年9月7日&ensp;&#0183;&ensp;BugkuCTF论坛，入门CTF训练平台，拥有数量庞大的题库，不断更新各类CTF题目，题目难易度均衡，适合各阶段网络安全爱好者。 | [其他](https://www.bugku.com/) |
+| **用哪种大模型进行ctf比赛好用_百度知道** | 2025年9月17日&ensp;&#0183;&ensp;用哪种大模型进行ctf比赛好用在CTF比赛中，推荐使用Ollama离线AI大模型、gpt-oss系列模型或ctftools-all-in-one工具集，具体选择需结合比赛场景和功能需 | [其他](https://zhidao.baidu.com/question/1524308318353336420.html) |
 
 ### 🎯 威胁建模
 
@@ -691,7 +696,10 @@
 | **FreeBuf - 知乎** | 「FreeBuf 企业安全」服务号来了 | 企业安全深度内容分享平台 知识存储和流转方式的进化造就了这个双面的时代：不用走过名山大川，轻点几下即可汇聚海量信息；数据洪流将我们裹挟而去，真正想要的 … | [知乎](https://www.zhihu.com/column/freebuf) |
 | **有没有什么web安全网络安全的高质量交流平台？ - 知乎** | 学肯定少不了去技术网站“偷师学艺”，今天也整理了一些我常看的技术网站，给想自学网络安全的朋友一点参考建议。 话不多说，直接开整（仅供参考，有不当之处欢迎指出改正） 一、FreeBuf FreeBuf是 … | [知乎](https://www.zhihu.com/question/589218732) |
 | **360官网 -360安全中心 - 360安全软件 - 360智能硬件 - 360 ...** | 2023年9月4日&ensp;&#0183;&ensp;360免费安全软件平台和智能硬件家居平台，免费安全软件平台为用户提供360安全卫士,360免费杀毒软件,360企业杀毒软件,360安全浏览器等安全软件,智能硬件家居平台包含360手机, | [其他](https://www.360.cn/) |
-| **xss常用的一些payload** | 2022年2月16日&ensp;&#0183;&ensp;l 一.xss的基本分类 1. 存储型xss 2. 反射型xss 3. Dom型xss 4. Self型xss l 二.基本的xss分类说明: 1. 存储型xss:存储型xss经常出 | [知乎](https://www.zhihu.com/tardis/bd/art/410675894) |
+| **XSS由浅入深-先知社区** | 2025年5月7日&ensp;&#0183;&ensp;反射型 XSS（Reflected XSS） 反射型 XSS 多出现在搜索框、登录页面等用户输入内容会被立即回显的位置。攻击者将恶意脚本注入到 URL 中，诱导用户点击特定链接，从而触 | [其他](https://xz.aliyun.com/news/17955) |
+| **javascript - 你的网站被“下毒”了？XSS和CSRF：前端安全的两 ...** | 3 天之前&ensp;&#0183;&ensp;一、XSS：跨站脚本攻击，你的网站被人“投毒”了 XSS（Cross-Site Scripting）的意思是：攻击者在你的网页里注入恶意脚本，当其他用户访问时，这个脚本就会在用户浏览器里执行， | [其他](https://segmentfault.com/a/1190000047710139) |
+| **跨站脚本攻击 (XSS) - 安全 | MDN - MDN 文档** | 2025年10月22日&ensp;&#0183;&ensp;跨站脚本 (XSS) 跨站脚本攻击 (XSS) 是一种攻击者能够让目标站点执行恶意代码，使其看起来像是网站一部分的攻击。 | [其他](https://mdn.org.cn/en-US/docs/Web/Security/Attacks/XSS) |
+| **研究帮手| 摩尔浓度及分子量计算工具 molarity-calculator** | l 摩尔浓度计算器 Molarity Calculator l 稀释计算器 Dilution Calculator l 氨基酸转换器 Amino Acids Converter GLPBIO的优势在于，可以直接在手机端使用， 关注公众号 “ | [其他](https://zhidao.baidu.com/question/275735641261205405.html) |
 | **官方频发“龙虾”风险提示，360推出全网首份OpenClaw安全 ...** | 2026年3月12日&ensp;&#0183;&ensp;近日，360率先发布国内首份《OpenClaw安全部署与实践指南》（以下简称“指南”），无论是个人开发者、一人公司还是中小企业数字化团队及安全运维人员，都能在这份“养虾”指南 … | [其他](https://bbs.360.cn/thread-16178720-1-1.html) |
 
 </details>
