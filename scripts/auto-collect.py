@@ -94,6 +94,17 @@ EXCLUDE_NAMES = {
     'awesome_gpt_super_prompting', 'cai',
     'redesigned-pancake', 'torrents',
     'known-laws-of-aviation', 'dvia-v2', 'dvia',
+    # 2026-04-20 新增：非安全类排除
+    'material-3-skill', 'low-level-dev-skills', 'clarityfinance',
+    'open-source-handbook', 'orchestkit', 'zeph',
+    'aws_deepracer_worksheet', 'titanic-machine-learning',
+    'python-basic-program', 'javascript-basic-program',
+    'machine-learning-interview', 'a-online-quiz-site',
+    'spellbook', 'skillarch', 'deepcamera', 'solana-claude',
+    'athena', 'claw-ops-automation-suite',
+    'agent-automation-toolkit', 'fuzzy-logic', 'don-cheli',
+    'ai-best-practices', 'references', 'other-sources',
+    'auto-songshu',
 }
 
 EXCLUDE_DESC = [
@@ -128,6 +139,39 @@ EXCLUDE_NON_SECURITY = [
     '招聘 ', ' 岗位', '薪资', '月薪',
     # 法律法规
     '律师', '法律咨询', '判决书',
+    # 非安全类（2026-04-20 新增）
+    '逆向选择', '道德风险',  # 经济学概念
+    '听歌', '音乐软件', '无损音质',
+]
+
+# GitHub 仓库必须命中的安全关键词（名称或描述）
+GITHUB_MUST_HAVE_SECURITY = [
+    'security', 'secure', 'vuln', 'vulnerability', '漏洞', '安全',
+    'exploit', 'poc', 'payload', 'cve', 'cwe', 'owasp',
+    'pentest', 'penetration', '渗透', 'hack', 'hacking', 'hacker',
+    'attack', 'defense', 'defence', 'bypass',
+    'malware', 'virus', 'trojan', 'ransomware', 'phishing',
+    'audit', 'scanner', 'scan', 'nmap', 'nuclei', '代码审计',
+    'sast', 'dast', 'static analysis', 'dynamic analysis',
+    'reverse engineer', '逆向', 'decompile', 'disassemble',
+    '脱壳', 'unpack', 'ghidra', 'ida pro', 'frida', 'unidbg',
+    'hook', 'patch', 'crack', 'shellcode', '0day',
+    'forensic', 'incident response', '应急响应', '取证',
+    'threat hunt', 'threat intelligence', 'ioc',
+    'ctf', 'capture the flag', 'pwn',
+    'red team', 'blue team', 'purple team', '红队', '蓝队',
+    'cobalt strike', 'metasploit', 'c2', 'active directory',
+    'android security', 'ios security', '移动安全', 'apk', 'jailbreak',
+    'xss', 'csrf', 'ssrf', 'sqli', 'sql injection', 'rce',
+    'webshell', 'web security', 'lfi', 'rfi', 'xxe',
+    'llm security', 'ai security', 'prompt injection', 'adversarial',
+    'cryptography', 'crypto', 'encryption', '密码学', '加密',
+    'osint', 'recon', 'bug bounty', 'waf', 'ids', 'ips', 'siem',
+    'honeypot', 'sandbox', 'credential', 'privilege escalation',
+    'lateral movement', 'supply chain', 'zero trust',
+    'smart contract audit', 'solidity audit', 'blockchain security',
+    'binary analysis', 'malware analysis', 'log analysis',
+    'digital forensics', 'threat modeling',
 ]
 
 # Skill 类型标识（中文文章至少要命中一个，才能被收录）
@@ -256,18 +300,24 @@ def github_search(query, per_page=10, max_retries=5):
 
 def classify_github(desc, name):
     text = (desc + ' ' + name).lower()
-    if any(k in text for k in ['audit', 'code review']): return '🔒 代码审计', None
-    if any(k in text for k in ['pentest', 'penetration testing', 'bug bounty']): return '⚔️ 渗透测试', None
-    if any(k in text for k in ['reverse engineering', 'malware analysis', 'ghidra', 'binary analysis']): return '🔍 逆向工程', None
-    if any(k in text for k in ['ios', 'android', 'mobile security', 'apk', 'dvia']): return '📱 移动安全', None
-    if any(k in text for k in ['ctf', 'capture the flag']): return '🏆 CTF 竞赛', None
-    if any(k in text for k in ['threat', 'risk assessment']): return '🎯 威胁建模', None
-    if any(k in text for k in ['forensic', 'incident response', 'log analysis']): return '🚨 应急响应', None
+
+    # ⚠️ 严格过滤：必须命中安全关键词，否则拒绝收录
+    has_security = any(kw in text for kw in GITHUB_MUST_HAVE_SECURITY)
+    if not has_security:
+        return None, None  # 返回 None 表示不收录
+
+    if any(k in text for k in ['audit', 'code review', '代码审计']): return '🔒 代码审计', None
+    if any(k in text for k in ['pentest', 'penetration testing', 'bug bounty', '渗透']): return '⚔️ 渗透测试', None
+    if any(k in text for k in ['reverse engineer', '逆向', 'malware analysis', 'ghidra', 'binary analysis', '脱壳']): return '🔍 逆向工程', None
+    if any(k in text for k in ['ios', 'android', 'mobile security', 'apk', 'dvia', '移动安全']): return '📱 移动安全', None
+    if any(k in text for k in ['ctf', 'capture the flag', 'pwn']): return '🏆 CTF 竞赛', None
+    if any(k in text for k in ['threat', 'risk assessment', '威胁']): return '🎯 威胁建模', None
+    if any(k in text for k in ['forensic', 'incident response', 'log analysis', '应急响应', '取证']): return '🚨 应急响应', None
     if any(k in text for k in ['payload', 'exploit', 'jndi', 'git dump', 'bypass']): return '🛡️ 安全工具', '漏洞利用'
-    if any(k in text for k in ['red team', 'empire', 'covenant', 'active directory']): return '🛡️ 安全工具', '红队工具'
-    if any(k in text for k in ['blue team', 'wazuh', 'velociraptor', 'grr', 'monitoring']): return '🛡️ 安全工具', '蓝队防御'
+    if any(k in text for k in ['red team', 'empire', 'covenant', 'active directory', '红队']): return '🛡️ 安全工具', '红队工具'
+    if any(k in text for k in ['blue team', 'wazuh', 'velociraptor', 'grr', 'monitoring', '蓝队']): return '🛡️ 安全工具', '蓝队防御'
     if any(k in text for k in ['waf', 'safeline', 'modsecurity', 'fail2ban']): return '🛡️ 安全工具', 'WAF/防护'
-    if any(k in text for k in ['scanner', 'nmap', 'nuclei', 'gobuster', 'hydra', 'xray', 'recon']): return '🛡️ 安全工具', '安全扫描'
+    if any(k in text for k in ['scanner', 'nmap', 'nuclei', 'gobuster', 'hydra', 'xray', 'recon', '扫描']): return '🛡️ 安全工具', '安全扫描'
     if any(k in text for k in ['osint', 'sherlock', 'spiderfoot', 'amass', 'subfinder', 'maltego', 'harvester']): return '🛡️ 安全工具', '信息收集/OSINT'
     return '🛡️ 安全工具', None
 
@@ -364,6 +414,20 @@ def is_skill_article(title, snippet, url):
     if not has_signal:
         return False
 
+    # 知乎问答：zhihu.com/question 路径 + 疑问句式 → 排除
+    # 知乎专栏 zhuanlan.zhihu.com 的技术文章保留
+    qa_patterns = [
+        '有前途吗', '怎么学习', '应该准备', '以后打算',
+        '作为过来人', '有什么方法', '怎么办', '好不好',
+        '是什么', '为什么', '谁', '哪个', '如何最简单',
+        '通俗地理解', '请教', '求推荐', '有哪些',
+        '用什么', '哪家', '怎么选', '值得',
+    ]
+    is_qa = any(p in text for p in qa_patterns)
+    is_question_url = 'zhihu.com/question' in url_lower or 'zhidao.baidu.com' in url_lower
+    if is_qa and is_question_url:
+        return False
+
     # 排除纯问答类（知乎问答、百度知道）
     # 如果是知乎/百度知道，标题要是问题形式 → 排除
     qa_patterns = [
@@ -446,6 +510,9 @@ def search_github():
             desc_raw = repo.get('description', '') or ''
             if any(k.lower() in desc_raw.lower() for k in EXCLUDE_DESC): continue
             cat, sub = classify_github(desc_raw, name)
+            # 严格过滤：未命中安全关键词的条目直接跳过
+            if cat is None:
+                continue
             entry = {
                 'name': name, 'desc': desc_raw[:120],
                 'url': repo.get('html_url', ''),
