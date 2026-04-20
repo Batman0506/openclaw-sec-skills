@@ -96,7 +96,6 @@
 | **PHP_AUDIT_SKILLS** | PHP静态+动态+AI代码审计skills | [github](https://github.com/yunmengya/PHP_AUDIT_SKILLS) |
 | **solidity-auditor-skills** |  | [github](https://github.com/sanbir/solidity-auditor-skills) |
 | **claude-security-research-skill** | AI-powered security research assistant for Claude Code — structured assessment workflows, tool orchestration, and profes | [github](https://github.com/rhysha/claude-security-research-skill) |
-| **ai-best-practices-skills** | AI Best Practices Audit Skills | [github](https://github.com/mduongvandinh/ai-best-practices-skills) |
 | **security-audit-skill** | Agent Skill for PHP security audits - OWASP patterns, vulnerability detection | Claude Code compatible | [github](https://github.com/netresearch/security-audit-skill) |
 | **java-audit-skillss** | java-audit-skillss | [github](https://github.com/p2zhhh/java-audit-skillss) |
 | **claude-skills** | UX/UI evaluation, AI governance, and AI security skills for AI coding assistants. Audit interfaces with Nielsen heuristi | [github](https://github.com/mastepanoski/claude-skills) |
@@ -164,7 +163,6 @@
 | **jshook-skill** |   AI-powered JS reverse engineering: deobfuscation, crypto detection, CDP debugging, hook injection, anti-detection |    | [github](https://github.com/wuji66dde/jshook-skill) |
 | **Common-CTF-Challenges** | Common CTF Challenges is a collection of tools and resources to help individuals improve their Capture the Flag (CTF) sk | [github](https://github.com/ByamB4/Common-CTF-Challenges) |
 | **IDA-Skill** | 使用skill让 AI Agent 像安全分析师一样分析恶意样本 | AI Agent skill for automated malware analysis using IDA Pro | [github](https://github.com/miunasu/IDA-Skill) |
-| **re-skill** | Claude Code skill for reverse engineering retro games — disassemble, annotate, extract assets, web port | [github](https://github.com/vgrichina/re-skill) |
 | **spider-king-skill** | Protocol-first reverse engineering skill for turning hostile web clients into pure-protocol Python collectors. | [github](https://github.com/aoyunyang/spider-king-skill) |
 | **ghidra-re-skill** | Codex Ghidra reverse engineering skill with headless workflows, bug-hunting bundles, and a live bridge for Apple Mach-O  | [github](https://github.com/OwenPawl/ghidra-re-skill) |
 | **CrackMaster** | CCrackMaster is an educational CrackMe project written in C, designed to enhance skills in reverse engineering, code ana | [github](https://github.com/katya201165/CrackMaster) |
@@ -350,7 +348,6 @@
 |-------|------|------|
 | **Red-Team-Roadmap** | Red Team Roadmap [defination, job positions, skills, tools] | [github](https://github.com/soheilsec/Red-Team-Roadmap) |
 | **eJPT** | eJPT is a hands-on, entry-level Red Team certification that simulates skills utilized during real-world engagements. | [github](https://github.com/e-hakson/eJPT) |
-| **agile_v_skills** | Official Agent Skills for the Agile V™ framework. Verifiable AI-augmented engineering with traceability, Red Team verifi | [github](https://github.com/Agile-V/agile_v_skills) |
 | **Red-Team** | 红队/渗透测试工具集合 | [github](https://github.com/yeyintminthuhtut/Awesome-Red-Teaming) |
 | **Windows-Exploits** | Windows 提权漏洞集合 | [github](https://github.com/SecWiki/windows-kernel-exploits) |
 | **AD-Attack** | Active Directory 攻击路径 | [github](https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet) |
@@ -397,26 +394,17 @@
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
-| **360安全龙虾官方下载_360安全龙虾免费下载_360安全龙虾 ...** | 3 天之前&ensp;&#0183;&ensp;360安全龙虾是一款集成了16家顶级大模型、13000+技能场景的智能桌面客户端工具，支持一键安装、自动部署，用户无需复杂配置即可开箱即用。 它不仅能聊天，更能通过“找技能、用技能、 … | [其他](https://baoku.360.cn/qbfl/600003137.html) |
 
 #### 其他
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
 | **将AI结合进越权扫描，助力SRC挖掘。 - 火线 Zone-安全攻防社区** | 2025年3月4日&ensp;&#0183;&ensp;所以，它漏掉了很多隐性的越权漏洞。 动态内容干扰了相似度计算 初版工具用的是 Levenshtein 编辑距离算法来计算响应包的相似度。 这个算法在静态内容中表现不错，但一旦遇到动态 | [其他](https://zone.huoxian.cn/d/2978-aisrc) |
-| **2025年入手XSX,XSS指南！微软xbox series S|X怎么买最 ...** | 2025年6月26日&ensp;&#0183;&ensp;2024年入手XSX,XSS指南！微软xbox series S|X怎么买最划算！国行值得买吗？ 自从《卧龙》登录XGP后，不少人这才发现Xbox平台的游戏阵容也非常不错了。对于想花 | [知乎](https://www.zhihu.com/tardis/zm/art/580523836) |
 | **xss漏洞有几种类型，一般如何判断存在该漏洞? - 知乎** | 2024年12月10日&ensp;&#0183;&ensp;XSS漏洞，即跨站脚本攻击漏洞，主要分为三种类型：存储型XSS、反射型XSS和DOM型XSS。 下面将详细解释这三种类型，并提供一般判断XSS漏洞存在的方法。 ### XSS漏洞的 | [知乎](https://www.zhihu.com/question/4643274593) |
-| **如何使用 SonarQube 实现代码审查？ - 知乎** | 一、SonarQube使用介绍 SonarQube&#174; 是一种自动代码审查工具，用于检测代码中的错误、漏洞和代码异味。它可以与您现有的工作流程集成，以实现跨项目分支和拉取请求的持续代码检查。 … | [知乎](https://www.zhihu.com/question/483933848) |
-| **FreeBuf - 知乎** | 「FreeBuf 企业安全」服务号来了 | 企业安全深度内容分享平台 知识存储和流转方式的进化造就了这个双面的时代：不用走过名山大川，轻点几下即可汇聚海量信息；数据洪流将我们裹挟而去，真正想要的 … | [知乎](https://www.zhihu.com/column/freebuf) |
-| **有没有什么web安全网络安全的高质量交流平台？ - 知乎** | 学肯定少不了去技术网站“偷师学艺”，今天也整理了一些我常看的技术网站，给想自学网络安全的朋友一点参考建议。 话不多说，直接开整（仅供参考，有不当之处欢迎指出改正） 一、FreeBuf FreeBuf是 … | [知乎](https://www.zhihu.com/question/589218732) |
-| **360官网 -360安全中心 - 360安全软件 - 360智能硬件 - 360 ...** | 2023年9月4日&ensp;&#0183;&ensp;360免费安全软件平台和智能硬件家居平台，免费安全软件平台为用户提供360安全卫士,360免费杀毒软件,360企业杀毒软件,360安全浏览器等安全软件,智能硬件家居平台包含360手机, | [其他](https://www.360.cn/) |
 | **XSS由浅入深-先知社区** | 2025年5月7日&ensp;&#0183;&ensp;反射型 XSS（Reflected XSS） 反射型 XSS 多出现在搜索框、登录页面等用户输入内容会被立即回显的位置。攻击者将恶意脚本注入到 URL 中，诱导用户点击特定链接，从而触 | [其他](https://xz.aliyun.com/news/17955) |
 | **javascript - 你的网站被“下毒”了？XSS和CSRF：前端安全的两 ...** | 3 天之前&ensp;&#0183;&ensp;一、XSS：跨站脚本攻击，你的网站被人“投毒”了 XSS（Cross-Site Scripting）的意思是：攻击者在你的网页里注入恶意脚本，当其他用户访问时，这个脚本就会在用户浏览器里执行， | [其他](https://segmentfault.com/a/1190000047710139) |
 | **跨站脚本攻击 (XSS) - 安全 | MDN - MDN 文档** | 2025年10月22日&ensp;&#0183;&ensp;跨站脚本 (XSS) 跨站脚本攻击 (XSS) 是一种攻击者能够让目标站点执行恶意代码，使其看起来像是网站一部分的攻击。 | [其他](https://mdn.org.cn/en-US/docs/Web/Security/Attacks/XSS) |
-| **研究帮手| 摩尔浓度及分子量计算工具 molarity-calculator** | l 摩尔浓度计算器 Molarity Calculator l 稀释计算器 Dilution Calculator l 氨基酸转换器 Amino Acids Converter GLPBIO的优势在于，可以直接在手机端使用， 关注公众号 “ | [其他](https://zhidao.baidu.com/question/275735641261205405.html) |
-| **官方频发“龙虾”风险提示，360推出全网首份OpenClaw安全 ...** | 2026年3月12日&ensp;&#0183;&ensp;近日，360率先发布国内首份《OpenClaw安全部署与实践指南》（以下简称“指南”），无论是个人开发者、一人公司还是中小企业数字化团队及安全运维人员，都能在这份“养虾”指南 … | [其他](https://bbs.360.cn/thread-16178720-1-1.html) |
 | **xss常用的一些payload** | 2022年2月16日&ensp;&#0183;&ensp;l 一.xss的基本分类 1. 存储型xss 2. 反射型xss 3. Dom型xss 4. Self型xss l 二.基本的xss分类说明: 1. 存储型xss:存储型xss经常出 | [知乎](https://www.zhihu.com/tardis/bd/art/410675894) |
-| **360龙虾卫士 - AI Agent 原生安全防护** | 4 天之前&ensp;&#0183;&ensp;360龙虾卫士，专为 AI Agent 打造的原生安全防护工具。双重引擎协同、四级信任机制、九大防护能力，以模治模，让 AI 保护 AI。 | [其他](https://clawsafe.360.cn/) |
 
 </details>
 
