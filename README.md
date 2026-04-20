@@ -104,11 +104,6 @@
 | **skill-dfyx_code_security_review** | 五阶段标准化审计协议，系统性发现安全漏洞 | [github](https://github.com/EastSword/skill-dfyx_code_security_review) |
 | **Code Audit** | 覆盖 55+ 漏洞类型，双轨审计模型，多 Agent 深度分析 | [github](https://github.com/3stoneBrother/code-audit) |
 | **zh-audit-skills-hub** | 中文用户代码审计 Agent Skills 仓库 | [github](https://github.com/youki992/zh-audit-skills-hub) |
-| **有哪些开源的源代码审计工具？ - 知乎** | 2025年2月13日&ensp;&#0183;&ensp;它是一款基于字典的检测工具，功能简洁，易于使用。 Fortify SCA（Static Code Analyzer）是由Fortify软件公司（已被惠普收购）开发的一款商业版源代码审 | [知乎](https://www.zhihu.com/question/368208964) |
-| **java代码审计开源工具有啥？ - 知乎** | 2026年1月14日&ensp;&#0183;&ensp;可以尝试一下我们公司用的 sourcefare，针对代码安全漏洞、编码缺陷和合规性问题扫描，支持免费私有化部署的，开源免费。 多语言支持： 支持Java、JavaScript、Go、 | [知乎](https://www.zhihu.com/question/348393937) |
-| **有哪些学习代码审计的方法？ - 知乎** | 三、Java Web基础 审计Java开发的web系统需要对Java Web有一定的了解，能看到代码的逻辑，对获取前端传到后端参数的方法、操作cookie、session、解析HTTP等的方法有所了解之后，可以审计一些 … | [知乎](https://www.zhihu.com/question/565971573) |
-| **fortify支持哪些语言? - 知乎** | 2022年9月20日&ensp;&#0183;&ensp;代码测试工具是安全测试、代码审计中经常会用到的一款软件测试工具，支持超过27种语言，超过911,000个组件级API，覆盖810多个SAST漏洞分类。 通过Fortify的安全编码规 | [知乎](https://www.zhihu.com/question/554552196) |
-| **Pwn新手应该如何开始挖掘二进制漏洞（如UAF，stack ...** | 普遍来说二进制漏洞挖掘的方法一般是代码审计或者fuzz，和审计有关的可以看看经典书籍The art of software security assessment，关于fuzz也有一堆资料可供学习，在github上就能找到很多fuzz工具， | [知乎](https://www.zhihu.com/question/64028762) |
 
 ### ⚔️ 渗透测试
 
@@ -120,20 +115,16 @@
 |-------|------|------|
 | **iothackbot** | IoT HackBot: A collection of Claude Skills and custom tooling for hybrid IoT pentesting | [github](https://github.com/BrownFineSecurity/iothackbot) |
 | **Android-Pentesting-Checklist** | Delve into a comprehensive checklist, your ultimate companion for Android app penetration testing. Identify vulnerabilit | [github](https://github.com/Hrishikesh7665/Android-Pentesting-Checklist) |
-| **cybersecurity-roadmap** | Skills and career roadmap for various security roles like application security, cloud security, DevSecOps, security engi | [github](https://github.com/jassics/cybersecurity-roadmap) |
 | **labs-pentest** | Free Labs to Train Your Pentest / CTF Skills | [github](https://github.com/michelbernardods/labs-pentest) |
 | **threat-modeling** | AI-native automated software risk analysis skill. LLM-driven, Code-First approach for comprehensive security risk assess | [github](https://github.com/fr33d3m0n/threat-modeling) |
 | **communitytools** | Open-source Claude Code skills, agents, and slash commands for AI-powered penetration testing, bug bounty hunting, and s | [github](https://github.com/transilienceai/communitytools) |
 | **awesome-claude-skills-security** | Security testing toolkit for Claude Code: curated SecLists wordlists, injection payloads, and expert agents for authoriz | [github](https://github.com/Eyadkelleh/awesome-claude-skills-security) |
 | **public-skills-builder** | Generate Claude Code bug bounty skills from public HackerOne reports and GitHub writeups — 18 vuln classes, no private r | [github](https://github.com/shuvonsec/public-skills-builder) |
 | **BugHunterMethodology** | A comprehensive bug bounty methodology compiled from extensive research, covering web application reconnaissance, checkl | [github](https://github.com/alihussainzada/BugHunterMethodology) |
-| **EthicalHackingFromScratch** | Welcome to my comprehensive course on python programming and ethical hacking. The course assumes you have NO prior knowl | [github](https://github.com/bookworm52/EthicalHackingFromScratch) |
 | **pentest-skills** | 💬 🚀 告别繁琐命令行，用自然语言驱动专业级渗透测试。 ⚡ 让安全测试从未如此简单、高效。Forget complex command lines. 🛡️ Professional penetration testing, powered  | [github](https://github.com/crazyMarky/pentest-skills) |
 | **OneLinerBounty** | OneLinerBounty is a collection of quick, actionable bug bounty tips in one-liner format. Perfect for bug hunters looking | [github](https://github.com/yogsec/OneLinerBounty) |
 | **SecToolkit** | Welcome SecToolkit repository! This is a comprehensive collection of cybersecurity and bug bounty hunting topics. Here,  | [github](https://github.com/n4itr0-07/SecToolkit) |
 | **picocom-claude-skill** | A Claude Code skill for using picocom to give access to a live UART shell for enumeration, pentesting, etc. | [github](https://github.com/BrownFineSecurity/picocom-claude-skill) |
-| **Library-of-Cybersecurity-Books** | A free, no-paywall cybersecurity self-study library covering foundations, pentesting, web security, exploit development, | [github](https://github.com/SagarBiswas-MultiHAT/Library-of-Cybersecurity-Books) |
-| **Phase-1-Cybersecurity-Ethical-Hacking-Internship-Labs** | Phase 1 of the Cybersecurity Ethical Hacking Internship Labs offers hands-on training in essential skills. Participants  | [github](https://github.com/icdfa/Phase-1-Cybersecurity-Ethical-Hacking-Internship-Labs) |
 | **VulnBox** | VulnBox is a container that is intentionally designed with vulnerabilities to allow security professionals to practice a | [github](https://github.com/truocphan/VulnBox) |
 | **Active-Directory-Workbook** | A comprehensive and hands-on workbook designed to sharpen your Active Directory penetration testing skills. Whether you' | [github](https://github.com/ShubhamDubeyy/Active-Directory-Workbook) |
 | **pentester-skills** | 坤式网络安全学习法，不只是学习路线还是笔记。 | [github](https://github.com/xsecself/pentester-skills) |
@@ -189,8 +180,6 @@
 | **IDA+VSCode+Trae+MCP——免费且省事的半自动化逆向 ...** | 2025年9月21日&ensp;&#0183;&ensp;[md]# 2026.3更新# 优雅地配置IDA MCP&gt;MCP真好用😋😋😋 &gt;真&#183;自动化本文主要介绍如何简单地配置IDA的MCP，以便在打CTF时可以在VS | [吾爱破解](https://www.52pojie.cn/thread-2061709-1-1.html) |
 | **CTF游戏逆向入门 - 吾爱破解 - 52pojie.cn** | 2026年3月20日&ensp;&#0183;&ensp;CTF游戏逆向入门 Unity游戏逆向 Unity3D 最大的一个特点是一次制作，多平台部署，而这一核心功能是靠 Mono 实现的。 可以说一直以来 Mono 是 Unity3D 核 | [吾爱破解](https://www.52pojie.cn/thread-2098123-1-1.html) |
 | **尽量新的SRC、CTF学习资料及配套工具 - 吾爱破解 - 52pojie.cn** | 2025年7月5日&ensp;&#0183;&ensp;尽量新的SRC、CTF学习资料及配套工具 本版积分规则 发表回复 回帖并转播 回帖后跳转到最后一页 | [吾爱破解](https://www.52pojie.cn/thread-2043725-1-1.html) |
-| **有哪些专门做逆向工程的ai？ - 知乎** | 该工具以Binary Ninja插件的形式存在，并计划扩展到IDA和Ghidra等其他逆向工程平台。 ReverserAI的设计目标是在不牺牲数据安全的前提下，利用消费者级硬件上的LLMs提升逆向工程效率。 … | [知乎](https://www.zhihu.com/question/3300305748) |
-| **请问如何把一个exe文件进行反编译？ - 知乎** | 2024年5月22日&ensp;&#0183;&ensp;OllyDbg：OllyDbg是一款流行的调试器和逆向工程工具，它主要用于Windows平台上的32位可执行文件。 OllyDbg可以对可执行文件进行动态调试，并提供了反编译功能，帮 | [知乎](https://www.zhihu.com/question/656824182) |
 | **x64dbg使用技巧与实用插件合集 - 吾爱破解 - 52pojie.cn** | 2021年3月17日&ensp;&#0183;&ensp;[md]本文是针对刚开始接触X64dbg的新人写的实用技巧和插件合集## 前言 萌新一个，接触逆向时间不长，但因为很喜欢x64dbg这款调试器，所以花了一些时间去了解，x64 ... | [吾爱破解](https://www.52pojie.cn/thread-1393075-1-1.html) |
 | **x64dbg Plugin - 『逆向资源区』 - 吾爱破解 - 52pojie.cn** | 4 天之前&ensp;&#0183;&ensp;【x64dbg Plugin】 动态调试工具x64dbg的插件程序 【IDA Plugin】 反编译工具IDA的插件程序 【Mac OSX】 Mac OSX系统程序逆向相关工具 【Networ | [吾爱破解](https://www.52pojie.cn/forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=339) |
 | **x64dbg零基础使用教程 2018/07/08 - 吾爱破解 - 52pojie.cn** | 2018年7月8日&ensp;&#0183;&ensp;这篇文章主要是为.NET逆向但不会x64dbg的同学准备的，文章基本上零基础，会一点c#/vb.net就能看懂文章。文章以visual studio 2017为 ... | [吾爱破解](https://www.52pojie.cn/thread-762711-1-1.html) |
@@ -227,7 +216,6 @@
 | **『逆向资源区』 - 吾爱破解 - 52pojie.cn** | 1 天前&ensp;&#0183;&ensp;『逆向资源区』 收录了在逆向过程中会使用的绝大多数工具，工欲善其事必先利其器，好的工具在逆向破解工程中起到事半功倍的作用。 本区根据工具的作用分成以下几类，分别做以中文解释说 … | [吾爱破解](https://www.52pojie.cn/forum-4-1.html) |
 | **[入门级]一个64位软件的验证分析及逆向过程 - 吾爱破解 ...** | 2024年4月3日&ensp;&#0183;&ensp;前言 [hr]本来是一个小单子，被逃单的恶心到了，那么就做成教程分享给大家软件64位无壳，有多种逆向方法及思路，本文概述了整个逆向过程，适合初阶入门软件来源于逃单 ... | [吾爱破解](https://www.52pojie.cn/thread-1909495-1-1.html) |
 | **x64dbg插件脱壳vmp3.2-3.5 - 吾爱破解 - 52pojie.cn** | 2025年7月8日&ensp;&#0183;&ensp;事先说明，对加壳程序选项没有包含反调试，资源保护以及虚拟化特定代码片段，vmp会对相关的资源函数进行hook,修复了也无法运行 (好像易语言可以 恢复原始api就可以，我尝试 ... | [吾爱破解](https://www.52pojie.cn/thread-2044339-1-1.html) |
-| **如何学习软件逆向工程？ - 知乎** | 等x86入了门，可以扩展学习x64，到后期再扩展学习ARM。 学习汇编语言，不仅仅是学习汇编指令，更是在学习了解CPU，CPU有哪些寄存器，分别有什么用，它是如何访问内存，如何进行寻址，如何进 … | [知乎](https://www.zhihu.com/question/276677186) |
 
 #### 爬虫/数据采集
 
@@ -243,18 +231,15 @@
 | Skill | 描述 | 来源 |
 |-------|------|------|
 | **ctf-practice** | Practice your hacking skills with these CTFs | [github](https://github.com/Sharishth/ctf-practice) |
-| **TryHackMe-Learning-Path-From-Beginner-to-Expert** | A comprehensive TryHackMe learning path with organized sections on Introductory Rooms, Linux Fundamentals, Networking, F | [github](https://github.com/0xneobyte/TryHackMe-Learning-Path-From-Beginner-to-Expert) |
 | **linux-ctfs** | A collection of Linux CTFs to practice your CLI skills | [github](https://github.com/learntocloud/linux-ctfs) |
 | **SecSkills** | 收集整理渗透测试、漏洞扫描、代码审计、CTF、逆向、安全研究 等网络安全相关的 Skills和MCP | [github](https://github.com/DaoYiSec/SecSkills) |
 | **Walkthrough-and-Writeup** | Welcome to my Capture The Flag (CTF) Walkthroughs & Writeups Repository. This repository contains educational, step-by-s | [github](https://github.com/ALMADADALI/Walkthrough-and-Writeup) |
 | **android-h1** | 基于 HackerOne 真实报告的移动安全漏洞挖掘 | [github](https://github.com/s7safe/android-h1) |
 | **BugBounty-Hunting** | 漏洞赏金猎人资源集合 | [github](https://github.com/disclose/bug-bounty-platforms) |
-| **针对CTF，大家都是怎么训练的？ - 知乎** | 刷知乎刚好刷到这个问题，退役选手勉强答一波，顺便拓展一下吧（不定期更新）。 一、CTF入门 最近很多朋友在知乎小红书等平台私信我，问应该怎么入门CTF。个人认为入门CTF之前大家应该先了解 … | [知乎](https://www.zhihu.com/question/30505597) |
 | **CTF比赛的必读书籍** | 2024年3月21日&ensp;&#0183;&ensp;3.《CTF那些事儿》 目前能最新出版的CTF书籍， 北航Lancet战队成员倾力打造，推出CTF实战技能全新学习框架 适读人群 ：高校网络空间安全专业学生、安全企业的技术人员、互联 | [知乎](https://www.zhihu.com/tardis/bd/art/688246837) |
 | **ctf中的pwn和re怎么入门?** | 2021年1月16日&ensp;&#0183;&ensp;CTF赛题涉及的非常领域广，市面上相关书籍还停留在知识广度上的覆盖，但CTF模块间的发展程度参差不齐，始终缺少能够深入介绍单一领域的内容，尤其是 Pwn 方向！ 而Pwn恰恰 … | [知乎](https://www.zhihu.com/tardis/bd/ans/1681156982) |
 | **XSS 完全指南 - CTF-Web修炼手册** | 2025年6月11日&ensp;&#0183;&ensp;XSS (跨站脚本攻击) 完全指南 目录 基础概念 XSS 类型 Payload 集合 漏洞挖掘 防御措施 实战案例 绕过技巧 基础概念 XSS (Cross-Site Script | [其他](https://wilesangh.github.io/ctf-web/xss_guide/) |
 | **入门CTF - CTF论坛** | 2025年9月7日&ensp;&#0183;&ensp;BugkuCTF论坛，入门CTF训练平台，拥有数量庞大的题库，不断更新各类CTF题目，题目难易度均衡，适合各阶段网络安全爱好者。 | [其他](https://www.bugku.com/) |
-| **用哪种大模型进行ctf比赛好用_百度知道** | 2025年9月17日&ensp;&#0183;&ensp;用哪种大模型进行ctf比赛好用在CTF比赛中，推荐使用Ollama离线AI大模型、gpt-oss系列模型或ctftools-all-in-one工具集，具体选择需结合比赛场景和功能需 | [其他](https://zhidao.baidu.com/question/1524308318353336420.html) |
 
 ### 🎯 威胁建模
 
@@ -315,9 +300,7 @@
 | Skill | 描述 | 来源 |
 |-------|------|------|
 | **raptor** | Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent. By using Claude.md and creating r | [github](https://github.com/gadievron/raptor) |
-| **TryHackMeRoadmap** | A list of 350+ free TryHackMe rooms💻 to kick off your cybersecurity learning, organized by topics for easy exploration a | [github](https://github.com/uttambodara/TryHackMeRoadmap) |
 | **slowmist-agent-security** | SlowMist Agent Security Skill: A comprehensive security review framework for AI agents operating in adversarial environm | [github](https://github.com/slowmist/slowmist-agent-security) |
-| **TryHackMe** | Master cybersecurity skills with this TryHackMe free path, includes a collection of my write-ups, solutions and progress | [github](https://github.com/migueltc13/TryHackMe) |
 | **secureclaw** | SecureClaw - Security Plugin and Skill for OpenClaw OWASP-Aligned | [github](https://github.com/adversa-ai/secureclaw) |
 | **SecurityClaw** | A modular, skill-based autonomous Security Operations Center (SOC) agent that monitors OpenSearch/Elasticsearch data, bu | [github](https://github.com/SecurityClaw/SecurityClaw) |
 | **faillapop** | Vulnerable-by-design solidity protocol to help Web3 security enthusiasts practice their skills in an environment closer  | [github](https://github.com/Faillapop/faillapop) |
@@ -400,7 +383,6 @@
 | Skill | 描述 | 来源 |
 |-------|------|------|
 | **将AI结合进越权扫描，助力SRC挖掘。 - 火线 Zone-安全攻防社区** | 2025年3月4日&ensp;&#0183;&ensp;所以，它漏掉了很多隐性的越权漏洞。 动态内容干扰了相似度计算 初版工具用的是 Levenshtein 编辑距离算法来计算响应包的相似度。 这个算法在静态内容中表现不错，但一旦遇到动态 | [其他](https://zone.huoxian.cn/d/2978-aisrc) |
-| **xss漏洞有几种类型，一般如何判断存在该漏洞? - 知乎** | 2024年12月10日&ensp;&#0183;&ensp;XSS漏洞，即跨站脚本攻击漏洞，主要分为三种类型：存储型XSS、反射型XSS和DOM型XSS。 下面将详细解释这三种类型，并提供一般判断XSS漏洞存在的方法。 ### XSS漏洞的 | [知乎](https://www.zhihu.com/question/4643274593) |
 | **XSS由浅入深-先知社区** | 2025年5月7日&ensp;&#0183;&ensp;反射型 XSS（Reflected XSS） 反射型 XSS 多出现在搜索框、登录页面等用户输入内容会被立即回显的位置。攻击者将恶意脚本注入到 URL 中，诱导用户点击特定链接，从而触 | [其他](https://xz.aliyun.com/news/17955) |
 | **javascript - 你的网站被“下毒”了？XSS和CSRF：前端安全的两 ...** | 3 天之前&ensp;&#0183;&ensp;一、XSS：跨站脚本攻击，你的网站被人“投毒”了 XSS（Cross-Site Scripting）的意思是：攻击者在你的网页里注入恶意脚本，当其他用户访问时，这个脚本就会在用户浏览器里执行， | [其他](https://segmentfault.com/a/1190000047710139) |
 | **跨站脚本攻击 (XSS) - 安全 | MDN - MDN 文档** | 2025年10月22日&ensp;&#0183;&ensp;跨站脚本 (XSS) 跨站脚本攻击 (XSS) 是一种攻击者能够让目标站点执行恶意代码，使其看起来像是网站一部分的攻击。 | [其他](https://mdn.org.cn/en-US/docs/Web/Security/Attacks/XSS) |
@@ -419,7 +401,6 @@
 | **1earn** | ffffffff0x 团队安全知识框架：Web/工控/取证/应急/后渗透 | [GitHub](https://github.com/ffffffff0x/1earn) |
 | **Awesome-Infosec** | 信息安全课程和培训资源精选 | [GitHub](https://github.com/ziadmi/Awesome-Infosec) |
 | **HackTheBox** | CTF 和渗透测试练习资源 | [GitHub](https://github.com/hash3liZer/OffensiveSecurity) |
-| **TryHackMe** | 网络安全学习路径 | [GitHub](https://github.com/THMSupport/tryhackme) |
 
 ---
 
