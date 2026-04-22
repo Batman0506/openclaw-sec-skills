@@ -331,6 +331,25 @@
 
 
 
+### 🔒 代码审计
+
+| **perseus** | AI-powered security assessment SKILLS for codebase. Multi-language | [GitHub](https://github.com/kaivyy/perseus) |
+
+### ⚔️ 渗透测试
+
+| **claude-code-pentest** | 6 skills that automate the entire pentest lifecycle. From recon to exploitation | [GitHub](https://github.com/Orizon-eu/claude-code-pentest) |
+
+### 🚨 应急响应
+
+| **incident-report-skill** | Taiwan cybersecurity incident report generator | [GitHub](https://github.com/OEN-Tech/incident-report-skill) |
+
+### 🛡️ 安全工具
+
+| **security-skills** | A collection of Claude Code skills that help security teams stay secure | [GitHub](https://github.com/eth0izzle/security-skills) |
+| **cybersecurity-skills** | Cybersecurity skills for AI coding agents (Claude Code, Cursor, Codex) | [GitHub](https://github.com/briiirussell/cybersecurity-skills) |
+| **AI-agent-master-cyber-skills-list** | Comprehensive cybersecurity skill pack for AI coding agents — 741 skills | [GitHub](https://github.com/Njones17/AI-agent-master-cyber-skills-list) |
+| **awesome-ai-agent-skills** | 70+ ready-to-use, platform-agnostic AI agent skills | [GitHub](https://github.com/h4vzz/awesome-ai-agent-skills) |
+| **Awesome-OpenClaw** | A carefully curated list of awesome OpenClaw resources | [GitHub](https://github.com/EthanYolo01/Awesome-OpenClaw) |
 ## 🆕 新收录 (2026-04-22)
 
 > 本轮清理删除了 59 条非 skill 文章/论坛帖，补充了以下高质量项目
