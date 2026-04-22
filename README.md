@@ -133,10 +133,6 @@
 | **Security Auditor** | OWASP 十大审计、CORS/CSP 配置、SQL 注入/XSS 防护 | [github](https://github.com/clause-labs/security-auditor) |
 | **Pentest Api Attacker** | OWASP API 安全前十名测试 | [github](https://github.com/clause-labs/pentest-api-attacker) |
 | **Pentest Auth Bypass** | 身份验证绕过和账户接管测试 | [github](https://github.com/clause-labs/pentest-auth-bypass) |
-| **渗透测试从0基础到精通，20-35岁看完这一篇就够了（非常 ...** | 2025年6月13日&ensp;&#0183;&ensp;二、渗透测试常用工具使用 对于入门级的渗透测试，会使用 nmap、Burpsuite、Kali Linux 、sqlmap 就基本足够了。 三、Web渗透常见漏洞测试 对于入门级的渗 | [知乎](https://www.zhihu.com/tardis/zm/art/1916069515546034683) |
-| **白捡的111端口 RPCBind 开放漏洞 - 火线 Zone-安全攻防社区** | 一顿翻翻找找发现 RPCBind 真的存在漏洞 漏洞发现： 使用metasploit (msf)验证验证 use auxiliary/scanner/misc/sunrpc_portmapper show options set RHOST | [其他](https://zone.huoxian.cn/d/645-111-rpcbind) |
-| **渗透测试入门教程（非常详细），从零基础入门到精通，看完 ...** | 2023年12月13日&ensp;&#0183;&ensp;下面说一些渗透测试需要的基本前置知识： • HTTP协议基础知识。HTTP协议属于计算机网络的知识，因为渗透测试基本是对网站的请求数据进行修改，查找漏洞，所以了解HTTP协议 … | [知乎](https://www.zhihu.com/tardis/bd/art/672181386) |
-| **什么是跨站脚本攻击（XSS）？如何防止跨站脚本攻击？ - 华为** | 2025年7月7日&ensp;&#0183;&ensp;跨站脚本攻击（Cross-site Scripting，通常称为XSS），是一种典型的Web程序漏洞利用攻击。攻击者利用Web程序对用户输入检查不足的漏洞将可执行恶意脚本注入网站或We | [其他](https://info.support.huawei.com/info-finder/encyclopedia/zh/%E8%B7%A8%E7%AB%99%E8%84%9A%E6%9C%AC%E6%94%BB%E5%87%BB.html) |
 
 ### 🔍 逆向工程
 
@@ -170,52 +166,7 @@
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
-| **skill-collection 自动脱壳** | 微信公众号「爬虫逆向小林哥」分享：自动脱壳工具集，亲测无敌 | [微信公众号](https://mp.weixin.qq.com/s/BlF_CF5Ys7b6zWLyCMO1aA) |
-| **hack-skills** | 给 AI 装上黑客大脑：结构化安全知识框架，100+ 专题技能，覆盖 Web/API/认证/注入/二进制/密码学等 14 个领域 | [微信公众号](https://mp.weixin.qq.com/s/IlQV08opoZXB8gFiy0MaZg) |
-| **【2025自整理】逆向方向CTF整合工具箱 吾爱版 - 吾爱破解 ...** | 2025年11月8日&ensp;&#0183;&ensp;0x00 前言：0x01 介绍：本工具箱整合了13个大类方向的工具，以及下分后的60余个子分类的细分类型。详细的分类如下：常用工具、常用网站、PE分析、动态调试、静 ... | [吾爱破解](https://www.52pojie.cn/thread-2070919-1-1.html) |
-| **【自整理工具】2026版逆向方向CTF工具包 附使用指南 - 吾 ...** | 【自整理工具】2026版 自整理Reverse方向CTF工具包 附使用指南 [hr]0x00 前言：话不多说，多余信息参考我前面发过的帖子：https ... | [吾爱破解](https://www.52pojie.cn/thread-2091513-1-1.html) |
-| **跟着小菜鸡一起做CTF (一) - 吾爱破解 - 52pojie.cn** | 2021年2月19日&ensp;&#0183;&ensp;[md]## 前言 过年被论坛上的破解题难住了，突然意识到自己的逆向功底还有待提高，一气之下刷了几道CTF水题用来找感觉。其中发现一道特别有意思的逆向题 ... | [吾爱破解](https://www.52pojie.cn/thread-1373493-1-1.html) |
-| **2024CTF长城杯misc题“压一压”解题思路 - 吾爱破解 - 52pojie.cn** | 2024年3月31日&ensp;&#0183;&ensp;国内近期有一个CTF长城杯比赛，出的题还是蛮抽象的，团队里的小伙伴参与了这个比赛并提供了相关的附件（相关附件放在最下面了）由于时间的原因，只做出了这一道题我们 ... | [吾爱破解](https://www.52pojie.cn/thread-1908134-1-1.html) |
-| **CTF - 『脱壳破解区』 - 吾爱破解 - 52pojie.cn** | 3 天之前&ensp;&#0183;&ensp;讨论Windows软件脱壳分析、软件破解分析、软件绿化分析、代码逆向改造、虚拟机加密分析，也包括Mac OS等其他平台程序破解逆向分析一切尽在此！ | [吾爱破解](https://www.52pojie.cn/forum.php?mod=forumdisplay&fid=5&typeid=344) |
-| **IDA+VSCode+Trae+MCP——免费且省事的半自动化逆向 ...** | 2025年9月21日&ensp;&#0183;&ensp;[md]# 2026.3更新# 优雅地配置IDA MCP&gt;MCP真好用😋😋😋 &gt;真&#183;自动化本文主要介绍如何简单地配置IDA的MCP，以便在打CTF时可以在VS | [吾爱破解](https://www.52pojie.cn/thread-2061709-1-1.html) |
-| **CTF游戏逆向入门 - 吾爱破解 - 52pojie.cn** | 2026年3月20日&ensp;&#0183;&ensp;CTF游戏逆向入门 Unity游戏逆向 Unity3D 最大的一个特点是一次制作，多平台部署，而这一核心功能是靠 Mono 实现的。 可以说一直以来 Mono 是 Unity3D 核 | [吾爱破解](https://www.52pojie.cn/thread-2098123-1-1.html) |
-| **尽量新的SRC、CTF学习资料及配套工具 - 吾爱破解 - 52pojie.cn** | 2025年7月5日&ensp;&#0183;&ensp;尽量新的SRC、CTF学习资料及配套工具 本版积分规则 发表回复 回帖并转播 回帖后跳转到最后一页 | [吾爱破解](https://www.52pojie.cn/thread-2043725-1-1.html) |
-| **x64dbg使用技巧与实用插件合集 - 吾爱破解 - 52pojie.cn** | 2021年3月17日&ensp;&#0183;&ensp;[md]本文是针对刚开始接触X64dbg的新人写的实用技巧和插件合集## 前言 萌新一个，接触逆向时间不长，但因为很喜欢x64dbg这款调试器，所以花了一些时间去了解，x64 ... | [吾爱破解](https://www.52pojie.cn/thread-1393075-1-1.html) |
-| **x64dbg Plugin - 『逆向资源区』 - 吾爱破解 - 52pojie.cn** | 4 天之前&ensp;&#0183;&ensp;【x64dbg Plugin】 动态调试工具x64dbg的插件程序 【IDA Plugin】 反编译工具IDA的插件程序 【Mac OSX】 Mac OSX系统程序逆向相关工具 【Networ | [吾爱破解](https://www.52pojie.cn/forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=339) |
-| **x64dbg零基础使用教程 2018/07/08 - 吾爱破解 - 52pojie.cn** | 2018年7月8日&ensp;&#0183;&ensp;这篇文章主要是为.NET逆向但不会x64dbg的同学准备的，文章基本上零基础，会一点c#/vb.net就能看懂文章。文章以visual studio 2017为 ... | [吾爱破解](https://www.52pojie.cn/thread-762711-1-1.html) |
-| **unidbg 学习笔记 - 吾爱破解 - 52pojie.cn** | 2024年3月17日&ensp;&#0183;&ensp;unidbg教程前置知识之NDK静态、动态注册 声明 本文章中所有内容仅供学习交流使用，不用于其他任何目的，不提供完整代码，抓包内容、敏感网址、数据接口等均已做脱敏处理，严禁 … | [吾爱破解](https://www.52pojie.cn/thread-1902129-1-1.html) |
-| **《安卓逆向这档事》第二十三课、黑盒魔法之Unidbg - 吾爱 ...** | 2024年12月27日&ensp;&#0183;&ensp;二.初试unidbg 1.配置资源文件 1.下载idea 社区版下载链接 2.下载源代码，并用idea打开，并配置好sdk 3.文件结构解析： ├── README.md # 项目 | [吾爱破解](https://www.52pojie.cn/thread-1995107-1-1.html) |
-| **小白如何通过大模型跑通unidbg调用sgmain生成某ckey参数 ...** | 2026年2月23日&ensp;&#0183;&ensp;本篇文章仅适用于学习交流使用，如有不当，请联系删除。 对于逆向来说，非常的没有档次，算是提供给小白一种学习进步的方法。 一、前置工作 本人在安卓逆向方面属于小白，是跟着 … | [吾爱破解](https://www.52pojie.cn/thread-2092757-1-1.html) |
-| **使用Unidbg模拟执行去除OLLVM-BR混淆 - 吾爱破解 - 52pojie.cn** | 2025年8月11日&ensp;&#0183;&ensp;[md]## unidbg模拟执行的去除ollvm混淆### 1.函数简单分析***项目地址：https://github.com/Aar0n3906/Anti-BR-Obf***对 | [吾爱破解](https://www.52pojie.cn/thread-2052520-1-1.html) |
-| **【零基础可复现】2026 春节 Android 中级题（Java→so→ ...** | 2026年3月4日&ensp;&#0183;&ensp;纯 Python 无法绕过这些检测。 4.2 unidbg 的优势 unidbg 是一个基于 Unicorn 引擎的 Android 模拟器，它可以： 直接执行 native 代码：不 | [吾爱破解](https://www.52pojie.cn/thread-2094408-1-1.html) |
-| **菜鸡诈尸水贴之unidbg学习笔记 - 吾爱破解 - 52pojie.cn** | 2021年2月7日&ensp;&#0183;&ensp;unidbg学习（一） unidbg 是什么？ unidbg 是 unicorn 的一个实现，它可以让你在电脑上跑 arm 的可执行文件或共享库文件。 以上是我的理解。 unidbg | [吾爱破解](https://www.52pojie.cn/thread-1367840-1-1.html) |
-| **《安卓逆向这档事》第二十六课、Unidbg之补完环境我就睡 ...** | 2025年10月9日&ensp;&#0183;&ensp;一、课程目标 掌握 Unidbg 中处理不同场景的系统调用（Syscall）Hook 策略 学习通过高层与底层 Hook 联动，模拟复杂的库函数（如 popen） 应用 Dobby | [吾爱破解](https://www.52pojie.cn/thread-2064640-1-1.html) |
-| **某团系 mtgsig 2.4 unidbg 初始化512是什么原因引起的 - 吾 ...** | 2024年1月31日&ensp;&#0183;&ensp;package com.bytedance.frameworks.core.encrypt;import com.alibaba.fastjson.util.IOUtils;impo | [吾爱破解](https://www.52pojie.cn/thread-1886682-1-1.html) |
-| **APK Easy Tool_v1.59.2-Windows下使用的安卓逆向工具 - 吾 ...** | 2021年4月7日&ensp;&#0183;&ensp;统一回复：如果反编译出错，请检查如下三条：1、删除 C:%users\Teacher\AppData\Local\apktool\framework\1.apk，再试。2、反编译路径不 | [吾爱破解](https://www.52pojie.cn/thread-1411747-1-1.html) |
-| **dalvikus：逆向工程师的APK与smali编辑一站式工具箱 - 吾 ...** | 2025年9月4日&ensp;&#0183;&ensp;前言：在安卓逆向场景里，我们总被这些问题折腾：改个APK要先拆包（APKtool）、编辑 smali 没提示（记事本/Notepad++）、改完 ... | [吾爱破解](https://www.52pojie.cn/thread-2057902-1-1.html) |
-| **安卓反汇编：Apktool m v2.4.0250411 - 吾爱破解 - 52pojie.cn** | 2025年4月27日&ensp;&#0183;&ensp;APK反编译软件，免费使用这款工具专门用于逆向反编译和编译安卓应用以及系统应用，能够高效地编辑代码。用户操作起来十分简便，其功能更是强大无比，支持apk的反编 ... | [吾爱破解](https://www.52pojie.cn/thread-2027651-1-1.html) |
-| **frida入门总结 - 吾爱破解 - 52pojie.cn** | 2020年3月11日&ensp;&#0183;&ensp;[md]## 一、Frida概述** Frida是一款轻量级HOOK框架，可用于多平台上，例如android、windows、ios等。** ** frida ... | [吾爱破解](https://www.52pojie.cn/thread-1128884-1-1.html) |
-| **绕过所有frida检测模块 - 吾爱破解 - 52pojie.cn** | 2025年7月28日&ensp;&#0183;&ensp;当你看到这篇文章时，你可以永久告别安卓手机上的frida-server，因为你不会再需要它。模块注入gadge将完全可以替代所有frida-server功能，且能绕过所有frida检 | [吾爱破解](https://www.52pojie.cn/thread-2049345-1-1.html) |
-| **[原创] 从零开始绕过 DexProtector 加固的 Frida 检测（二 ...** | 2026年1月12日&ensp;&#0183;&ensp;从零开始绕过 DexProtector 加固的 Frida 检测（二） app版本更新了，如何快速进行处理？如何使用frida-server实现过检测？ （本文由 id：小佳、fyr | [吾爱破解](https://www.52pojie.cn/thread-2086038-1-1.html) |
-| **安卓逆向入门笔记（八）—— frida Hook - 吾爱破解 - 52pojie.cn** | 2026年3月10日&ensp;&#0183;&ensp;[md]frida是一款基于JS代码编写的Hook框架，它是一款易用的、可跨平台的Hook框架，介绍我就不多做介绍了，我们直接讲这玩意该怎么用。至于frida的环境配置之类的我就不多 | [吾爱破解](https://www.52pojie.cn/thread-2095679-1-1.html) |
-| **Frida 安装 - 吾爱破解 - 52pojie.cn** | 2024年7月19日&ensp;&#0183;&ensp;[md]逆向过程中，借助Frida 可以更快的实现软件的逆向破解，Frida不仅可以实现Android应用的逆向，对于IOS应用，Windows应用同样可以实现不错的效果本文可能由于 | [吾爱破解](https://www.52pojie.cn/thread-1945680-1-1.html) |
-| **《安卓逆向这档事》十三、是时候学习一下Frida一把梭了 (上 ...** | 2023年8月19日&ensp;&#0183;&ensp;[Android 原创] 《安卓逆向这档事》十三、是时候学习一下Frida一把梭了 (上) [复制链接] ... 下一页 &#187; 1 2 3 4 5 6 7 8 9 10... | [吾爱破解](https://www.52pojie.cn/thread-1823118-1-1.html) |
-| **《安卓逆向这档事》十八、表哥，你也不想你的Frida被检测 ...** | 2024年5月6日&ensp;&#0183;&ensp;[Android 原创] 《安卓逆向这档事》十八、表哥，你也不想你的Frida被检测吧! (上) [复制链接] ... 下一页 &#187; 1 2 3 4 5 6 7 8 9 10. | [吾爱破解](https://www.52pojie.cn/thread-1921073-1-1.html) |
-| **Frida 脚本一键持久化方案：将 Frida 脚本打包至 Xposed ...** | 2025年11月12日&ensp;&#0183;&ensp;[Android 原创] Frida 脚本一键持久化方案：将 Frida 脚本打包至 Xposed 模块、直接注入APP、so、dll [复制链接] | [吾爱破解](https://www.52pojie.cn/thread-2071836-1-1.html) |
-| **应对OLLVM的HOOK方案-通过分析Frida日志复原so逻辑 - 吾 ...** | 2025年9月9日&ensp;&#0183;&ensp;一种还原VMP+OLLVM的方案，脚本已开源： https://github.com/goldenfish689/android-reverse/tree/main/hooks And | [吾爱破解](https://www.52pojie.cn/thread-2059084-1-1.html) |
-| **VMPUnpacker-VMP 3.x 静态脱壳器 - 吾爱破解 - 52pojie.cn** | 2025年5月22日&ensp;&#0183;&ensp;VMPUnpacker-VMP 3.x 静态脱壳器https://github.com/oureveryday/VMPUnpacker最近发现有个网页版VMP静态脱壳器（https: | [吾爱破解](https://www.52pojie.cn/thread-2033191-1-1.html) |
-| **VMProtect PE Unpacker基于VMPUnpacker-VMP 3.x 静态 ...** | 2025年11月11日&ensp;&#0183;&ensp;由于自己手懒 不想敲CMD，故而利用DeepSeek的AI搞一个GUI，并打包单一文件，基于原始链接：VMPUnpacker-VMP 3.x 静态脱壳器我测试的是手头的net的DL | [吾爱破解](https://www.52pojie.cn/thread-2071664-1-1.html) |
-| **Web逆向之VMP还原全流程 - 吾爱破解 - 52pojie.cn** | 2025年6月22日&ensp;&#0183;&ensp;某歌邮箱注册参数f.req 还原过程。trace不说了，试试自实现反编译器还原VMP吧！注册参数如下：返回位置如下：虚拟机解释器如下：开始分析VMP结构 ... | [吾爱破解](https://www.52pojie.cn/thread-2040789-1-1.html) |
-| **vmp3.X脱壳-工具向 - 吾爱破解 - 52pojie.cn** | 2023年3月24日&ensp;&#0183;&ensp;vmp壳一直是作为加密壳中的一个难啃的骨头，这次从工具使用角度学习一下这个脱壳的过程，本次尝试vmp3.4。3.x的系列都差不多源码 [mw_shl_code=cpp,true] # | [吾爱破解](https://www.52pojie.cn/thread-1764028-1-1.html) |
-| **unidbg初探 - 吾爱破解 - 52pojie.cn** | 2020年12月6日&ensp;&#0183;&ensp;[md]# 由来前天有个吧友发了个使用unidbg模拟某app协议，觉得有点意思，于是乎今天来试试，论坛里unidbg的教程也比较少，那我就来抛砖引玉，献献丑了。还望大神勿喷。 .. | [吾爱破解](https://www.52pojie.cn/thread-1322512-1-1.html) |
-| **Android Tools - 『逆向资源区』 - 吾爱破解 - 52pojie.cn** | 1 天前&ensp;&#0183;&ensp;【Debuggers】 动态调试工具 【Disassemblers】 反编译工具（静态分析为主） 【PEtools】 PE文件分析、查壳相关工具 【Packers】 给程序加壳相关工具 【Pat | [吾爱破解](https://www.52pojie.cn/forum.php?mod=forumdisplay&fid=4&filter=typeid&typeid=230) |
-| **零基础逆向工程学习实战笔记-01 - 吾爱破解 - 52pojie.cn** | 2025年10月15日&ensp;&#0183;&ensp;作为刚入门逆向的小白来说，这是一个非常要命的技术挑战，从零开始，工具！ 理论！ 实战！ 都不会！ 官网有【零基础新手破解学习导航帖】https://www.52pojie.cn/t | [吾爱破解](https://www.52pojie.cn/thread-2066030-1-1.html) |
-| **求教pc逆向学习路线 - 吾爱破解 - 52pojie.cn** | 2025年7月26日&ensp;&#0183;&ensp;大佬们，我现在是一名大三学生，想要学习一下pc软件逆向需要学哪些技术，有没有技术路线图推荐一下啊。有一点计算机 ... | [吾爱破解](https://www.52pojie.cn/thread-2048734-1-1.html) |
-| **《安卓逆向这档事》一、模拟器环境搭建 - 吾爱破解 - 52pojie.cn** | 2022年10月2日&ensp;&#0183;&ensp;[md]# 一.什么是安卓逆向？ -安卓逆向是对已经打包好的APP进行反编译、源码分析了解APP实现逻辑的一门技术# 二.安卓逆向可以干嘛？ -去更新去广告内购/会 ... | [吾爱破解](https://www.52pojie.cn/thread-1695141-1-1.html) |
-| **AI逆向的通用思路 - 吾爱破解 - 52pojie.cn** | 2026年3月1日&ensp;&#0183;&ensp;[md]**前言：**在去年5月，我发布了一篇 [如何为ide接入IDA MCP进行逆向的文章] (https://www.52pojie.cn/thread-2032638-1-1. | [吾爱破解](https://www.52pojie.cn/thread-2093760-1-1.html) |
 | **『逆向资源区』 - 吾爱破解 - 52pojie.cn** | 1 天前&ensp;&#0183;&ensp;『逆向资源区』 收录了在逆向过程中会使用的绝大多数工具，工欲善其事必先利其器，好的工具在逆向破解工程中起到事半功倍的作用。 本区根据工具的作用分成以下几类，分别做以中文解释说 … | [吾爱破解](https://www.52pojie.cn/forum-4-1.html) |
-| **[入门级]一个64位软件的验证分析及逆向过程 - 吾爱破解 ...** | 2024年4月3日&ensp;&#0183;&ensp;前言 [hr]本来是一个小单子，被逃单的恶心到了，那么就做成教程分享给大家软件64位无壳，有多种逆向方法及思路，本文概述了整个逆向过程，适合初阶入门软件来源于逃单 ... | [吾爱破解](https://www.52pojie.cn/thread-1909495-1-1.html) |
-| **x64dbg插件脱壳vmp3.2-3.5 - 吾爱破解 - 52pojie.cn** | 2025年7月8日&ensp;&#0183;&ensp;事先说明，对加壳程序选项没有包含反调试，资源保护以及虚拟化特定代码片段，vmp会对相关的资源函数进行hook,修复了也无法运行 (好像易语言可以 恢复原始api就可以，我尝试 ... | [吾爱破解](https://www.52pojie.cn/thread-2044339-1-1.html) |
 
 #### 爬虫/数据采集
 
@@ -236,10 +187,6 @@
 | **Walkthrough-and-Writeup** | Welcome to my Capture The Flag (CTF) Walkthroughs & Writeups Repository. This repository contains educational, step-by-s | [github](https://github.com/ALMADADALI/Walkthrough-and-Writeup) |
 | **android-h1** | 基于 HackerOne 真实报告的移动安全漏洞挖掘 | [github](https://github.com/s7safe/android-h1) |
 | **BugBounty-Hunting** | 漏洞赏金猎人资源集合 | [github](https://github.com/disclose/bug-bounty-platforms) |
-| **CTF比赛的必读书籍** | 2024年3月21日&ensp;&#0183;&ensp;3.《CTF那些事儿》 目前能最新出版的CTF书籍， 北航Lancet战队成员倾力打造，推出CTF实战技能全新学习框架 适读人群 ：高校网络空间安全专业学生、安全企业的技术人员、互联 | [知乎](https://www.zhihu.com/tardis/bd/art/688246837) |
-| **ctf中的pwn和re怎么入门?** | 2021年1月16日&ensp;&#0183;&ensp;CTF赛题涉及的非常领域广，市面上相关书籍还停留在知识广度上的覆盖，但CTF模块间的发展程度参差不齐，始终缺少能够深入介绍单一领域的内容，尤其是 Pwn 方向！ 而Pwn恰恰 … | [知乎](https://www.zhihu.com/tardis/bd/ans/1681156982) |
-| **XSS 完全指南 - CTF-Web修炼手册** | 2025年6月11日&ensp;&#0183;&ensp;XSS (跨站脚本攻击) 完全指南 目录 基础概念 XSS 类型 Payload 集合 漏洞挖掘 防御措施 实战案例 绕过技巧 基础概念 XSS (Cross-Site Script | [其他](https://wilesangh.github.io/ctf-web/xss_guide/) |
-| **入门CTF - CTF论坛** | 2025年9月7日&ensp;&#0183;&ensp;BugkuCTF论坛，入门CTF训练平台，拥有数量庞大的题库，不断更新各类CTF题目，题目难易度均衡，适合各阶段网络安全爱好者。 | [其他](https://www.bugku.com/) |
 
 ### 🎯 威胁建模
 
@@ -289,7 +236,6 @@
 | **agent-infra-security** | Security skills for AI coding agents — incident response for supply chain attacks, credential rotation, IOC detection. W | [github](https://github.com/makash/agent-infra-security) |
 | **LinuxGun-skill** | Linux 安全应急响应 AI 检查 | [github](https://github.com/sun977/LinuxGun-skill) |
 | **Email-OSINT** | 自动化电子邮件 OSINT 工具 | [github](https://github.com/martinvigo/emailOSINT) |
-| **360安全应急响应中心** | 6 天之前&ensp;&#0183;&ensp;360安全应急响应中心,QIHOO 360 Security Response Center,360SRC 奖励计划 除常规奖金奖励外，360SRC还推出了团队月度奖励和个人季度奖励，我们希望 | [其他](http://security.360.cn/) |
 
 ### 🛡️ 安全工具
 
@@ -382,12 +328,51 @@
 
 | Skill | 描述 | 来源 |
 |-------|------|------|
-| **将AI结合进越权扫描，助力SRC挖掘。 - 火线 Zone-安全攻防社区** | 2025年3月4日&ensp;&#0183;&ensp;所以，它漏掉了很多隐性的越权漏洞。 动态内容干扰了相似度计算 初版工具用的是 Levenshtein 编辑距离算法来计算响应包的相似度。 这个算法在静态内容中表现不错，但一旦遇到动态 | [其他](https://zone.huoxian.cn/d/2978-aisrc) |
-| **XSS由浅入深-先知社区** | 2025年5月7日&ensp;&#0183;&ensp;反射型 XSS（Reflected XSS） 反射型 XSS 多出现在搜索框、登录页面等用户输入内容会被立即回显的位置。攻击者将恶意脚本注入到 URL 中，诱导用户点击特定链接，从而触 | [其他](https://xz.aliyun.com/news/17955) |
-| **javascript - 你的网站被“下毒”了？XSS和CSRF：前端安全的两 ...** | 3 天之前&ensp;&#0183;&ensp;一、XSS：跨站脚本攻击，你的网站被人“投毒”了 XSS（Cross-Site Scripting）的意思是：攻击者在你的网页里注入恶意脚本，当其他用户访问时，这个脚本就会在用户浏览器里执行， | [其他](https://segmentfault.com/a/1190000047710139) |
-| **跨站脚本攻击 (XSS) - 安全 | MDN - MDN 文档** | 2025年10月22日&ensp;&#0183;&ensp;跨站脚本 (XSS) 跨站脚本攻击 (XSS) 是一种攻击者能够让目标站点执行恶意代码，使其看起来像是网站一部分的攻击。 | [其他](https://mdn.org.cn/en-US/docs/Web/Security/Attacks/XSS) |
-| **xss常用的一些payload** | 2022年2月16日&ensp;&#0183;&ensp;l 一.xss的基本分类 1. 存储型xss 2. 反射型xss 3. Dom型xss 4. Self型xss l 二.基本的xss分类说明: 1. 存储型xss:存储型xss经常出 | [知乎](https://www.zhihu.com/tardis/bd/art/410675894) |
 
+
+
+## 🆕 新收录 (2026-04-22)
+
+> 本轮清理删除了 59 条非 skill 文章/论坛帖，补充了以下高质量项目
+
+
+### ⚔️ 渗透测试
+
+| **Anthropic-Cybersecurity-Skills** | 754 structured cybersecurity skills for AI agents, mapped to MITRE ATT&CK, NIST, OWASP | [GitHub](https://github.com/mukul97/Anthropic-Cybersecurity-Skills) |
+| **claude-forge** | Supercharge Claude Code with 11 AI agents, 36 commands & 15 skills | [GitHub](https://github.com/sangrokjung/claude-forge) |
+| **pownie** | Agent harness for offensive security. Plugin for Claude Code packed with skills, memory, rules | [GitHub](https://github.com/d0gesec/pownie) |
+| **pentest-skills** | 自动化渗透 agent skills | [GitHub](https://github.com/Jumbo-WJB/pentest-skills) |
+
+### 🔍 逆向工程
+
+| **re-skill** | Claude Code skill for reverse engineering retro games — disassemble, annotate, explore | [GitHub](https://github.com/vgrichina/re-skill) |
+| **epistemic-deconstructor** | Claude skill for reverse engineering systems | [GitHub](https://github.com/NikolasMarkou/epistemic-deconstructor) |
+| **android-reverse-engineering-claude-skill** | Decompile Android APK, XAPK, AAB, DEX, JAR using jadx | [GitHub](https://github.com/incogbyte/android-reverse-engineering-claude-skill) |
+| **apple-silicon-internals** | Reverse engineering toolkit for Apple Silicon private APIs. 55+ frameworks | [GitHub](https://github.com/caiovicentino/apple-silicon-internals) |
+| **iOS-reverse-engineering-claude-skill** | Claude Code skill for extracting, analyzing, reverse engineering iOS apps | [GitHub](https://github.com/incogbyte/iOS-reverse-engineering-claude-skill) |
+
+### 🔒 代码审计
+
+| **sentinelai** | Security scanner, cost tracker, and model router for the AI ecosystem | [GitHub](https://github.com/Stacksheild/sentinelai) |
+| **trivy-security-agent-skill** | AI-powered Trivy security scanning skill for Claude Code | [GitHub](https://github.com/chaubes/trivy-security-agent-skill) |
+| **dependency-scanner** | Claude Code skill that scans npm/pip dependencies for vulnerabilities | [GitHub](https://github.com/friday-james/dependency-scanner) |
+
+### 🚨 应急响应
+
+| **SecOpsAgentKit** | Security operations toolkit for AI coding agents. 25+ skills for CVE research, exploit dev, threat intel | [GitHub](https://github.com/AgentSecOps/SecOpsAgentKit) |
+| **dfir-skills** | DFIR/SOC skillset for Claude Code — memory forensics, log analysis, network forensics | [GitHub](https://github.com/Fuzzdkk/dfir-skills) |
+
+### 🛡️ 安全工具
+
+
+#### 安全扫描
+
+| **scv-scan** | Claude Code skill that scans Solidity codebases for security vulnerabilities | [GitHub](https://github.com/kadenzipfel/scv-scan) |
+| **redhound-arsenal** | 76 AI-agent security skills for Kali Linux tools — pentest, red team, forensics | [GitHub](https://github.com/jph4cks/redhound-arsenal) |
+
+#### AI安全
+
+| **Claude-Code-CyberSecurity-Skill** | Comprehensive collection of 15 Claude Code Skills for cybersecurity | [GitHub](https://github.com/Masriyan/Claude-Code-CyberSecurity-Skill) |
 </details>
 
 ---
