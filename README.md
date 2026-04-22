@@ -350,6 +350,17 @@
 | **AI-agent-master-cyber-skills-list** | Comprehensive cybersecurity skill pack for AI coding agents — 741 skills | [GitHub](https://github.com/Njones17/AI-agent-master-cyber-skills-list) |
 | **awesome-ai-agent-skills** | 70+ ready-to-use, platform-agnostic AI agent skills | [GitHub](https://github.com/h4vzz/awesome-ai-agent-skills) |
 | **Awesome-OpenClaw** | A carefully curated list of awesome OpenClaw resources | [GitHub](https://github.com/EthanYolo01/Awesome-OpenClaw) |
+
+### 🔒 代码审计
+
+| **full-stack-audit** | 90-point full-stack audit skill for websites and web apps. Catches security holes, accessibility issues | [GitHub](https://github.com/jalaalrd/full-stack-audit) |
+
+### 🛡️ 安全工具
+
+
+#### AI安全
+
+| **Best-LwM2M-Agentic-Skills** | Worlds most comprehensive OMA LwM2M (IoT) expert skill for Claude | [GitHub](https://github.com/svdwalt007/Best-LwM2M-Agentic-Skills) |
 ## 🆕 新收录 (2026-04-22)
 
 > 本轮清理删除了 59 条非 skill 文章/论坛帖，补充了以下高质量项目
