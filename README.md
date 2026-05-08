@@ -64,6 +64,19 @@
 
 ---
 
+## 🔥 推荐工具
+
+<div align="center">
+
+| 🛡️ **ScanDomain** — 免费在线子域名扫描神器 |
+|:--|
+| 一键发现网站隐藏资产 · 子域名爆破 · 接管检测 · 指纹识别 |
+| **[👉 立即使用](https://scandomain.cyayaa.com/)** |
+
+</div>
+
+---
+
 ## 🛠️ 技能分类
 
 <details open>
@@ -335,6 +348,12 @@
 | **1earn** | ffffffff0x 团队安全知识框架：Web/工控/取证/应急/后渗透 | [GitHub](https://github.com/ffffffff0x/1earn) |
 | **Awesome-Infosec** | 信息安全课程和培训资源精选 | [GitHub](https://github.com/ziadmi/Awesome-Infosec) |
 | **HackTheBox** | CTF 和渗透测试练习资源 | [GitHub](https://github.com/hash3liZer/OffensiveSecurity) |
+
+### 🛠️ 在线工具推荐
+
+| 工具 | 描述 | 链接 |
+|------|------|------|
+| **[ScanDomain](https://scandomain.cyayaa.com/)** | 🔥 免费在线子域名扫描神器 — 一键发现隐藏资产、子域名接管检测、网站指纹识别，渗透测试前必备信息收集工具 | [立即使用 →](https://scandomain.cyayaa.com/) |
 
 ---
 
