@@ -46,7 +46,7 @@
 |----|----|----|----|
 | **精准分类** | **AI 驱动** | **工具集成** | **持续更新** |
 | 8 大安全领域 | 智能自动化 | 集成主流工具 | 每周更新 |
-| 50+ Skills | 自然语言交互 | Nmap/Nuclei 等 | 社区贡献 |
+| 200+ Skills | 自然语言交互 | Nmap/Nuclei 等 | 社区贡献 |
 
 </div>
 
@@ -54,7 +54,7 @@
 
 <div align="center">
 
-![Total Skills](https://img.shields.io/badge/Total_Skills-50+-blue?style=flat-square&logo=github)
+![Total Skills](https://img.shields.io/badge/Total_Skills-200+-blue?style=flat-square&logo=github)
 ![Categories](https://img.shields.io/badge/Categories-8-green?style=flat-square&logo=github)
 ![Contributors](https://img.shields.io/github/contributors/Batman0506/openclaw-sec-skills?style=flat-square&logo=github)
 ![Issues](https://img.shields.io/github/issues/Batman0506/openclaw-sec-skills?style=flat-square&logo=github)
@@ -86,7 +86,21 @@
 > 白盒代码安全审计，覆盖 Java/PHP/Python/智能合约等
 
 | Skill | 描述 | 来源 |
-|-------|------|------|
+|-------|------|------|| **sast-skills** | Scan codebases for security flaws with LLM agent skills — turn AI assistants into SAST scanners | [github](https://github.com/reasonless-throne486/sast-skills) |
+| **securecoder** | Installable AI-agent skill bundle for OWASP-driven code scanning, fixing, secure-build supervision | [github](https://github.com/nerdy-krishna/securecoder) |
+| **security-audit-system-skill** | Structured security audit system for Claude agents — improve security practices on any repo | [github](https://github.com/armstrys/security-audit-system-skill) |
+| **agent-skills** | 100+ specialized AI agent skills — development, security, design, FinOps, compliance, testing | [github](https://github.com/simota/agent-skills) |
+| **agent-skills** | Agent skills for AI coding agents — Laravel, React, TypeScript, security, code quality, technical debt | [github](https://github.com/AsyrafHussin/agent-skills) |
+| **nsauditor-ai-agent-skill** | AI Agent Skill for NSAuditor AI — MCP tools, schemas, plugins, security audit workflows | [github](https://github.com/nsasoft/nsauditor-ai-agent-skill) |
+| **Skill-Sonar** | Protect AI agents with lifecycle security for pre-install checks and runtime monitoring | [github](https://github.com/Dulcianamongol903/Skill-Sonar) |
+| **skills-scanner** | Security scanner for AI agent skills, MCP servers, and agent harness configs | [github](https://github.com/HTS-ASPM/skills-scanner) |
+| **honeybadger** | Security scanner for AI agent skills — detects secrets, CVEs, supply chain attacks, prompt injection in SKILL.md | [github](https://github.com/famclaw/honeybadger) |
+| **skill-dfyx_code_security_review** | 五阶段标准化审计协议，系统性发现安全漏洞 | [github](https://github.com/EastSword/skill-dfyx_code_security_review) |
+| **whisper-skills** | Agent Skills for WhisperGraph MCP — threat investigation, Cypher query authoring, brand-protection sweeps | [github](https://github.com/whisper-sec/whisper-skills) |
+| **security-hardening** | Portable defensive application security skill — OWASP, MCP security, prompt injection, threat modeling | [github](https://github.com/StealthyLabsHQ/security-hardening) |
+| **claude-active-directory** | Active Directory offensive security AI agent harness — 8 skill domains, 13 slash commands, 7 agents | [github](https://github.com/Evaluris-Solutions/claude-active-directory) |
+| **security-lab** | AI-driven security testing toolkit: 37 skills, multi-agent pentesting, comparison framework for web apps and APIs | [github](https://github.com/Lirok228/security-lab) |
+| **claude-security-skills** | Defensive security skills for Claude Code — web applications and generative AI systems | [github](https://github.com/Dolphinllc/claude-security-skills) |
 | **skills** | Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows | [github](https://github.com/trailofbits/skills) |
 | **SlowMist-Learning-Roadmap-for-Becoming-a-Smart-Contract-Auditor** | Smart contract audit skills roadmap for beginners, auditors, engineers, etc. | [github](https://github.com/slowmist/SlowMist-Learning-Roadmap-for-Becoming-a-Smart-Contract-Auditor) |
 | **solsec** | A collection of resources to study Solana smart contract security, auditing, and exploits. | [github](https://github.com/sannykim/solsec) |
@@ -152,6 +166,25 @@
 | **claude-forge** | Supercharge Claude Code with 11 AI agents, 36 commands & 15 skills | [github](https://github.com/sangrokjung/claude-forge) |
 | **pownie** | Agent harness for offensive security. Plugin for Claude Code packed with skills, memory, rules | [github](https://github.com/d0gesec/pownie) |
 | **pentest-skills** | 自动化渗透 agent skills | [github](https://github.com/Jumbo-WJB/pentest-skills) |
+
+| **pentestagent** | AI agent framework for black-box security testing — bug bounty, red-team, penetration testing | [github](https://github.com/GH05TCREW/pentestagent) |
+| **Zen-Ai-Pentest** | AI-Powered Penetration Testing Framework — automated vulnerability scanning, multi-agent system, compliance reporting | [github](https://github.com/SHAdd0WTAka/Zen-Ai-Pentest) |
+| **CyberStrike** | AI-powered offensive security agent with 7,300+ actionable security skills — MITRE ATT&CK, CIS Benchmarks, OWASP, NIST | [github](https://github.com/CyberStrikeus/CyberStrike) |
+| **ultraship** | Claude Code plugin — 39 skills including pentesting, safety guardrails, canary monitoring, code review | [github](https://github.com/Houseofmvps/ultraship) |
+| **kali-pentest** | Kali Linux penetration testing skill for AI agents — 200+ CLI tools, 15 scenario playbooks, attack path planning | [github](https://github.com/x-glacier/kali-pentest) |
+| **Threatswarm** | 27 scope-enforced AI agents running full pentest kill-chain (recon→exploit→post-ex→DFIR→report), 754 MITRE-mapped skills | [github](https://github.com/mukul975/Threatswarm) |
+| **VulnClaw** | AI Agent + MCP 工具链 + 渗透 Skill 编排，自然语言输入自动完成全流程渗透测试 | [github](https://github.com/Unclecheng-li/VulnClaw) |
+| **claude-code-pentest** | 6 Claude Code skills 自动化完整渗透测试流程 — 信息收集、漏洞利用链、Bug Bounty 报告生成 | [github](https://github.com/KaQus/claude-code-pentest) |
+| **awesome-offensive-security-skills** | 191+ battle-tested cybersecurity skills for AI coding agents — Bug Bounty · Pentesting · Red Team · AI Red Teaming | [github](https://github.com/Ak-cybe/awesome-offensive-security-skills) |
+| **ramibot** | Local-first AI security operations platform — multi-LLM, dynamic red/blue team skill pipeline, MCP tool orchestration | [github](https://github.com/RamiBotAI/ramibot) |
+| **argus-lite** | Autonomous AI pentesting framework — LLM-driven agent with plan trees, attack graphs, 11 security skills | [github](https://github.com/cortexc0de/argus-lite) |
+| **OpenCROW** | Agentic AI orchestration for offensive security and CTF — Codex-ready skills, typed MCP servers, workflow CLIs | [github](https://github.com/02loveslollipop/OpenCROW) |
+| **ai-whitebox-pentest-skill** | Agent Skill for whitebox penetration testing with Burp Suite MCP | [github](https://github.com/gusocegodk/ai-whitebox-pentest-skill) |
+| **hackprobe** | AI-assisted black-box security audit as Claude Code skill — orchestrates 25+ security tools, finds business logic vulns | [github](https://github.com/nuromirzak/hackprobe) |
+| **pentest-report-skill** | Professional penetration testing and bug bounty reporting skill for Claude | [github](https://github.com/Insider77Circle/pentest-report-skill) |
+| **LingXi** | LLM-driven multi-agent framework for automated penetration testing | [github](https://github.com/Assassinticketcollector3649/LingXi) |
+| **supabase-pentest-skills** | 24 AI Agent Skills for professional security auditing of Supabase applications — RLS testing, IDOR detection, storage audit | [github](https://github.com/yoanbernabeu/supabase-pentest-skills) |
+| **llm-sast-scanner** | SAST skill giving AI coding agents structured vulnerability detection across 34 vulnerability classes | [github](https://github.com/SunWeb3Sec/llm-sast-scanner) |
 
 ### 🔍 逆向工程
 
@@ -294,6 +327,32 @@
 | **AD-Attack** | Active Directory 攻击路径 | [github](https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet) |
 | **Pentest Active Directory** | AD 身份攻击路径评估 | [github](https://github.com/clause-labs/pentest-active-directory) |
 
+#### LLM/AI安全测试
+| Skill | 描述 | 来源 |
+|-------|------|------|
+| **pydantic-ai-shields** | Guardrail capabilities for Pydantic AI — cost tracking, prompt injection detection, PII filtering, secret redaction | [github](https://github.com/vstorm-co/pydantic-ai-shields) |
+| **AgentForensics** | Monitors LLM agent sessions in real time — detects prompt injection across tool outputs, web pages, documents | [github](https://github.com/aparnaa19/AgentForensics) |
+| **immunity-agent** | Security for AI agents — block dangerous commands, prevent secret leaks, enforce runtime policies across all major agents | [github](https://github.com/PrismorSec/immunity-agent) |
+| **agentshield** | AI agent security scanner — detects vulnerabilities in agent configs, MCP servers, tool permissions. CLI + GitHub Action | [github](https://github.com/affaan-m/agentshield) |
+| **hol-guard** | AI antivirus for developer agents — protect Codex, Claude Code, Cursor, plugins, skills, MCP servers before tools run | [github](https://github.com/hashgraph-online/hol-guard) |
+| **sandboxed.sh** | Safe runtime for autonomous on-chain AI agents — isolated sandboxes, encrypted secrets, OKX read-only security checks | [github](https://github.com/Th0rgal/sandboxed.sh) |
+| **kontext-cli** | Runtime Security for tool-using AI agents — permissions, credentials, policy enforcement, audit trails | [github](https://github.com/kontext-security/kontext-cli) |
+| **skillguard** | Security scanner for AI agent skills — detects prompt injection, data exfiltration, malicious payloads | [github](https://github.com/obielin/skillguard) |
+| **agent-bom** | Open security scanner for AI supply chain — agents, MCP, containers, cloud, GPU, runtime with blast-radius analysis | [github](https://github.com/msaad00/agent-bom) |
+| **lang-guardx** | Adaptive security for LangChain apps — blocks prompt injection, validates tool calls, filters malicious outputs | [github](https://github.com/Kpranav-Kp/lang-guardx) |
+| **ai-security-lab** | AI/LLM Security Testing Framework — 50+ jailbreak techniques, prompt injection tools, automated vulnerability scanners | [github](https://github.com/Panda1847/ai-security-lab) |
+| **skillscan-security** | Security scanner for AI agent skills and MCP — prompt injection, IOC matching, malware detection, ML classifier | [github](https://github.com/kurtpayne/skillscan-security) |
+| **ai-shield** | LLM security toolkit — prompt injection detection, PII masking, cost tracking, tool policies. <25ms scans | [github](https://github.com/studiomeyer-io/ai-shield) |
+| **llm-audit** | OWASP LLM Top 10 vulnerability scanner CLI — prompt injection, jailbreaks, data leakage, with fix recommendations | [github](https://github.com/51p50x/llm-audit) |
+| **lochbot.com** | Prompt Injection Vulnerability Checker — 31 attack patterns across 7 categories, security scoring | [github](https://github.com/theluckystrike/lochbot.com) |
+| **yula** | Production-ready CLI for adversarial red-teaming of AI systems — prompt injection, jailbreaks, evasion techniques | [github](https://github.com/0xihsn/yula) |
+| **llm-red-teamer** | Automated prompt injection & jailbreak testing — OWASP LLM Top 10, 43 real-world payloads, risk scoring | [github](https://github.com/i7-x/llm-red-teamer) |
+| **openclaw-skill-vetter-mcp** | MCP server for security-vetting AI agent extensions — 41 detection rules, 0-100 risk score | [github](https://github.com/temurkhan13/openclaw-skill-vetter-mcp) |
+| **llm-security-test** | LLM Security Test — AI Safety Evaluation Tool for Jailbreak, Prompt Injection, Harmful Content Detection | [github](https://github.com/YI597/llm-security-test) |
+| **ai-security-toolkit** | LLM security research toolkit — jailbreak detection, prompt injection testing, adversarial text generation, API fuzzing | [github](https://github.com/COOLXPLO/ai-security-toolkit) |
+
+#### 蓝队防御
+
 #### 蓝队防御
 | Skill | 描述 | 来源 |
 |-------|------|------|
@@ -328,6 +387,29 @@
 | Skill | 描述 | 来源 |
 |-------|------|------|
 | **reconFTW** | 自动化侦察工具 | [github](https://github.com/six2dez/reconFTW) |
+
+#### 漏洞扫描与红队工具
+| Skill | 描述 | 来源 |
+|-------|------|------|
+| **AI-Infra-Guard** | 全栈 AI 红队测试平台 — OpenClaw Security Scan, Agent Scan, Skills Scan, MCP scan, LLM jailbreak 评估 | [github](https://github.com/Tencent/AI-Infra-Guard) |
+| **pentestagent** | AI agent framework for black-box security testing — bug bounty, red-team, penetration testing | [github](https://github.com/GH05TCREW/pentestagent) |
+| **Zen-Ai-Pentest** | AI-Powered Penetration Testing Framework — automated vulnerability scanning, multi-agent system | [github](https://github.com/SHAdd0WTAka/Zen-Ai-Pentest) |
+| **agentic_security** | Agentic LLM Vulnerability Scanner / AI red teaming kit | [github](https://github.com/msoedov/agentic_security) |
+| **agent-security-scanner-mcp** | Security scanner MCP server for AI coding agents — prompt injection firewall, 1000+ vulnerability rules, AST & taint analysis | [github](https://github.com/sinewaveai/agent-security-scanner-mcp) |
+| **LLMrecon** | Enterprise-grade LLM security testing framework — OWASP LLM Top 10, advanced prompt injection, jailbreak | [github](https://github.com/perplext/LLMrecon) |
+| **WonderSuite-Ai-Bug-Bounty** | AI-Powered Offensive Security Research Engine — 90 tools, MITM proxy, stealth browser, autonomous AI agent | [github](https://github.com/sfr-development/WonderSuite-Ai-Bug-Bounty) |
+| **agent_asteroid** | Agent responsible for detecting remote vulnerabilities, a robust scanner | [github](https://github.com/Ostorlab/agent_asteroid) |
+| **DVAI** | Damn Vulnerable AI — hands-on AI security training across 12 categories, OWASP LLM Top 10, works 100% offline | [github](https://github.com/offensiveai26/DVAI) |
+| **CyberStrike** | AI-powered offensive security agent with 7,300+ actionable security skills — MITRE ATT&CK, CIS, OWASP, NIST | [github](https://github.com/CyberStrikeus/CyberStrike) |
+| **Threatswarm** | 27 AI agents running full pentest kill-chain backed by 754 MITRE-mapped skills | [github](https://github.com/mukul975/Threatswarm) |
+
+#### 供应链与Agent安全
+| Skill | 描述 | 来源 |
+|-------|------|------|
+| **supply-chain-defense-skills** | Reusable Security Skills for AI Coding Agents — protect against supply chain attacks in npm, PyPI, etc. | [github](https://github.com/verobit-llj/supply-chain-defense-skills) |
+| **DevOps-Security-Agent-Skills** | 80+ DevOps security skills — Kubernetes, Terraform, AWS/Azure/GCP, container hardening, SOC2/ISO27001, incident response | [github](https://github.com/BagelHole/DevOps-Security-Agent-Skills) |
+
+#### AI安全
 
 #### AI安全
 | Skill | 描述 | 来源 |
