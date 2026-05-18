@@ -86,7 +86,8 @@
 > 白盒代码安全审计，覆盖 Java/PHP/Python/智能合约等
 
 | Skill | 描述 | 来源 |
-|-------|------|------|| **sast-skills** | Scan codebases for security flaws with LLM agent skills — turn AI assistants into SAST scanners | [github](https://github.com/reasonless-throne486/sast-skills) |
+|-------|------|------|
+| **sast-skills** | Scan codebases for security flaws with LLM agent skills — turn AI assistants into SAST scanners | [github](https://github.com/reasonless-throne486/sast-skills) |
 | **securecoder** | Installable AI-agent skill bundle for OWASP-driven code scanning, fixing, secure-build supervision | [github](https://github.com/nerdy-krishna/securecoder) |
 | **security-audit-system-skill** | Structured security audit system for Claude agents — improve security practices on any repo | [github](https://github.com/armstrys/security-audit-system-skill) |
 | **agent-skills** | 100+ specialized AI agent skills — development, security, design, FinOps, compliance, testing | [github](https://github.com/simota/agent-skills) |
@@ -166,7 +167,6 @@
 | **claude-forge** | Supercharge Claude Code with 11 AI agents, 36 commands & 15 skills | [github](https://github.com/sangrokjung/claude-forge) |
 | **pownie** | Agent harness for offensive security. Plugin for Claude Code packed with skills, memory, rules | [github](https://github.com/d0gesec/pownie) |
 | **pentest-skills** | 自动化渗透 agent skills | [github](https://github.com/Jumbo-WJB/pentest-skills) |
-
 | **pentestagent** | AI agent framework for black-box security testing — bug bounty, red-team, penetration testing | [github](https://github.com/GH05TCREW/pentestagent) |
 | **Zen-Ai-Pentest** | AI-Powered Penetration Testing Framework — automated vulnerability scanning, multi-agent system, compliance reporting | [github](https://github.com/SHAdd0WTAka/Zen-Ai-Pentest) |
 | **CyberStrike** | AI-powered offensive security agent with 7,300+ actionable security skills — MITRE ATT&CK, CIS Benchmarks, OWASP, NIST | [github](https://github.com/CyberStrikeus/CyberStrike) |
@@ -352,8 +352,6 @@
 | **ai-security-toolkit** | LLM security research toolkit — jailbreak detection, prompt injection testing, adversarial text generation, API fuzzing | [github](https://github.com/COOLXPLO/ai-security-toolkit) |
 
 #### 蓝队防御
-
-#### 蓝队防御
 | Skill | 描述 | 来源 |
 |-------|------|------|
 | **ramibot** | RamiBot v3.8.0 is a local-first AI security operations platform integrating multi-LLM support, a dynamic red/blue team s | [github](https://github.com/RamiBotAI/ramibot) |
@@ -408,8 +406,6 @@
 |-------|------|------|
 | **supply-chain-defense-skills** | Reusable Security Skills for AI Coding Agents — protect against supply chain attacks in npm, PyPI, etc. | [github](https://github.com/verobit-llj/supply-chain-defense-skills) |
 | **DevOps-Security-Agent-Skills** | 80+ DevOps security skills — Kubernetes, Terraform, AWS/Azure/GCP, container hardening, SOC2/ISO27001, incident response | [github](https://github.com/BagelHole/DevOps-Security-Agent-Skills) |
-
-#### AI安全
 
 #### AI安全
 | Skill | 描述 | 来源 |
