@@ -68,10 +68,15 @@
 
 <div align="center">
 
-| 🛡️ **ScanDomain** — 免费在线子域名扫描神器 |
-|:--|
-| 一键发现网站隐藏资产 · 子域名爆破 · 接管检测 · 指纹识别 |
-| **[👉 立即使用](https://scandomain.cyayaa.com/)** |
+<div align="center">
+
+| | |
+|---|---|
+| 🛡️ **ScanDomain** — 免费在线子域名扫描神器 | 🚀 **KvioAI** — AI API 聚合平台，一个 Key 调用所有主流模型 |
+| 一键发现网站隐藏资产 · 子域名爆破 · 接管检测 · 指纹识别 | Claude / GPT / Gemini 一站式接入 · 国内直连 · 价格更优 |
+| [👉 立即使用](https://scandomain.cyayaa.com/) | [👉 立即注册](https://kvioai.cloud/) |
+
+</div>
 
 </div>
 
@@ -441,6 +446,7 @@
 | 工具 | 描述 | 链接 |
 |------|------|------|
 | **[ScanDomain](https://scandomain.cyayaa.com/)** | 🔥 免费在线子域名扫描神器 — 一键发现隐藏资产、子域名接管检测、网站指纹识别，渗透测试前必备信息收集工具 | [立即使用 →](https://scandomain.cyayaa.com/) |
+| **[KvioAI](https://kvioai.cloud/)** | 🚀 AI API 聚合平台 — 一个 Key 接入 Claude/GPT/Gemini 等 50+ 主流模型，国内直连无需翻墙，价格比官方更优 | [立即注册 →](https://kvioai.cloud/) |
 
 ---
 
