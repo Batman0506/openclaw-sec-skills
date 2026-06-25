@@ -64,32 +64,6 @@
 
 ---
 
-## 🌟 特别赞助
-
-<div align="center">
-
-### 💎 [ChatGPT/Grok/Claude 充值教程 2026](https://github.com/Batman0506/chatgpt-recharge-guide-2026)
-
-> **2026年最新 ChatGPT Plus / Grok / Claude 国内充值终极指南**
-
-🔥 **实测有效** | ⚡ **3分钟到账** | 🛡️ **30天质保** | 💰 **全网最低价￥149起**
-
-| 核心优势 | 说明 |
-|---------|------|
-| 🎯 **卡密式代充** | 无需信用卡，微信/支付宝/USDT 直接购买 |
-| ⚡ **极速到账** | 自动发卡，3分钟内完成升级 |
-| 🛡️ **正规渠道** | iOS 应用内购，非黑卡盗刷，无封号风险 |
-| 💰 **价格最低** | ￥149起，比市面所有代充都便宜 |
-| 🧾 **企业开票** | 支持企业发票，报销无忧 |
-
-**👉 立即前往充值：** [https://gptget.top](https://gptget.top) （店铺：catfk.com）
-
-**📖 查看详细教程：** [GitHub 仓库](https://github.com/Batman0506/chatgpt-recharge-guide-2026)
-
-</div>
-
----
-
 
 ## 🌟 特别赞助
 
@@ -504,4 +478,3 @@
 ```
 
 ### 行为准则
-
