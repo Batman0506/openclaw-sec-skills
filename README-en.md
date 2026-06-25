@@ -1,4 +1,4 @@
-     1|<div align="center">
+1|<div align="center">
      2|
      3|![OpenClaw SecSkills](https://img.shields.io/badge/OpenClaw-SecSkills-red?style=for-the-badge&logo=github)
      4|![Stars](https://img.shields.io/github/stars/Batman0506/openclaw-sec-skills?style=for-the-badge&logo=github)
