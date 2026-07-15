@@ -404,6 +404,7 @@
 |-------|------|------|
 | **AI-Infra-Guard** | 全栈 AI 红队测试平台 — OpenClaw Security Scan, Agent Scan, Skills Scan, MCP scan, LLM jailbreak 评估 | [github](https://github.com/Tencent/AI-Infra-Guard) |
 | **pentestagent** | AI agent framework for black-box security testing — bug bounty, red-team, penetration testing | [github](https://github.com/GH05TCREW/pentestagent) |
+| **Dark-Moon** | 开源自主 AI 渗透测试平台 — 多智能体编排、MCP 主机，覆盖 Web/云/AD/K8s，集成 50+ 安全工具与隐私网关 | [github](https://github.com/ASCIT31/Dark-Moon) |
 | **Zen-Ai-Pentest** | AI-Powered Penetration Testing Framework — automated vulnerability scanning, multi-agent system | [github](https://github.com/SHAdd0WTAka/Zen-Ai-Pentest) |
 | **agentic_security** | Agentic LLM Vulnerability Scanner / AI red teaming kit | [github](https://github.com/msoedov/agentic_security) |
 | **agent-security-scanner-mcp** | Security scanner MCP server for AI coding agents — prompt injection firewall, 1000+ vulnerability rules, AST & taint analysis | [github](https://github.com/sinewaveai/agent-security-scanner-mcp) |
